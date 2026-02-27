@@ -25,10 +25,10 @@ jobs:
       - name: Install parser dependencies
         run: pip install -r parser/requirements.txt
 
-      - name: Run parser (scrape catalog + recalculate prices)
+      - name: Update prices from CBR rate
         run: |
           cd parser
-          python scrape.py
+          python update_prices.py
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
