@@ -1,0 +1,119 @@
+{{ define "title" }}Моторные масла от ООО «Альянс» — импорт из Европы{{ end }}
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1>Моторные масла<br>напрямую из Европы</h1>
+    <p>Shell, Total, Yacco, Motul и другие бренды — оригинал с полным пакетом документов. Оформляем счёт от ООО «Альянс».</p>
+    <div class="hero-actions">
+      <a class="btn btn-white" href="/products/">Смотреть каталог →</a>
+      <a class="btn btn-outline" href="/contacts/">Связаться с нами</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+  <div class="stats-grid">
+    <div>
+      <div class="stat-num">{{ len .Site.Pages }}</div>
+      <div class="stat-label">товаров в каталоге</div>
+    </div>
+    <div>
+      <div class="stat-num">14+</div>
+      <div class="stat-label">лет в логистике</div>
+    </div>
+    <div>
+      <div class="stat-num">30+</div>
+      <div class="stat-label">стран-поставщиков</div>
+    </div>
+    <div>
+      <div class="stat-num">100%</div>
+      <div class="stat-label">оригинальная продукция</div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured products -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Популярное</span>
+      <h2 class="section-title">Топовые позиции</h2>
+      <p class="section-subtitle">Самые востребованные масла по лучшим ценам</p>
+    </div>
+    <div class="products-grid">
+      {{ $products := where .Site.RegularPages "Section" "products" }}
+      {{ range first 8 $products }}
+      {{ $p := .Params }}
+      <div class="product-card" data-cat="{{ $p.cat_slug }}" data-title="{{ .Title }}" data-price="{{ $p.price_rub }}">
+        <a href="{{ .RelPermalink }}">
+          <img class="product-card__img" src="{{ $p.image }}" alt="{{ .Title }}" loading="lazy" onerror="this.src='/img/no-image.png'">
+        </a>
+        <div class="product-card__body">
+          <div class="product-card__cat">{{ $p.category }}</div>
+          <a href="{{ .RelPermalink }}"><div class="product-card__title">{{ .Title }}</div></a>
+          {{ with $p.brand }}<div class="product-card__brand">{{ . }}</div>{{ end }}
+          <div class="product-card__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
+          <div class="product-card__price-sub">Включая доставку из Европы</div>
+          <div class="product-card__actions">
+            <button class="btn-cart" onclick='Cart.addItem({
+              id:"{{ $p.sku }}",
+              title:{{ .Title | jsonify }},
+              category:{{ $p.category | jsonify }},
+              price_rub:{{ $p.price_rub }},
+              image:{{ $p.image | jsonify }},
+              slug:"{{ .RelPermalink }}"
+            })'>В корзину</button>
+            <a class="btn-detail" href="{{ .RelPermalink }}">→</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div style="text-align:center;margin-top:36px">
+      <a class="btn btn-white" href="/products/" style="background:var(--primary);color:white;display:inline-flex">Весь каталог ({{ len $products }} товаров) →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Why us -->
+<section class="section section-bg">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Почему мы</span>
+      <h2 class="section-title">Преимущества работы с «Альянс»</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px">
+      {{ range slice
+        (dict "icon" "🌍" "title" "Прямой импорт" "text" "Работаем напрямую с европейскими поставщиками — без посредников")
+        (dict "icon" "📄" "title" "Полный пакет документов" "text" "Счёт от ООО «Альянс», ИНН 7842104042. Подходит для юрлиц")
+        (dict "icon" "✅" "title" "Гарантия оригинала" "text" "Только оригинальная продукция с сертификатами производителя")
+        (dict "icon" "🚚" "title" "Быстрая доставка" "text" "Логистика из Европы за 7–14 дней. Полный таможенный контроль")
+        (dict "icon" "💰" "title" "Честная цена" "text" "Цена = стоимость + доставка + маржа. Никаких скрытых комиссий")
+        (dict "icon" "📞" "title" "Поддержка 24/7" "text" "Персональный менеджер. Консультация по любому вопросу")
+      }}
+      <div style="background:white;border-radius:var(--radius);padding:28px;border:1px solid var(--border)">
+        <div style="font-size:36px;margin-bottom:12px">{{ .icon }}</div>
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px">{{ .title }}</h3>
+        <p style="font-size:14px;color:var(--text-muted);line-height:1.6">{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="background:var(--primary);padding:64px 20px;text-align:center;color:white">
+  <div class="container">
+    <h2 style="font-size:34px;font-weight:800;margin-bottom:12px">Нужна консультация?</h2>
+    <p style="font-size:18px;opacity:.88;margin-bottom:28px">Подберём оптимальное масло для вашего автомобиля или парка</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-white" href="tel:+78129367460">📞 +7 (812) 936-74-60</a>
+      <a class="btn btn-outline" href="mailto:info@alliance-llc.ru">✉️ info@alliance-llc.ru</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

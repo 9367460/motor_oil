@@ -1,0 +1,26 @@
+{{ define "title" }}Корзина — {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<section class="section">
+  <div class="cart-page">
+    <div class="section-header" style="text-align:left;margin-bottom:28px">
+      <h1 class="section-title">Корзина</h1>
+    </div>
+
+    <div id="cart-container">
+      <!-- Filled by cart.js -->
+      <div class="cart-empty">
+        <div class="cart-empty-icon">🛒</div>
+        <h2>Корзина пуста</h2>
+        <p>Добавьте товары из <a href="/products/">каталога</a></p>
+      </div>
+    </div>
+
+    <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap">
+      <a href="/products/" style="font-size:14px;color:var(--text-muted)">← Продолжить покупки</a>
+      <button onclick="printInvoice()" style="background:none;border:1px solid var(--border);padding:8px 16px;border-radius:20px;font-size:14px;cursor:pointer;color:var(--text-muted)">
+        🖨️ Распечатать счёт
+      </button>
+    </div>
+  </div>
+</section>
+{{ end }}

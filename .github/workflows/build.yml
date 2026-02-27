@@ -1,7 +1,13 @@
-name: build and deploy
+name: Build and Deploy
+
 on:
   push:
     branches: [ "main" ]
+  schedule:
+    # Обновлять каталог и пересчитывать цены каждое утро в 7:00 МСК (04:00 UTC)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +17,12 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Install parser deps
-        run: |
-          cd parser
-          pip install -r requirements.txt
+      - name: Install parser dependencies
+        run: pip install -r parser/requirements.txt
 
-      - name: Run parser
+      - name: Run parser (scrape catalog + recalculate prices)
         run: |
           cd parser
           python scrape.py
@@ -26,15 +30,17 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v4
         with:
-          hugo-version: '0.111.5'
+          hugo-version: '0.121.2'
+          extended: false
 
-      - name: Build site
+      - name: Build Hugo site
         run: |
           cd site
-          hugo --minify
+          hugo --minify --gc
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site/public
+          cname: ''

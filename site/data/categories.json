@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Huile Moteur",
+    "slug": "huile-moteur",
+    "count": 25
+  },
+  {
+    "name": "Huile moteur compétition",
+    "slug": "huile-moteur-compétition",
+    "count": 12
+  },
+  {
+    "name": "Home mobil™",
+    "slug": "home-mobil",
+    "count": 2
+  },
+  {
+    "name": "Huile Moteur Diesel",
+    "slug": "huile-moteur-diesel",
+    "count": 1
+  },
+  {
+    "name": "Huile",
+    "slug": "huile",
+    "count": 10
+  },
+  {
+    "name": "Radiateur et Système de Refroidissement",
+    "slug": "radiateur-et-système-de-refroidissement",
+    "count": 2
+  },
+  {
+    "name": "Dégraissant / Nettoyant",
+    "slug": "dégraissant-nettoyant",
+    "count": 1
+  },
+  {
+    "name": "Essence",
+    "slug": "essence",
+    "count": 5
+  },
+  {
+    "name": "Additifs",
+    "slug": "additifs",
+    "count": 2
+  }
+]

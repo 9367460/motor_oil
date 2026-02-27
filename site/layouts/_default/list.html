@@ -1,10 +1,34 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<ul>
-  {{ range .Site.Data.products }}
-  <li>
-    <a href="{{ .sku }}.html">{{ .title }}</a> - {{ .price_rub }} руб.
-  </li>
-  {{ end }}
-</ul>
+<section class="section">
+  <div class="container">
+    <h1 class="section-title" style="text-align:center;margin-bottom:32px">{{ .Title }}</h1>
+    <div class="products-grid">
+      {{ range .Pages }}
+      {{ $p := .Params }}
+      <div class="product-card" data-cat="{{ $p.cat_slug }}" data-title="{{ .Title }}" data-price="{{ $p.price_rub }}">
+        <a href="{{ .RelPermalink }}">
+          <img class="product-card__img" src="{{ $p.image }}" alt="{{ .Title }}" loading="lazy" onerror="this.src='/img/no-image.png'">
+        </a>
+        <div class="product-card__body">
+          <div class="product-card__cat">{{ $p.category }}</div>
+          <a href="{{ .RelPermalink }}"><div class="product-card__title">{{ .Title }}</div></a>
+          {{ with $p.brand }}<div class="product-card__brand">{{ . }}</div>{{ end }}
+          <div class="product-card__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
+          <div class="product-card__actions">
+            <button class="btn-cart" onclick='Cart.addItem({
+              id:"{{ $p.sku }}",
+              title:{{ .Title | jsonify }},
+              category:{{ $p.category | jsonify }},
+              price_rub:{{ $p.price_rub }},
+              image:{{ $p.image | jsonify }},
+              slug:"{{ .RelPermalink }}"
+            })'>В корзину</button>
+            <a class="btn-detail" href="{{ .RelPermalink }}">→</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}

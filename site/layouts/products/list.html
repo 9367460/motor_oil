@@ -1,8 +1,94 @@
+{{ define "title" }}Каталог товаров — {{ .Site.Title }}{{ end }}
 {{ define "main" }}
-<h1>Каталог</h1>
-<ul>
-  {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — {{ .Params.price_rub }} руб.</li>
-  {{ end }}
-</ul>
+
+<section class="section section-bg">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Каталог</span>
+      <h1 class="section-title">Моторные масла и смазочные материалы</h1>
+      <p class="section-subtitle">{{ len .Pages }} товаров от ведущих мировых производителей</p>
+    </div>
+
+    <!-- Search -->
+    <div class="search-bar">
+      <input class="search-input" id="product-search" type="text" placeholder="Поиск по названию или бренду...">
+    </div>
+
+    <!-- Category filter -->
+    <div class="cat-filter" id="cat-filter">
+      <button class="cat-btn active" data-cat="all">Все товары</button>
+      {{ range .Site.Data.categories }}
+      <button class="cat-btn" data-cat="{{ .slug }}">{{ .name }} ({{ .count }})</button>
+      {{ end }}
+    </div>
+
+    <!-- Sort bar -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px;">
+      <span style="font-size:14px;color:var(--text-muted)">Показано: <span id="visible-count">{{ len .Pages }}</span> товаров</span>
+      <select id="sort-select" onchange="sortProducts(this.value)" style="padding:8px 14px;border:1px solid var(--border);border-radius:20px;font-size:14px;outline:none;cursor:pointer;">
+        <option value="default">По умолчанию</option>
+        <option value="price-asc">Цена: по возрастанию</option>
+        <option value="price-desc">Цена: по убыванию</option>
+        <option value="name-asc">Название А–Я</option>
+      </select>
+    </div>
+
+    <!-- Products grid -->
+    <div class="products-grid" id="products-grid">
+      {{ range .Pages }}
+      {{ $p := .Params }}
+      <div class="product-card"
+           data-cat="{{ $p.cat_slug }}"
+           data-title="{{ .Title }}"
+           data-price="{{ $p.price_rub }}"
+           data-brand="{{ $p.brand }}">
+        <a href="{{ .RelPermalink }}">
+          <img class="product-card__img"
+               src="{{ $p.image }}"
+               alt="{{ .Title }}"
+               loading="lazy"
+               onerror="this.src='/img/no-image.png'">
+        </a>
+        <div class="product-card__body">
+          <div class="product-card__cat">{{ $p.category }}</div>
+          <a href="{{ .RelPermalink }}">
+            <div class="product-card__title">{{ .Title }}</div>
+          </a>
+          {{ with $p.brand }}<div class="product-card__brand">{{ . }}</div>{{ end }}
+          <div class="product-card__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
+          <div class="product-card__price-sub">Включая доставку из Европы</div>
+          <div class="product-card__actions">
+            <button class="btn-cart" onclick='Cart.addItem({
+              id:"{{ $p.sku }}",
+              title:{{ .Title | jsonify }},
+              category:{{ $p.category | jsonify }},
+              price_rub:{{ $p.price_rub }},
+              image:{{ $p.image | jsonify }},
+              slug:"{{ .RelPermalink }}"
+            })'>В корзину</button>
+            <a class="btn-detail" href="{{ .RelPermalink }}">→</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+function sortProducts(val) {
+  const grid = document.getElementById('products-grid');
+  const cards = [...grid.querySelectorAll('.product-card')];
+  cards.sort((a, b) => {
+    if (val === 'price-asc') return parseFloat(a.dataset.price) - parseFloat(b.dataset.price);
+    if (val === 'price-desc') return parseFloat(b.dataset.price) - parseFloat(a.dataset.price);
+    if (val === 'name-asc') return a.dataset.title.localeCompare(b.dataset.title, 'ru');
+    return 0;
+  });
+  cards.forEach(c => grid.appendChild(c));
+}
+</script>
 {{ end }}

@@ -1,15 +1,105 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<p>Артикул: {{ .Params.sku }}</p>
-<p>Цена: {{ .Params.price_rub }} руб.</p>
-<div>
-  {{ .Content }}
+{{ $p := .Params }}
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <ol>
+    <li><a href="/">Главная</a></li>
+    <li><a href="/products/">Каталог</a></li>
+    {{ with $p.category }}<li>{{ . }}</li>{{ end }}
+    <li>{{ .Title }}</li>
+  </ol>
 </div>
-<button class="snipcart-add-item"
-        data-item-id="{{ .Params.sku }}"
-        data-item-name="{{ .Title }}"
-        data-item-price="{{ .Params.price_rub }}"
-        data-item-url="{{ .Permalink }}">
-  В корзину
-</button>
+
+<div class="product-detail">
+  <div class="product-detail__grid">
+
+    <!-- Gallery -->
+    <div class="product-gallery">
+      <div class="product-gallery__main">
+        <img id="main-img"
+             src="{{ $p.image }}"
+             alt="{{ .Title }}"
+             onerror="this.src='/img/no-image.png'">
+      </div>
+      {{ if gt (len $p.images) 1 }}
+      <div class="product-gallery__thumbs">
+        {{ range $i, $img := $p.images }}
+        <div class="thumb {{ if eq $i 0 }}active{{ end }}" onclick="switchImg(this, '{{ $img }}')">
+          <img src="{{ $img }}" alt="" loading="lazy" onerror="this.src='/img/no-image.png'">
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Info -->
+    <div class="product-info">
+      {{ with $p.category }}<div class="product-info__category">{{ . }}</div>{{ end }}
+      <h1 class="product-info__title">{{ .Title }}</h1>
+      {{ with $p.brand }}<div class="product-info__brand">Бренд: <strong>{{ . }}</strong></div>{{ end }}
+      {{ with $p.sku }}<div class="product-info__sku">Артикул: {{ . }}</div>{{ end }}
+
+      <div class="product-info__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
+      <div class="product-info__price-note">Цена включает доставку из Европы · НДС не облагается</div>
+
+      <div class="qty-row">
+        <div class="qty-ctrl">
+          <button class="qty-btn" onclick="changeQty(-1)">−</button>
+          <input class="qty-input" id="qty" type="number" value="1" min="1">
+          <button class="qty-btn" onclick="changeQty(1)">+</button>
+        </div>
+        <button class="btn-add-cart" onclick="addToCartWithQty()">
+          В корзину →
+        </button>
+      </div>
+
+      <button onclick="openOrderModal()" style="width:100%;background:var(--bg);color:var(--primary);border:1px solid var(--primary);padding:12px;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;margin-top:8px;">
+        Купить сразу (оформить заказ)
+      </button>
+
+      {{ with .Content }}
+      <div class="product-info__desc">{{ . }}</div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
+
+{{ define "scripts" }}
+{{ $p := .Params }}
+<script>
+const product = {
+  id: {{ $p.sku | jsonify }},
+  title: {{ .Title | jsonify }},
+  category: {{ $p.category | jsonify }},
+  price_rub: {{ $p.price_rub }},
+  image: {{ $p.image | jsonify }},
+  slug: {{ .RelPermalink | jsonify }}
+};
+
+function changeQty(delta) {
+  const input = document.getElementById('qty');
+  input.value = Math.max(1, parseInt(input.value||1) + delta);
+}
+
+function addToCartWithQty() {
+  const qty = parseInt(document.getElementById('qty').value) || 1;
+  for (let i = 0; i < qty; i++) Cart.addItem(product);
+}
+
+function switchImg(thumb, src) {
+  document.getElementById('main-img').src = src;
+  document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+  thumb.classList.add('active');
+}
+
+// Pre-fill order modal with this product
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('qty').addEventListener('change', function() {
+    if (parseInt(this.value) < 1) this.value = 1;
+  });
+});
+</script>
 {{ end }}

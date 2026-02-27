@@ -1,15 +1,24 @@
-baseURL = "https://your-domain.example/"
+baseURL = "https://your-domain.ru/"
 languageCode = "ru"
-title = "ООО «Альянс» — моторные масла"
-
-# theme can be set if you add one; leaving blank for now
-# theme = "mytheme"
+defaultContentLanguage = "ru"
+title = "Моторные масла — ООО «Альянс»"
 
 [params]
-  company = "ООО «Альянс»"
-  address = "г. Москва, ул.…"
-  inn     = "0000000000"
-  email   = "info@alliance-llc.ru"
-  phone   = "+7 (___) ___-__-__"
-  color1  = "#004481"
-  color2  = "#f29c1f"
+  company     = "ООО «Альянс»"
+  inn         = "7842104042"
+  address     = "Россия, Санкт-Петербург, ул. Бассейная, д. 21, офис 701"
+  phone1      = "+7 (812) 936-74-60"
+  phone2      = "+7 (812) 928-74-60"
+  email       = "info@alliance-llc.ru"
+  description = "Импорт и продажа моторных масел, смазочных материалов от ведущих мировых производителей. ООО «Альянс» — ваш надёжный партнёр в ВЭД."
+
+[taxonomies]
+  category = "categories"
+
+[outputs]
+  home     = ["HTML"]
+  page     = ["HTML"]
+  section  = ["HTML"]
+
+[markup.goldmark.renderer]
+  unsafe = true
