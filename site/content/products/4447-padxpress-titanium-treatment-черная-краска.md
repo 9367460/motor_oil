@@ -1,0 +1,18 @@
+---
+title: "PadXpress Titanium Treatment Черная краска"
+title_fr: "PadXpress Traitement Titane Peinture Noire"
+sku: "4447"
+brand: "PadXpress"
+category: "Средства для чистки"
+cat_slug: "accessoires-de-nettoyage"
+viscosity: ""
+volume: ""
+price_eur: 23.96
+price_rub: 8754.86
+image: "https://www.racinglubes.fr/12360-large_default/accessoires-de-nettoyage-padxpress-traitement-titane-peinture-noire.jpg"
+images:
+  - "https://www.racinglubes.fr/12360-large_default/accessoires-de-nettoyage-padxpress-traitement-titane-peinture-noire.jpg"
+draft: false
+---
+
+PadXpress Titanium Black Paint Treatment: Средство PadXpress Titanium Black Paint Treatment сияние с нежным эффектом...

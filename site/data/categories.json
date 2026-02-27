@@ -1,47 +1,267 @@
 [
   {
-    "name": "Huile Moteur",
-    "slug": "huile-moteur",
-    "count": 25
-  },
-  {
-    "name": "Huile moteur compétition",
-    "slug": "huile-moteur-compétition",
-    "count": 12
-  },
-  {
-    "name": "Home mobil™",
-    "slug": "home-mobil",
+    "name": "AdBlue (мочевина)",
+    "slug": "adblue",
     "count": 2
   },
   {
-    "name": "Huile Moteur Diesel",
+    "name": "Автомобиль",
+    "slug": "automobile",
+    "count": 1
+  },
+  {
+    "name": "Герметики и мастики",
+    "slug": "pâte-à-joint-et-mastic",
+    "count": 32
+  },
+  {
+    "name": "Гидравлическая жидкость",
+    "slug": "liquide-hydraulique",
+    "count": 2
+  },
+  {
+    "name": "Дизельные присадки",
+    "slug": "gazole",
+    "count": 6
+  },
+  {
+    "name": "Жидкость WD",
+    "slug": "dégrippant",
+    "count": 8
+  },
+  {
+    "name": "Жидкость ГУР",
+    "slug": "liquide-de-direction-assistée",
+    "count": 5
+  },
+  {
+    "name": "Инструменты для гаража",
+    "slug": "matériel-de-garage-et-outillage",
+    "count": 20
+  },
+  {
+    "name": "Клеи и фиксаторы резьбы",
+    "slug": "colles-et-fixe-ecrous",
+    "count": 47
+  },
+  {
+    "name": "Масло",
+    "slug": "huile",
+    "count": 18
+  },
+  {
+    "name": "Масло Mobil",
+    "slug": "home-mobil",
+    "count": 8
+  },
+  {
+    "name": "Масло АКПП",
+    "slug": "huiles-pour-transmissions-automatiques",
+    "count": 14
+  },
+  {
+    "name": "Масло КПП",
+    "slug": "huile-pour-transmission",
+    "count": 1
+  },
+  {
+    "name": "Масло КПП Классика",
+    "slug": "huile-boîte-de-vitesse-véhicules-anciens",
+    "count": 7
+  },
+  {
+    "name": "Масло КПП Спорт",
+    "slug": "huile-boite-de-vitesse-compétition",
+    "count": 11
+  },
+  {
+    "name": "Масло КПП и мост",
+    "slug": "huile-boite-de-vitesse-et-pont",
+    "count": 26
+  },
+  {
+    "name": "Масло МКПП",
+    "slug": "huiles-pour-transmissions-manuelles",
+    "count": 13
+  },
+  {
+    "name": "Масло для классических автомобилей",
+    "slug": "véhicules-anciens-racing-lubes-vintage",
+    "count": 1
+  },
+  {
+    "name": "Масло для редукторов",
+    "slug": "huiles-à-engrenages",
+    "count": 3
+  },
+  {
+    "name": "Масляные фильтры",
+    "slug": "filtres-à-huile",
+    "count": 47
+  },
+  {
+    "name": "Моторное масло",
+    "slug": "huile-moteur",
+    "count": 54
+  },
+  {
+    "name": "Моторное масло Дизель",
     "slug": "huile-moteur-diesel",
     "count": 1
   },
   {
-    "name": "Huile",
-    "slug": "huile",
-    "count": 10
+    "name": "Моторное масло Классика",
+    "slug": "huile-moteur-véhicules-anciens",
+    "count": 27
   },
   {
-    "name": "Radiateur et Système de Refroidissement",
-    "slug": "radiateur-et-système-de-refroidissement",
+    "name": "Моторное масло Спорт",
+    "slug": "huile-moteur-compétition",
+    "count": 29
+  },
+  {
+    "name": "Обезжириватель / Очиститель",
+    "slug": "dégraissant-nettoyant",
+    "count": 11
+  },
+  {
+    "name": "Омыватель и размораживатель",
+    "slug": "lave-glace-et-dégivrant",
+    "count": 8
+  },
+  {
+    "name": "Охл. жидкость Классика",
+    "slug": "liquide-de-refroidissement-véhicules-anciens",
     "count": 2
   },
   {
-    "name": "Dégraissant / Nettoyant",
-    "slug": "dégraissant-nettoyant",
-    "count": 1
+    "name": "Охл. жидкость Спорт",
+    "slug": "liquide-de-refroidissement-compétition",
+    "count": 3
   },
   {
-    "name": "Essence",
-    "slug": "essence",
+    "name": "Охлаждающая жидкость",
+    "slug": "liquide-de-refroidissement",
+    "count": 12
+  },
+  {
+    "name": "Охлаждающая жидкость -25°C",
+    "slug": "liquide-de-refroidissement--25c",
+    "count": 8
+  },
+  {
+    "name": "Охлаждающая жидкость -30°C",
+    "slug": "liquide-de-refroidissement--30c",
+    "count": 3
+  },
+  {
+    "name": "Охлаждающая жидкость -35°C",
+    "slug": "liquide-de-refroidissement--35c",
+    "count": 7
+  },
+  {
+    "name": "Охлаждающая жидкость -37°C",
+    "slug": "liquide-de-refroidissement--37c",
+    "count": 8
+  },
+  {
+    "name": "Охлаждающая жидкость -40°C",
+    "slug": "liquide-de-refroidissement--40c",
+    "count": 4
+  },
+  {
+    "name": "Охлаждающая жидкость концентрат",
+    "slug": "liquide-de-refroidissement-concentré",
     "count": 5
   },
   {
-    "name": "Additifs",
+    "name": "Присадки",
     "slug": "additifs",
+    "count": 4
+  },
+  {
+    "name": "Присадки Классика",
+    "slug": "additifs-véhicules-anciens",
+    "count": 1
+  },
+  {
+    "name": "Присадки Спорт",
+    "slug": "additifs-compétition",
+    "count": 9
+  },
+  {
+    "name": "Присадки бензин",
+    "slug": "essence",
+    "count": 11
+  },
+  {
+    "name": "Присадки в топливо",
+    "slug": "additifs-carburant",
+    "count": 2
+  },
+  {
+    "name": "Продукты для сервиса",
+    "slug": "produit-atelier",
+    "count": 6
+  },
+  {
+    "name": "Прочее",
+    "slug": "autre",
+    "count": 8
+  },
+  {
+    "name": "Радиатор и охлаждение",
+    "slug": "radiateur-et-système-de-refroidissement",
+    "count": 4
+  },
+  {
+    "name": "Разблокиратор / Смазка / Обезжириватель",
+    "slug": "dégrippant---graissage---dégraissant",
+    "count": 6
+  },
+  {
+    "name": "Смазки",
+    "slug": "graisse-lubrifiant",
+    "count": 33
+  },
+  {
+    "name": "Спорт",
+    "slug": "compétition",
+    "count": 4
+  },
+  {
+    "name": "Средства для чистки",
+    "slug": "accessoires-de-nettoyage",
+    "count": 4
+  },
+  {
+    "name": "Техническое обслуживание",
+    "slug": "maintenance-filtration-refroidissement-et-entretien",
+    "count": 4
+  },
+  {
+    "name": "Тормоза и ГУР",
+    "slug": "freinage---direction-assistée",
+    "count": 4
+  },
+  {
+    "name": "Тормозная жидкость",
+    "slug": "liquide-de-freinage",
+    "count": 21
+  },
+  {
+    "name": "Тормозная жидкость Классика",
+    "slug": "liquide-de-freinage-véhicules-anciens",
+    "count": 1
+  },
+  {
+    "name": "Тормозная жидкость Спорт",
+    "slug": "liquide-de-freinage-compétition",
+    "count": 6
+  },
+  {
+    "name": "Турбо / Клапаны EGR",
+    "slug": "turbo-vannes-egr",
     "count": 2
   }
 ]
