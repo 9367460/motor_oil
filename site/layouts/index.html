@@ -7,8 +7,8 @@
     <h1>Моторные масла<br>напрямую из Европы</h1>
     <p>Shell, Total, Yacco, Motul и другие бренды — оригинал с полным пакетом документов. Оформляем счёт от ООО «Альянс».</p>
     <div class="hero-actions">
-      <a class="btn btn-white" href="{{ "/products/" | relURL }}">Смотреть каталог →</a>
-      <a class="btn btn-outline" href="{{ "/contacts/" | relURL }}">Связаться с нами</a>
+      <a class="btn btn-white" href="{{ "products/" | absURL }}">Смотреть каталог →</a>
+      <a class="btn btn-outline" href="{{ "contacts/" | absURL }}">Связаться с нами</a>
     </div>
   </div>
 </section>
@@ -73,7 +73,7 @@
       {{ end }}
     </div>
     <div style="text-align:center;margin-top:36px">
-      <a class="btn btn-white" href="{{ "/products/" | relURL }}" style="background:var(--primary);color:white;display:inline-flex">Весь каталог ({{ len $products }} товаров) →</a>
+      <a class="btn btn-white" href="{{ "products/" | absURL }}" style="background:var(--primary);color:white;display:inline-flex">Весь каталог ({{ len $products }} товаров) →</a>
     </div>
   </div>
 </section>

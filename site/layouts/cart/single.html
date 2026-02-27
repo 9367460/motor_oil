@@ -11,12 +11,12 @@
       <div class="cart-empty">
         <div class="cart-empty-icon">🛒</div>
         <h2>Корзина пуста</h2>
-        <p>Добавьте товары из <a href="{{ "/products/" | relURL }}">каталога</a></p>
+        <p>Добавьте товары из <a href="{{ "products/" | absURL }}">каталога</a></p>
       </div>
     </div>
 
     <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap">
-      <a href="{{ "/products/" | relURL }}" style="font-size:14px;color:var(--text-muted)">← Продолжить покупки</a>
+      <a href="{{ "products/" | absURL }}" style="font-size:14px;color:var(--text-muted)">← Продолжить покупки</a>
       <button onclick="printInvoice()" style="background:none;border:1px solid var(--border);padding:8px 16px;border-radius:20px;font-size:14px;cursor:pointer;color:var(--text-muted)">
         🖨️ Распечатать счёт
       </button>

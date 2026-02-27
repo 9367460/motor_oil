@@ -4,8 +4,8 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <ol>
-    <li><a href="{{ "/" | relURL }}">Главная</a></li>
-    <li><a href="{{ "/products/" | relURL }}">Каталог</a></li>
+    <li><a href="{{ .Site.BaseURL }}">Главная</a></li>
+    <li><a href="{{ "products/" | absURL }}">Каталог</a></li>
     {{ with $p.category }}<li>{{ . }}</li>{{ end }}
     <li>{{ .Title }}</li>
   </ol>
