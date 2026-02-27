@@ -72,9 +72,22 @@ if __name__ == "__main__":
     items = crawl_catalog("https://www.racinglubes.fr/catalogue")
     os.makedirs(os.path.join(os.path.dirname(__file__), "..", "site", "data"), exist_ok=True)
     output_file = os.path.join(os.path.dirname(__file__), "..", "site", "data", "products.json")
+    data_list = []
+    content_dir = os.path.join(os.path.dirname(__file__), "..", "site", "content", "products")
+    os.makedirs(content_dir, exist_ok=True)
+    for it in items:
+        price_rub = compute_price(it['supplier_price'], rate)
+        data_list.append({**it, "price_rub": f"{price_rub:.2f}"})
+        # create markdown page
+        slug = re.sub(r"[^0-9a-zA-Z_-]", "-", it['sku']).lower()
+        page_path = os.path.join(content_dir, f"{slug}.md")
+        with open(page_path, "w", encoding="utf-8") as pf:
+            pf.write("---\n")
+            pf.write(f"title: \"{it['title']}\"\n")
+            pf.write(f"sku: \"{it['sku']}\"\n")
+            pf.write(f"price_rub: \"{price_rub:.2f}\"\n")
+            pf.write("---\n\n")
+            pf.write(it['descr'])
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump([{
-            **it,
-            "price_rub": f"{compute_price(it['supplier_price'], rate):.2f}"
-        } for it in items], f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(items)} products to {output_file}")
+        json.dump(data_list, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {len(items)} products to {output_file} and created pages in {content_dir}")

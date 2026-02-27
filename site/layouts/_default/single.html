@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>Артикул: {{ .Params.sku }}</p>
+<p>Цена: {{ .Params.price_rub }} руб.</p>
+<div>
+  {{ .Content }}
+</div>
+<button class="snipcart-add-item"
+        data-item-id="{{ .Params.sku }}"
+        data-item-name="{{ .Title }}"
+        data-item-price="{{ .Params.price_rub }}"
+        data-item-url="{{ .Permalink }}">
+  В корзину
+</button>
+{{ end }}

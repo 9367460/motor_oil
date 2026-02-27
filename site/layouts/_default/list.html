@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<ul>
+  {{ range .Site.Data.products }}
+  <li>
+    <a href="{{ .sku }}.html">{{ .title }}</a> - {{ .price_rub }} руб.
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

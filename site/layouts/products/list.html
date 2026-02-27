@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h1>Каталог</h1>
+<ul>
+  {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — {{ .Params.price_rub }} руб.</li>
+  {{ end }}
+</ul>
+{{ end }}
