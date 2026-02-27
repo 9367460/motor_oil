@@ -22,15 +22,15 @@
              alt="{{ .Title }}"
              onerror="this.src='/img/no-image.png'">
       </div>
-      {{ if gt (len $p.images) 1 }}
+      {{ with $p.images }}{{ if gt (len .) 1 }}
       <div class="product-gallery__thumbs">
-        {{ range $i, $img := $p.images }}
+        {{ range $i, $img := . }}
         <div class="thumb {{ if eq $i 0 }}active{{ end }}" onclick="switchImg(this, '{{ $img }}')">
           <img src="{{ $img }}" alt="" loading="lazy" onerror="this.src='/img/no-image.png'">
         </div>
         {{ end }}
       </div>
-      {{ end }}
+      {{ end }}{{ end }}
     </div>
 
     <!-- Info -->
