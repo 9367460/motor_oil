@@ -1,0 +1,40 @@
+name: build and deploy
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install parser deps
+        run: |
+          cd parser
+          pip install -r requirements.txt
+
+      - name: Run parser
+        run: |
+          cd parser
+          python scrape.py
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v4
+        with:
+          hugo-version: '0.111.5'
+
+      - name: Build site
+        run: |
+          cd site
+          hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site/public
