@@ -1,94 +1,313 @@
 {{ define "title" }}Каталог товаров — {{ .Site.Title }}{{ end }}
 {{ define "main" }}
 
-<section class="section section-bg">
+<section class="section section-bg" style="padding-top:40px">
   <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Каталог</span>
-      <h1 class="section-title">Моторные масла и смазочные материалы</h1>
-      <p class="section-subtitle">{{ len .Pages }} товаров от ведущих мировых производителей</p>
-    </div>
+    <div style="display:grid;grid-template-columns:260px 1fr;gap:32px;align-items:start">
 
-    <!-- Search -->
-    <div class="search-bar">
-      <input class="search-input" id="product-search" type="text" placeholder="Поиск по названию или бренду...">
-    </div>
-
-    <!-- Category filter -->
-    <div class="cat-filter" id="cat-filter">
-      <button class="cat-btn active" data-cat="all">Все товары</button>
-      {{ range .Site.Data.categories }}
-      <button class="cat-btn" data-cat="{{ .slug }}">{{ .name }} ({{ .count }})</button>
-      {{ end }}
-    </div>
-
-    <!-- Sort bar -->
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px;">
-      <span style="font-size:14px;color:var(--text-muted)">Показано: <span id="visible-count">{{ len .Pages }}</span> товаров</span>
-      <select id="sort-select" onchange="sortProducts(this.value)" style="padding:8px 14px;border:1px solid var(--border);border-radius:20px;font-size:14px;outline:none;cursor:pointer;">
-        <option value="default">По умолчанию</option>
-        <option value="price-asc">Цена: по возрастанию</option>
-        <option value="price-desc">Цена: по убыванию</option>
-        <option value="name-asc">Название А–Я</option>
-      </select>
-    </div>
-
-    <!-- Products grid -->
-    <div class="products-grid" id="products-grid">
-      {{ range .Pages }}
-      {{ $p := .Params }}
-      <div class="product-card"
-           data-cat="{{ $p.cat_slug }}"
-           data-title="{{ .Title }}"
-           data-price="{{ $p.price_rub }}"
-           data-brand="{{ $p.brand }}">
-        <a href="{{ .RelPermalink }}">
-          <img class="product-card__img"
-               src="{{ $p.image }}"
-               alt="{{ .Title }}"
-               loading="lazy"
-               onerror="this.src='/img/no-image.png'">
-        </a>
-        <div class="product-card__body">
-          <div class="product-card__cat">{{ $p.category }}</div>
-          <a href="{{ .RelPermalink }}">
-            <div class="product-card__title">{{ .Title }}</div>
-          </a>
-          {{ with $p.brand }}<div class="product-card__brand">{{ . }}</div>{{ end }}
-          <div class="product-card__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
-          <div class="product-card__price-sub">Включая доставку из Европы</div>
-          <div class="product-card__actions">
-            <button class="btn-cart" onclick='Cart.addItem({
-              id:"{{ $p.sku }}",
-              title:{{ .Title | jsonify }},
-              category:{{ $p.category | jsonify }},
-              price_rub:{{ $p.price_rub }},
-              image:{{ $p.image | jsonify }},
-              slug:"{{ .RelPermalink }}"
-            })'>В корзину</button>
-            <a class="btn-detail" href="{{ .RelPermalink }}">→</a>
+      <!-- БОКОВАЯ ПАНЕЛЬ ФИЛЬТРОВ -->
+      <aside class="filter-sidebar" id="filter-sidebar">
+        <div class="filter-block">
+          <h3 class="filter-title">Поиск</h3>
+          <div style="padding:4px 16px 14px">
+            <input class="search-input" id="product-search" type="text"
+                   placeholder="Название, бренд..." style="width:100%">
           </div>
         </div>
+
+        {{ with .Site.Data.filters.brands }}
+        <div class="filter-block">
+          <h3 class="filter-title" onclick="toggleFilter(this)">Бренд <span>▾</span></h3>
+          <div class="filter-options">
+            {{ range . }}
+            <label class="filter-label">
+              <input type="checkbox" class="filter-cb" data-filter="brand" value="{{ . }}">
+              <span>{{ . }}</span>
+            </label>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .Site.Data.filters.viscosities }}
+        <div class="filter-block">
+          <h3 class="filter-title" onclick="toggleFilter(this)">Вязкость (SAE) <span>▾</span></h3>
+          <div class="filter-options">
+            {{ range . }}
+            <label class="filter-label">
+              <input type="checkbox" class="filter-cb" data-filter="viscosity" value="{{ . }}">
+              <span>{{ . }}</span>
+            </label>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .Site.Data.filters.volumes }}
+        <div class="filter-block">
+          <h3 class="filter-title" onclick="toggleFilter(this)">Объём <span>▾</span></h3>
+          <div class="filter-options">
+            {{ range . }}
+            <label class="filter-label">
+              <input type="checkbox" class="filter-cb" data-filter="volume" value="{{ . }}">
+              <span>{{ . }}</span>
+            </label>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        <div class="filter-block">
+          <h3 class="filter-title" onclick="toggleFilter(this)">Категория <span>▾</span></h3>
+          <div class="filter-options">
+            {{ range .Site.Data.categories }}
+            <label class="filter-label">
+              <input type="checkbox" class="filter-cb" data-filter="category" value="{{ .name }}">
+              <span>{{ .name }} <em>({{ .count }})</em></span>
+            </label>
+            {{ end }}
+          </div>
+        </div>
+
+        <button class="filter-reset" onclick="resetFilters()">Сбросить все фильтры</button>
+      </aside>
+
+      <!-- ПРАВАЯ ЧАСТЬ: ТОВАРЫ -->
+      <div>
+        <div class="catalog-header">
+          <div>
+            <h1 class="section-title" style="margin-bottom:4px">Каталог товаров</h1>
+            <p style="font-size:14px;color:var(--text-muted)">
+              Показано: <strong id="visible-count">{{ len .Pages }}</strong> из {{ len .Pages }}
+            </p>
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+            <button class="filter-toggle-mobile" onclick="toggleMobileSidebar()">⚙ Фильтры</button>
+            <select id="sort-select" onchange="sortProducts(this.value)" class="sort-select">
+              <option value="default">По умолчанию</option>
+              <option value="price-asc">Цена ↑</option>
+              <option value="price-desc">Цена ↓</option>
+              <option value="name-asc">Название А–Я</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="active-filters" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"></div>
+
+        <div class="products-grid" id="products-grid">
+          {{ range .Pages }}
+          {{ $p := .Params }}
+          <div class="product-card"
+               data-cat="{{ $p.cat_slug }}"
+               data-title="{{ .Title }}"
+               data-title-fr="{{ $p.title_fr }}"
+               data-price="{{ $p.price_rub }}"
+               data-brand="{{ $p.brand }}"
+               data-viscosity="{{ $p.viscosity }}"
+               data-volume="{{ $p.volume }}"
+               data-category="{{ $p.category }}">
+            <a href="{{ .RelPermalink }}">
+              <img class="product-card__img"
+                   src="{{ $p.image }}"
+                   alt="{{ .Title }}"
+                   loading="lazy"
+                   onerror="this.src='https://placehold.co/280x200/f1f6fb/0260e8?text=Нет+фото'">
+            </a>
+            <div class="product-card__body">
+              <div class="product-card__cat">{{ $p.category }}</div>
+              <a href="{{ .RelPermalink }}">
+                <div class="product-card__title">{{ .Title }}</div>
+              </a>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:4px">
+                {{ with $p.brand }}<span class="filter-tag-sm">{{ . }}</span>{{ end }}
+                {{ with $p.viscosity }}<span class="filter-tag-sm">{{ . }}</span>{{ end }}
+                {{ with $p.volume }}<span class="filter-tag-sm">{{ . }}</span>{{ end }}
+              </div>
+              <div class="product-card__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
+              <div class="product-card__price-sub">≈ {{ printf "%.2f" $p.price_eur }} €</div>
+              <div class="product-card__actions">
+                <button class="btn-cart" onclick='Cart.addItem({
+                  id:"{{ $p.sku }}",
+                  title:{{ .Title | jsonify }},
+                  category:{{ $p.category | jsonify }},
+                  price_rub:{{ $p.price_rub }},
+                  image:{{ $p.image | jsonify }},
+                  slug:"{{ .RelPermalink }}"
+                })'>В корзину</button>
+                <a class="btn-detail" href="{{ .RelPermalink }}">→</a>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+        <div id="no-results" style="display:none;text-align:center;padding:60px 20px;color:var(--text-muted)">
+          <div style="font-size:48px;margin-bottom:12px">🔍</div>
+          <h3>Ничего не найдено</h3>
+          <p>Попробуйте изменить фильтры</p>
+          <button onclick="resetFilters()" class="btn-cart" style="margin-top:16px;padding:10px 24px">Сбросить фильтры</button>
+        </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
 
 {{ end }}
 
+{{ define "head" }}
+<style>
+.filter-sidebar {
+  position: sticky; top: 80px;
+  background: white; border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.filter-block { border-bottom: 1px solid var(--border); }
+.filter-block:last-of-type { border-bottom: none; }
+.filter-title {
+  font-size: 13px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .8px; color: var(--text); padding: 13px 16px;
+  cursor: pointer; display: flex; justify-content: space-between;
+  margin: 0; user-select: none;
+}
+.filter-options {
+  padding: 4px 16px 12px; max-height: 220px; overflow-y: auto;
+}
+.filter-label {
+  display: flex; align-items: center; gap: 8px; padding: 4px 0;
+  font-size: 14px; cursor: pointer;
+}
+.filter-label:hover { color: var(--primary); }
+.filter-label input { accent-color: var(--primary); width:15px; height:15px; }
+.filter-label em { font-size: 11px; color: var(--text-muted); font-style: normal; }
+.filter-reset {
+  width: 100%; padding: 12px; background: none; border: none;
+  font-size: 13px; color: var(--text-muted); cursor: pointer;
+  font-family: var(--font); transition: color .2s;
+}
+.filter-reset:hover { color: var(--primary); }
+.filter-tag-sm {
+  background: var(--primary-light); color: var(--primary);
+  font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px;
+}
+.filter-tag-active {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: var(--primary); color: white; font-size: 12px; font-weight: 600;
+  padding: 4px 10px; border-radius: 16px; cursor: pointer;
+}
+.filter-tag-active:hover { background: var(--primary-dark); }
+.catalog-header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  margin-bottom: 16px; flex-wrap: wrap; gap: 12px;
+}
+.sort-select {
+  padding: 8px 14px; border: 1px solid var(--border); border-radius: 20px;
+  font-size: 14px; outline: none; cursor: pointer; background: white;
+}
+.filter-toggle-mobile {
+  display: none; background: var(--primary-light); color: var(--primary);
+  border: 1px solid var(--primary); padding: 8px 16px; border-radius: 20px;
+  font-size: 14px; font-weight: 600; cursor: pointer;
+}
+.products-grid { grid-template-columns: repeat(3,1fr) !important; }
+@media (max-width: 900px) {
+  .container > div[style] { grid-template-columns: 1fr !important; }
+  .filter-sidebar { position: static; display: none; }
+  .filter-sidebar.open { display: block; }
+  .filter-toggle-mobile { display: flex !important; }
+  .products-grid { grid-template-columns: repeat(2,1fr) !important; }
+}
+@media (max-width: 480px) {
+  .products-grid { grid-template-columns: 1fr !important; }
+}
+</style>
+{{ end }}
+
 {{ define "scripts" }}
 <script>
-function sortProducts(val) {
-  const grid = document.getElementById('products-grid');
-  const cards = [...grid.querySelectorAll('.product-card')];
-  cards.sort((a, b) => {
-    if (val === 'price-asc') return parseFloat(a.dataset.price) - parseFloat(b.dataset.price);
-    if (val === 'price-desc') return parseFloat(b.dataset.price) - parseFloat(a.dataset.price);
-    if (val === 'name-asc') return a.dataset.title.localeCompare(b.dataset.title, 'ru');
-    return 0;
+const activeFilters = { brand: [], viscosity: [], volume: [], category: [] };
+
+function applyFilters() {
+  const q = document.getElementById('product-search').value.toLowerCase();
+  const cards = document.querySelectorAll('.product-card');
+  let vis = 0;
+  cards.forEach(c => {
+    const d = c.dataset;
+    let ok = true;
+    if (q) {
+      const hay = (d.title+' '+(d.titleFr||'')+' '+d.brand+' '+d.viscosity).toLowerCase();
+      if (!hay.includes(q)) ok = false;
+    }
+    if (ok && activeFilters.brand.length)     ok = activeFilters.brand.includes(d.brand);
+    if (ok && activeFilters.viscosity.length) ok = activeFilters.viscosity.includes(d.viscosity);
+    if (ok && activeFilters.volume.length)    ok = activeFilters.volume.includes(d.volume);
+    if (ok && activeFilters.category.length)  ok = activeFilters.category.includes(d.category);
+    c.style.display = ok ? '' : 'none';
+    if (ok) vis++;
   });
-  cards.forEach(c => grid.appendChild(c));
+  const vc = document.getElementById('visible-count');
+  if (vc) vc.textContent = vis;
+  const nr = document.getElementById('no-results');
+  if (nr) nr.style.display = vis === 0 ? 'block' : 'none';
+  renderTags();
 }
+
+function renderTags() {
+  const c = document.getElementById('active-filters');
+  if (!c) return;
+  const tags = [];
+  Object.entries(activeFilters).forEach(([type, vals]) => {
+    vals.forEach(val => tags.push(
+      `<span class="filter-tag-active" onclick="removeFilter('${type}','${CSS.escape(val)}')">${val} ✕</span>`
+    ));
+  });
+  c.innerHTML = tags.join('');
+}
+
+function removeFilter(type, val) {
+  const realVal = document.querySelector(`.filter-cb[data-filter="${type}"][value="${val}"]`)?.value || val;
+  activeFilters[type] = activeFilters[type].filter(v => v !== realVal);
+  document.querySelectorAll(`.filter-cb[data-filter="${type}"]`).forEach(cb => {
+    if (cb.value === realVal) cb.checked = false;
+  });
+  applyFilters();
+}
+
+function resetFilters() {
+  Object.keys(activeFilters).forEach(k => activeFilters[k] = []);
+  document.querySelectorAll('.filter-cb').forEach(cb => cb.checked = false);
+  document.getElementById('product-search').value = '';
+  applyFilters();
+}
+
+function toggleFilter(el) {
+  const opts = el.nextElementSibling;
+  if (opts) opts.style.display = opts.style.display === 'none' ? '' : 'none';
+}
+
+function toggleMobileSidebar() {
+  document.getElementById('filter-sidebar').classList.toggle('open');
+}
+
+function sortProducts(val) {
+  const g = document.getElementById('products-grid');
+  [...g.querySelectorAll('.product-card')].sort((a, b) => {
+    if (val === 'price-asc')  return +a.dataset.price - +b.dataset.price;
+    if (val === 'price-desc') return +b.dataset.price - +a.dataset.price;
+    if (val === 'name-asc')   return a.dataset.title.localeCompare(b.dataset.title, 'ru');
+    return 0;
+  }).forEach(c => g.appendChild(c));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.filter-cb').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const t = cb.dataset.filter, v = cb.value;
+      if (cb.checked) { if (!activeFilters[t].includes(v)) activeFilters[t].push(v); }
+      else activeFilters[t] = activeFilters[t].filter(x => x !== v);
+      applyFilters();
+    });
+  });
+  document.getElementById('product-search').addEventListener('input', applyFilters);
+});
 </script>
 {{ end }}
