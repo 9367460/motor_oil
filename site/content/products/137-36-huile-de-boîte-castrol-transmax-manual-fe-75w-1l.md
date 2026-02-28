@@ -1,0 +1,18 @@
+---
+title: "Huile de Boîte Castrol Transmax Manual FE 75W 1L"
+title_fr: "Huile de Boîte Castrol Transmax Manual FE 75W Bidon de 1 L"
+sku: "137"
+brand: "Castrol"
+category: "Масло МКПП"
+cat_slug: "huiles-pour-transmissions-manuelles"
+viscosity: ""
+volume: "1L"
+price_eur: 9.17
+price_rub: 3353.76
+image: "https://www.racinglubes.fr/19831-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-castrol-transmax-manual-fe-75w.jpg"
+images:
+  - "https://www.racinglubes.fr/19831-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-castrol-transmax-manual-fe-75w.jpg"
+draft: false
+---
+
+Huile de Boîte Castrol Transmax Manual FE 75W :  L&#039;Huile de Boîte Castrol Transmax Manual FE 75W (Anciennement Syntrans FE 75W) est destinée aux véhicules de...

@@ -1,34 +1,32 @@
 """
-Парсер каталога racinglubes.fr — ПОЛНЫЙ
+Парсер каталога racinglubes.fr — ПОЛНЫЙ с вариантами объёма
 - Все категории, все страницы пагинации
-- Перевод на русский (словарь + Google Translate для описаний)
-- Метаданные для фильтров: вязкость, объём, бренд
-- Дедупликация по ID товара
+- Объёмы через AJAX (каждый вариант = отдельная карточка товара)
+- Перевод через словарь (без Google Translate — быстро)
+- Дедупликация по product_id + attr_value_id
 """
 import json, os, re, time, warnings
 warnings.filterwarnings("ignore")
 
 import cloudscraper
 from bs4 import BeautifulSoup
-try:
-    from deep_translator import GoogleTranslator
-    TRANSLATE_AVAIL = True
-except ImportError:
-    TRANSLATE_AVAIL = False
+import requests as _req
 
 scraper = cloudscraper.create_scraper()
-BASE_URL = "https://www.racinglubes.fr"
-CBR_API  = "https://www.cbr-xml-daily.ru/daily_json.js"
+BASE_URL    = "https://www.racinglubes.fr"
+CBR_API     = "https://www.cbr-xml-daily.ru/daily_json.js"
+AJAX_URL    = f"{BASE_URL}/index.php?controller=product&ajax=1&action=refresh"
 
-OUT_DIR     = os.path.join(os.path.dirname(__file__), "..", "site", "data")
-CONTENT_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "content", "products")
+SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR     = os.path.join(SCRIPT_DIR, "..", "site", "data")
+CONTENT_DIR = os.path.join(SCRIPT_DIR, "..", "site", "content", "products")
 
 # ── Словарь: французские термины → русские ───────────────────────────────────
 FR_TO_RU = [
-    # Полные фразы — сначала (порядок важен)
     ("Huile Moteur Compétition",               "Моторное масло Спорт"),
     ("Huile moteur compétition",               "Моторное масло Спорт"),
     ("Huile Moteur Véhicules Anciens",         "Моторное масло Классика"),
+    ("Huile Moteur Diesel",                    "Моторное масло Дизель"),
     ("Huile Moteur",                           "Моторное масло"),
     ("Huile moteur",                           "Моторное масло"),
     ("Huile Boite de Vitesse",                 "Масло КПП"),
@@ -37,6 +35,8 @@ FR_TO_RU = [
     ("Huile boîte de vitesse",                 "Масло КПП"),
     ("Huile de Pont",                          "Масло для моста"),
     ("Huile Direction Assistée",               "Масло ГУР"),
+    ("Huile de Transmission Automatique",      "Масло АКПП"),
+    ("Huile de transmission automatique",      "Масло АКПП"),
     ("Liquide de Frein",                       "Тормозная жидкость"),
     ("Liquide de frein",                       "Тормозная жидкость"),
     ("Liquide de Refroidissement",             "Охлаждающая жидкость"),
@@ -64,6 +64,7 @@ FR_TO_RU = [
     ("Pass Contrôle Technique Diesel",         "Прохождение техосмотра дизель"),
     ("Substitut de Plomb",                     "Заменитель свинца"),
     ("Additif Carburant",                      "Присадка к топливу"),
+    ("Additif de Refroidissement",             "Охлаждающая присадка"),
     ("Additif",                                "Присадка"),
     ("B2 Traitement Huile",                    "Присадка к маслу B2"),
     ("Race Oil",                               "Гоночное масло"),
@@ -76,6 +77,13 @@ FR_TO_RU = [
     ("Synthétique",                            "Синтетическое"),
     ("Minérale",                               "Минеральное"),
     ("Essence",                                "Бензин"),
+    ("Super dégrippant",                       "Суперразблокиратор"),
+    ("Dégrippant",                             "Разблокиратор"),
+    ("Graisse",                                "Смазка"),
+    ("Lubrifiant",                             "Смазочный материал"),
+    ("Nettoyant freins",                       "Очиститель тормозов"),
+    ("Filtre à huile",                         "Масляный фильтр"),
+    ("Filtre",                                 "Фильтр"),
 ]
 
 CATEGORY_RU = {
@@ -91,15 +99,17 @@ CATEGORY_RU = {
     "Additifs Véhicules Anciens":                      "Присадки Классика",
     "AdBlue":                                          "AdBlue (мочевина)",
     "Liquide de Refroidissement":                      "Охлаждающая жидкость",
-    "Liquide de refroidissement -":                    "Охлаждающая жидкость",
     "Liquide de Refroidissement Compétition":          "Охл. жидкость Спорт",
     "Liquide de Refroidissement Véhicules Anciens":    "Охл. жидкость Классика",
     "Lave Glace et Dégivrant":                         "Омыватель и размораживатель",
     "Lave-Glace et Dégivrant":                         "Омыватель и размораживатель",
     "Dégripant / Graissage / Dégraissant":             "Смазки и очистители",
     "Dégraissant / Nettoyant":                         "Обезжириватель / Очиститель",
+    "Dégrippant - Graissage - Dégraissant":            "Обезжириватель / Очиститель",
+    "Dégrippant":                                      "Жидкость WD",
     "Pâte à Joint et Mastic":                          "Герметики и мастики",
     "Colles et Fixe-écrous":                           "Клеи и фиксаторы",
+    "Colles et Fixe Ecrous":                           "Клеи и фиксаторы",
     "Matériel de Garage et Outillage":                 "Инструменты для гаража",
     "Huile moteur compétition":                        "Моторное масло Спорт",
     "Huile Moteur Compétition":                        "Моторное масло Спорт",
@@ -113,11 +123,82 @@ CATEGORY_RU = {
     "Radiateur et Système de Refroidissement":         "Радиатор и охлаждение",
     "Home mobil™":                                     "Масло Mobil",
     "Essence":                                         "Присадки бензин",
-    "Filtration":                                      "Фильтрация",
+    "Filtration":                                      "Масляные фильтры",
+    "Filtres à Huile":                                 "Масляные фильтры",
     "Produit Atelier":                                 "Продукты для сервиса",
+    "Huiles pour transmissions automatiques":          "Масло АКПП",
+    "Huiles pour transmissions manuelles":             "Масло МКПП",
+    "Gazole":                                          "Дизельные присадки",
+    "Liquide Hydraulique":                             "Гидравлическая жидкость",
+    "Liquide de direction assistée":                   "Жидкость ГУР",
+    "Graisse / Lubrifiant":                            "Смазки",
 }
 
-# Все главные категории сайта
+# Перевод объёмов
+def _n(m, g=1): return m.group(g).replace(',', '.')
+
+VOLUME_RU = [
+    # Bidon (канистра)
+    (r'bidon de (\d+(?:[.,]\d+)?)\s*ml',   lambda m: f"{_n(m)}мл"),
+    (r'bidon de (\d+(?:[.,]\d+)?)\s*l\b',  lambda m: f"{_n(m)}L"),
+    # Fût / Tonnelet (бочка)
+    (r'tonnelet(?:\s+de)?\s+(\d+(?:[.,]\d+)?)\s*kg', lambda m: f"Бочонок {_n(m)} кг"),
+    (r'tonnelet(?:\s+de)?\s+(\d+(?:[.,]\d+)?)\s*l\b', lambda m: f"{_n(m)}L"),
+    (r'fût de (\d+(?:[.,]\d+)?)\s*kg',     lambda m: f"Бочка {_n(m)} кг"),
+    (r'fût de (\d+(?:[.,]\d+)?)\s*l\b',    lambda m: f"{_n(m)}L"),
+    # Seau (ведро)
+    (r'seau de (\d+(?:[.,]\d+)?)\s*kg',    lambda m: f"Ведро {_n(m)} кг"),
+    (r'seau de (\d+(?:[.,]\d+)?)\s*l\b',   lambda m: f"Ведро {_n(m)} л"),
+    # Aérosol
+    (r'aérosol de (\d+(?:[.,]\d+)?)\s*ml', lambda m: f"Аэрозоль {_n(m)} мл"),
+    (r'aérosol de (\d+(?:[.,]\d+)?)\s*l\b',lambda m: f"Аэрозоль {_n(m)} л"),
+    # Cartouche (картридж)
+    (r'cartouche(?: classic| [àa] visser)?(?: de)? (\d+(?:[.,]\d+)?)\s*g\b', lambda m: f"Картридж {_n(m)} г"),
+    (r'cartouche(?: de)? (\d+(?:[.,]\d+)?)\s*ml', lambda m: f"Картридж {_n(m)} мл"),
+    (r'cartouche(?: de)? (\d+(?:[.,]\d+)?)\s*g\b', lambda m: f"Картридж {_n(m)} г"),
+    # Flacon (флакон)
+    (r'flacon de (\d+(?:[.,]\d+)?)\s*g\b', lambda m: f"Флакон {_n(m)} г"),
+    (r'flacon de (\d+(?:[.,]\d+)?)\s*ml',  lambda m: f"Флакон {_n(m)} мл"),
+    (r'flacon de (\d+(?:[.,]\d+)?)\s*l\b', lambda m: f"Флакон {_n(m)} л"),
+    # Tube
+    (r'tube(?: de)? (\d+(?:[.,]\d+)?)\s*g\b',  lambda m: f"Туба {_n(m)} г"),
+    (r'tube(?: de)? (\d+(?:[.,]\d+)?)\s*ml',   lambda m: f"Туба {_n(m)} мл"),
+    (r'tube(?: de)? (\d+(?:[.,]\d+)?)\s*l\b',  lambda m: f"Туба {_n(m)} л"),
+    # Pot / Récipient (банка / ёмкость)
+    (r'pot(?: de)? (\d+(?:[.,]\d+)?)\s*kg',    lambda m: f"Банка {_n(m)} кг"),
+    (r'pot(?: de)? (\d+(?:[.,]\d+)?)\s*g\b',   lambda m: f"Банка {_n(m)} г"),
+    (r'récipient de (\d+(?:[.,]\d+)?)\s*ml',   lambda m: f"Ёмкость {_n(m)} мл"),
+    # Seringue (шприц)
+    (r'seringue de (\d+)\s*x\s*(\d+(?:[.,]\d+)?)\s*ml', lambda m: f"Шприц {m.group(1)}×{_n(m,2)} мл"),
+    (r'seringue de (\d+(?:[.,]\d+)?)\s*g\b',   lambda m: f"Шприц {_n(m)} г"),
+    (r'seringue de (\d+(?:[.,]\d+)?)\s*ml',    lambda m: f"Шприц {_n(m)} мл"),
+    # Spray / Pulvérisateur (спрей / распылитель)
+    (r'spray(?: de)? (\d+(?:[.,]\d+)?)\s*ml',  lambda m: f"Спрей {_n(m)} мл"),
+    (r'pulvérisateur de (\d+(?:[.,]\d+)?)\s*ml', lambda m: f"Распылитель {_n(m)} мл"),
+    # Stick
+    (r'stick de (\d+(?:[.,]\d+)?)\s*g\b',      lambda m: f"Стик {_n(m)} г"),
+    # Pack / Rouleau
+    (r'pack de (\d+)\s*rouleaux?',              lambda m: f"Уп. {m.group(1)} рул."),
+    (r'rouleau de (\d+(?:[.,]\d+)?)\s*m\b',    lambda m: f"Рулон {_n(m)} м"),
+    # Kit avec quantité
+    (r'kit de (\d+(?:[.,]\d+)?)\s*g\b',        lambda m: f"Комплект {_n(m)} г"),
+    # Generic: numbers + unit
+    (r'(\d+(?:[.,]\d+)?)\s*litres?',            lambda m: f"{_n(m)}L"),
+    (r'(\d+(?:[.,]\d+)?)\s*l\b',               lambda m: f"{_n(m)}L"),
+    (r'(\d+(?:[.,]\d+)?)\s*ml\b',              lambda m: f"{_n(m)}мл"),
+    (r'(\d+(?:[.,]\d+)?)\s*g\b',               lambda m: f"{_n(m)} г"),
+    (r'(\d+(?:[.,]\d+)?)\s*kg\b',              lambda m: f"{_n(m)} кг"),
+    (r'(\d+(?:[.,]\d+)?)\s*m\b',               lambda m: f"{_n(m)} м"),
+]
+
+# Color/type labels that are NOT volumes — translate to Russian for display
+VARIANT_COLORS_RU = {
+    'vert': 'Зелёный', 'noir': 'Чёрный', 'rose': 'Розовый',
+    'rouge': 'Красный', 'bleu': 'Синий', 'blanc': 'Белый',
+    'camao': 'Камуфляж', 'military tan': 'Military Tan',
+    'patriotic': 'Patriotic', 'v-twin': 'V-Twin',
+}
+
 ALL_CATEGORY_URLS = [
     "https://www.racinglubes.fr/29-huile-moteur",
     "https://www.racinglubes.fr/14-huile-boite-de-vitesse-et-pont",
@@ -156,13 +237,17 @@ def translate_category(cat_fr):
     return CATEGORY_RU.get(cat_fr, cat_fr)
 
 
-def translate_desc(text_fr):
-    if not TRANSLATE_AVAIL or not text_fr or len(text_fr.strip()) < 10:
-        return text_fr
-    try:
-        return GoogleTranslator(source="fr", target="ru").translate(text_fr[:900]) or text_fr
-    except Exception:
-        return text_fr
+def parse_volume_label(label):
+    """'Bidon de 5 L' → '5L', 'Aérosol de 250 ml' → 'Аэрозоль 250 мл', 'Vert' → 'Зелёный'"""
+    low = label.lower().strip()
+    for pattern, fn in VOLUME_RU:
+        m = re.search(pattern, low)
+        if m:
+            return fn(m)
+    # Color/type labels
+    if low in VARIANT_COLORS_RU:
+        return VARIANT_COLORS_RU[low]
+    return label
 
 
 def extract_viscosity(title):
@@ -170,15 +255,8 @@ def extract_viscosity(title):
     return m.group(1).upper() if m else ""
 
 
-def extract_volume(title):
-    m = re.search(r'\b(\d+(?:[.,]\d+)?)\s*(?:L|litre|litres)\b', title, re.IGNORECASE)
-    if m:
-        return f"{m.group(1).replace(',','.')}L"
-    return ""
-
-
 def get_cbr_rate():
-    r = scraper.get(CBR_API, timeout=15)
+    r = _req.get(CBR_API, timeout=15)
     r.raise_for_status()
     return r.json()["Valute"]["EUR"]["Value"]
 
@@ -204,7 +282,7 @@ def get_json_ld(soup, ld_type):
 
 
 def get_product_urls(cat_url):
-    """Получает все URL товаров из категории, обходя пагинацию."""
+    """Получает все URL товаров из категории с пагинацией."""
     urls = []
     page = 1
     while True:
@@ -234,27 +312,55 @@ def get_product_urls(cat_url):
         if not soup.select_one("a[rel=next], .pagination .next a"):
             break
         page += 1
-        time.sleep(0.25)
+        time.sleep(0.3)
     return urls
 
 
-def parse_product(url, rate):
+def fetch_combo_price_and_sku(id_product, id_pa_default, group_id, attr_val):
+    """AJAX запрос для получения цены и SKU конкретного объёма."""
+    data = {
+        'id_product': id_product,
+        'id_product_attribute': id_pa_default,
+        f'group[{group_id}]': attr_val,
+        'qty': '1',
+    }
+    try:
+        r = scraper.post(AJAX_URL, data=data, timeout=15)
+        if r.status_code == 200:
+            resp = r.json()
+            html = resp.get('product_prices', '') + resp.get('product_cover_thumbnails', '') + resp.get('product_reference', '')
+            # Price: content="XX.XX"
+            pm = re.search(r'content=["\']([0-9.]+)["\']', html)
+            price = float(pm.group(1)) if pm else None
+            # SKU
+            sm = re.search(r'product-reference-value[^>]*>\s*([^<\s]+)\s*<', html)
+            sku = sm.group(1).strip() if sm else None
+            return price, sku
+    except Exception:
+        pass
+    return None, None
+
+
+def parse_product_variants(url, rate):
+    """
+    Парсит страницу товара и возвращает СПИСОК вариантов (один на каждый объём).
+    Если вариантов нет — список из одного элемента.
+    """
     try:
         r = scraper.get(url, timeout=30)
         if r.status_code != 200:
-            return None
+            return []
     except Exception as e:
         print(f"  Ошибка: {e}", flush=True)
-        return None
+        return []
 
     soup = BeautifulSoup(r.text, "html.parser")
     ld = get_json_ld(soup, "Product")
     if not ld:
-        return None
+        return []
 
     title_fr  = ld.get("name", "").strip()
-    sku       = str(ld.get("sku", "")).strip()
-    desc_fr   = re.sub(r"<[^>]+>", " ", ld.get("description", "")).strip()
+    desc_fr   = re.sub(r"<[^>]+>", " ", ld.get("description", "")).strip()[:400]
     cat_fr    = ld.get("category", "").strip()
     brand     = (ld.get("brand") or {}).get("name", "")
 
@@ -263,57 +369,129 @@ def parse_product(url, rate):
         img = img[0] if img else ""
     img = img.replace("home_default", "large_default")
 
-    price_eur = 0.0
+    default_price_eur = 0.0
     try:
-        price_eur = float((ld.get("offers") or {}).get("price", 0))
+        default_price_eur = float((ld.get("offers") or {}).get("price", 0))
     except (ValueError, TypeError):
         pass
 
-    if not title_fr or price_eur <= 0:
-        return None
+    default_sku = str(ld.get("sku", "")).strip()
+
+    if not title_fr or default_price_eur <= 0:
+        return []
 
     title_ru = translate_title(title_fr)
     cat_ru   = translate_category(cat_fr)
-    desc_ru  = translate_desc(desc_fr)
 
     viscosity = extract_viscosity(title_fr)
-    volume    = extract_volume(title_fr)
 
+    pid_match  = re.search(r"/(\d+)-", url)
+    product_id = pid_match.group(1) if pid_match else default_sku
+    cat_slug   = slugify(cat_fr) if cat_fr else "products"
+
+    # Собираем изображения
     images = [img]
     for itag in soup.select(".product-images img"):
         src = itag.get("src", "").replace("medium_default", "large_default")
         if src and src not in images:
             images.append(src)
+    images = images[:4]
 
-    pid_match  = re.search(r"/(\d+)-", url)
-    product_id = pid_match.group(1) if pid_match else sku
-    slug       = f"{product_id}-{slugify(title_ru)}"[:80]
-    cat_slug   = slugify(cat_fr) if cat_fr else "products"
-    price_rub  = compute_price_rub(price_eur, rate)
+    # ── Ищем варианты объёма ──────────────────────────────────────────────────
+    id_product_inp = soup.select_one('input#idp, input[name="idp"]')
+    id_pa_inp      = soup.select_one('input#idpa, input[name="idpa"]')
+    id_product_val = id_product_inp['value'] if id_product_inp else product_id
+    id_pa_default  = id_pa_inp['value'] if id_pa_inp else None
 
-    return {
-        "id":          product_id,
-        "slug":        slug,
-        "title":       title_ru,
-        "title_fr":    title_fr,
-        "sku":         sku,
-        "brand":       brand,
-        "category":    cat_ru,
-        "cat_slug":    cat_slug,
-        "viscosity":   viscosity,
-        "volume":      volume,
-        "description": desc_ru,
-        "price_eur":   price_eur,
-        "price_rub":   price_rub,
-        "image":       img,
-        "images":      images[:4],
-        "url_supplier": url,
-    }
+    volume_variants = []  # [(attr_val, label, is_default)]
+    group_id = None
+
+    for ul in soup.select("ul.variant-radio-pc"):
+        gid_m = re.search(r'id="group_(\d+)"', str(ul))
+        if not gid_m:
+            continue
+        group_id = gid_m.group(1)
+        for radio in ul.select('input[type=radio]'):
+            attr_val = radio.get('value', '').strip()
+            label    = radio.get('title', '').strip()
+            is_def   = radio.has_attr('checked')
+            if attr_val and label:
+                volume_variants.append((attr_val, label, is_def))
+        break  # берём только первую группу атрибутов (Conditionnement)
+
+    results = []
+
+    if not volume_variants:
+        # Нет вариантов объёма — один товар
+        slug = f"{product_id}-{slugify(title_ru)}"[:90]
+        results.append({
+            "id":           product_id,
+            "combo_key":    product_id,
+            "slug":         slug,
+            "title":        title_ru,
+            "title_fr":     title_fr,
+            "sku":          default_sku,
+            "brand":        brand,
+            "category":     cat_ru,
+            "cat_slug":     cat_slug,
+            "viscosity":    viscosity,
+            "volume":       "",
+            "description":  desc_fr,
+            "price_eur":    default_price_eur,
+            "price_rub":    compute_price_rub(default_price_eur, rate),
+            "image":        img,
+            "images":       images,
+            "url_supplier": url,
+        })
+        return results
+
+    # Есть варианты — создаём отдельный товар для каждого объёма
+    for attr_val, label, is_default in volume_variants:
+        vol_str = parse_volume_label(label)  # "1L", "5L", "209L"
+
+        if is_default:
+            price_eur = default_price_eur
+            sku       = default_sku
+        else:
+            # AJAX запрос
+            price_eur, sku = fetch_combo_price_and_sku(
+                id_product_val, id_pa_default, group_id, attr_val
+            )
+            if price_eur is None:
+                price_eur = default_price_eur  # fallback
+            if not sku:
+                sku = f"{default_sku}-{attr_val}"
+            time.sleep(0.15)
+
+        title_with_vol = f"{title_ru} {vol_str}"
+        slug = f"{product_id}-{attr_val}-{slugify(title_ru)}-{slugify(vol_str)}"[:90]
+
+        results.append({
+            "id":           product_id,
+            "combo_key":    f"{product_id}-{attr_val}",
+            "slug":         slug,
+            "title":        title_with_vol,
+            "title_fr":     f"{title_fr} {label}",
+            "sku":          sku,
+            "brand":        brand,
+            "category":     cat_ru,
+            "cat_slug":     cat_slug,
+            "viscosity":    viscosity,
+            "volume":       vol_str,
+            "description":  desc_fr,
+            "price_eur":    price_eur,
+            "price_rub":    compute_price_rub(price_eur, rate),
+            "image":        img,
+            "images":       images,
+            "url_supplier": url,
+        })
+
+    return results
 
 
 def write_page(prod):
-    slug = prod["slug"]
-    path = os.path.join(CONTENT_DIR, f"{slug}.md")
+    slug  = prod["slug"]
+    path  = os.path.join(CONTENT_DIR, f"{slug}.md")
     title = prod["title"].replace('"', '\\"')
     cat   = prod["category"].replace('"', '\\"')
     brand = prod["brand"].replace('"', '\\"')
@@ -339,7 +517,7 @@ def write_page(prod):
 
 def main():
     print("=" * 60)
-    print("Парсер racinglubes.fr — ПОЛНЫЙ КАТАЛОГ")
+    print("Парсер racinglubes.fr — ПОЛНЫЙ КАТАЛОГ + ОБЪЁМЫ")
     print("=" * 60, flush=True)
 
     print("\n[1] Курс EUR/RUB...")
@@ -360,7 +538,8 @@ def main():
     print(f"\n[2] Парсинг {len(ALL_CATEGORY_URLS)} категорий...", flush=True)
 
     all_products = []
-    seen_ids     = set()
+    seen_combos  = set()  # combo_key = product_id + attr_val
+    seen_pids    = set()  # product IDs (для дедупликации по базовому ID)
     cats_out     = {}
     n = 0
 
@@ -369,31 +548,40 @@ def main():
         print(f"\n  [{ci+1}/{len(ALL_CATEGORY_URLS)}] {cat_label}", flush=True)
 
         prod_urls = get_product_urls(cat_url)
-        new_urls  = [u for u in prod_urls
-                     if (m := re.search(r"/(\d+)-", u)) and m.group(1) not in seen_ids]
+        # Фильтруем: только те product_id, которые мы ещё не обрабатывали
+        new_urls = []
+        for u in prod_urls:
+            pm = re.search(r"/(\d+)-", u)
+            pid = pm.group(1) if pm else None
+            if pid and pid not in seen_pids:
+                new_urls.append(u)
         print(f"  Всего URL: {len(prod_urls)}, новых: {len(new_urls)}", flush=True)
 
         for url in new_urls:
-            pid_m = re.search(r"/(\d+)-", url)
-            pid   = pid_m.group(1) if pid_m else None
-            if pid and pid in seen_ids:
-                continue
+            pm = re.search(r"/(\d+)-", url)
+            pid = pm.group(1) if pm else None
+            if pid:
+                seen_pids.add(pid)
 
-            prod = parse_product(url, rate)
-            if prod:
-                seen_ids.add(prod["id"])
+            variants = parse_product_variants(url, rate)
+            for prod in variants:
+                ck = prod["combo_key"]
+                if ck in seen_combos:
+                    continue
+                seen_combos.add(ck)
                 all_products.append(prod)
                 write_page(prod)
                 n += 1
+
                 cat_ru = prod["category"]
                 cs     = prod["cat_slug"]
                 if cs not in cats_out:
                     cats_out[cs] = {"name": cat_ru, "slug": cs, "count": 0}
                 cats_out[cs]["count"] += 1
+
                 vis = f" [{prod['viscosity']}]" if prod["viscosity"] else ""
-                print(f"  [{n}] {prod['title'][:55]}{vis} {prod['price_rub']:.0f}₽", flush=True)
-            elif pid:
-                seen_ids.add(pid)
+                vol = f" {prod['volume']}" if prod["volume"] else ""
+                print(f"  [{n}] {prod['title'][:50]}{vis}{vol} {prod['price_rub']:.0f}₽", flush=True)
 
             time.sleep(0.2)
 
@@ -405,21 +593,29 @@ def main():
     with open(os.path.join(OUT_DIR, "categories.json"), "w", encoding="utf-8") as f:
         json.dump(list(cats_out.values()), f, ensure_ascii=False, indent=2)
 
-    brands     = sorted({p["brand"] for p in all_products if p["brand"]})
-    viscosities = sorted({p["viscosity"] for p in all_products if p["viscosity"]},
-                          key=lambda x: (int(re.search(r'^(\d+)', x).group()), x))
-    volumes    = sorted({p["volume"] for p in all_products if p["volume"]},
-                         key=lambda x: float(re.search(r'[\d.]+', x).group()))
+    brands = sorted({p["brand"] for p in all_products if p["brand"]})
+
+    def vis_key(x):
+        m = re.search(r'^(\d+)', x)
+        return int(m.group()) if m else 999
+
+    def vol_key(x):
+        m = re.search(r'([\d.]+)', x)
+        return float(m.group()) if m else 0
+
+    viscosities = sorted({p["viscosity"] for p in all_products if p["viscosity"]}, key=vis_key)
+    volumes     = sorted({p["volume"]    for p in all_products if p["volume"]},    key=vol_key)
 
     with open(os.path.join(OUT_DIR, "filters.json"), "w", encoding="utf-8") as f:
         json.dump({"brands": brands, "viscosities": viscosities, "volumes": volumes},
                   f, ensure_ascii=False, indent=2)
 
     print(f"\n{'='*60}")
-    print(f"ИТОГО: {n} товаров")
+    print(f"ИТОГО: {n} товаров (с вариантами объёма)")
     print(f"Категорий:  {len(cats_out)}")
     print(f"Брендов:    {len(brands)}")
     print(f"Вязкостей:  {len(viscosities)}")
+    print(f"Объёмов:    {len(volumes)} вариантов: {volumes[:10]}")
     print(f"{'='*60}", flush=True)
 
 

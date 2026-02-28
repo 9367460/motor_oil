@@ -1,0 +1,18 @@
+---
+title: "Liquide Lave Glace Motul Vision Classic Winter -20°C 5L"
+title_fr: "Liquide Lave Glace Motul Vision Classic Winter -20°C Bidon de 5 L"
+sku: "1679"
+brand: "Motul"
+category: "Омыватель и размораживатель"
+cat_slug: "lave-glace-et-dégivrant"
+viscosity: ""
+volume: "5L"
+price_eur: 13.0
+price_rub: 4752.42
+image: "https://www.racinglubes.fr/14886-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-classic-winter.jpg"
+images:
+  - "https://www.racinglubes.fr/14886-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-classic-winter.jpg"
+draft: false
+---
+
+Liquide Lave Glace Motul Vision Classic Winter :  Le Liquide Lave Glace Motul Vision Classic Winter est Lave-glace prêt à l&#039;emploi pour une utilisation facil...

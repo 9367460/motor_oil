@@ -1,0 +1,18 @@
+---
+title: "Huile de Boîte et Pont Motul Gear 300 LS 75W90 20L"
+title_fr: "Huile de Boîte et Pont Motul Gear 300 LS 75W90 Bidon de 20 L"
+sku: "316-54"
+brand: "Motul"
+category: "Масло КПП и мост"
+cat_slug: "huile-boite-de-vitesse-et-pont"
+viscosity: "75W90"
+volume: "20L"
+price_eur: 515.0
+price_rub: 188075.79
+image: "https://www.racinglubes.fr/10484-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-gear-300-ls-75w90.jpg"
+images:
+  - "https://www.racinglubes.fr/10484-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-gear-300-ls-75w90.jpg"
+draft: false
+---
+
+Huile de Boîte et Pont Motul Gear 300 LS 75W90 :  L&#039;huile de Boîte et Pont Motul Gear 300 LS 75W90 est adaptée aux véhicules utilitaires, de tourisme ou de c...
