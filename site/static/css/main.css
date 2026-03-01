@@ -36,6 +36,37 @@ img { max-width: 100%; display: block; }
 /* ── LAYOUT ── */
 .container { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
 
+/* ── ПОИСКОВЫЕ ПОДСКАЗКИ ── */
+.search-drop {
+  position: absolute; top: 100%; left: 0; right: 52px; z-index: 500;
+  background: white; border: 1px solid var(--border-dark); border-top: none;
+  border-radius: 0 0 4px 4px; box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  display: none; max-height: 420px; overflow-y: auto;
+}
+.search-drop.open { display: block; }
+.search-drop-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 9px 14px; text-decoration: none; color: var(--text);
+  border-bottom: 1px solid var(--border); transition: background .12s;
+}
+.search-drop-item:last-child { border-bottom: none; }
+.search-drop-item:hover { background: var(--orange-light); }
+.search-drop-img {
+  width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;
+  border: 1px solid var(--border); border-radius: 2px; background: #FAFAFA; padding: 2px;
+}
+.search-drop-title {
+  font-size: 13px; font-weight: 500; flex: 1;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.search-drop-meta { font-size: 12px; color: var(--text-muted); white-space: nowrap; flex-shrink: 0; margin-left: 8px; }
+.search-drop-all {
+  display: block; text-align: center; padding: 10px;
+  font-size: 13px; color: var(--orange); font-weight: 600;
+  background: var(--bg); border-top: 1px solid var(--border); text-decoration: none;
+}
+.search-drop-all:hover { background: var(--orange-light); color: var(--orange); }
+
 /* ══════════════════════════════════════════════════════════
    HEADER — белый, как у ВсеИнструменты.ру
 ══════════════════════════════════════════════════════════ */
@@ -97,7 +128,7 @@ img { max-width: 100%; display: block; }
 
 /* Строка поиска */
 .header-search {
-  flex: 1; display: flex; max-width: 640px;
+  flex: 1; display: flex; max-width: 640px; position: relative;
 }
 .header-search input {
   flex: 1; height: 42px; padding: 0 14px;

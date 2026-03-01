@@ -1,4 +1,4 @@
 ---
 title: "Корзина"
-layout: "cart/single"
+type: "cart"
 ---

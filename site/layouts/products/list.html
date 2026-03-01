@@ -291,23 +291,38 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // Фильтр по категории через hash (#cat=slug)
   else if (hash.startsWith('#cat=')) {
-    const catSlug = decodeURIComponent(hash.slice(5));
-    // Находим имя категории из карточек товаров по слагу
-    const sampleCard = document.querySelector(`.product-card[data-cat="${catSlug}"]`);
-    if (sampleCard) {
-      const catName = sampleCard.dataset.category;
-      if (catName) {
-        // Отмечаем нужный чекбокс в сайдбаре
-        document.querySelectorAll('.filter-cb[data-filter="category"]').forEach(cb => {
-          if (cb.value === catName) {
-            cb.checked = true;
-            if (!activeFilters.category.includes(catName)) activeFilters.category.push(catName);
-          }
-        });
-        applyFilters();
-      }
+    applyCatFromHash(hash);
+  }
+
+  // Слушаем hashchange (пользователь уже на странице каталога)
+  window.addEventListener('hashchange', function() {
+    const h = window.location.hash;
+    if (h.startsWith('#search=')) {
+      const q2 = decodeURIComponent(h.slice(8));
+      if (si) { si.value = q2; applyFilters(); }
+    } else if (h.startsWith('#cat=')) {
+      activeFilters.category = [];
+      document.querySelectorAll('.filter-cb[data-filter="category"]').forEach(cb => { cb.checked = false; });
+      applyCatFromHash(h);
+    }
+  });
+});
+
+function applyCatFromHash(hash) {
+  const catSlug = decodeURIComponent(hash.slice(5));
+  const sampleCard = document.querySelector('.product-card[data-cat="' + catSlug + '"]');
+  if (sampleCard) {
+    const catName = sampleCard.dataset.category;
+    if (catName) {
+      document.querySelectorAll('.filter-cb[data-filter="category"]').forEach(cb => {
+        if (cb.value === catName) {
+          cb.checked = true;
+          if (!activeFilters.category.includes(catName)) activeFilters.category.push(catName);
+        }
+      });
+      applyFilters();
     }
   }
-});
+}
 </script>
 {{ end }}

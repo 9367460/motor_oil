@@ -1,26 +1,35 @@
 {{ define "title" }}Корзина — {{ .Site.Title }}{{ end }}
 {{ define "main" }}
-<section class="section">
-  <div class="cart-page">
-    <div class="section-header" style="text-align:left;margin-bottom:28px">
-      <h1 class="section-title">Корзина</h1>
-    </div>
+<div class="cart-page">
+  <h1>Корзина</h1>
 
-    <div id="cart-container">
-      <!-- Filled by cart.js -->
-      <div class="cart-empty">
-        <div class="cart-empty-icon">🛒</div>
-        <h2>Корзина пуста</h2>
-        <p>Добавьте товары из <a href="{{ "products/" | absURL }}">каталога</a></p>
-      </div>
-    </div>
-
-    <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap">
-      <a href="{{ "products/" | absURL }}" style="font-size:14px;color:var(--text-muted)">← Продолжить покупки</a>
-      <button onclick="printInvoice()" style="background:none;border:1px solid var(--border);padding:8px 16px;border-radius:20px;font-size:14px;cursor:pointer;color:var(--text-muted)">
-        🖨️ Распечатать счёт
-      </button>
+  <div id="cart-container">
+    <!-- Заполняется cart.js -->
+    <div class="cart-empty">
+      <div class="cart-empty-icon">🛒</div>
+      <h2>Корзина пуста</h2>
+      <p>Добавьте товары из <a href="{{ "products/" | absURL }}">каталога</a></p>
     </div>
   </div>
-</section>
+
+  <div class="cart-summary" id="cart-summary" style="display:none">
+    <div class="cart-summary-title">Ваш заказ</div>
+    <div class="cart-total">
+      <span>Итого:</span>
+      <span id="cart-total-amount">0 ₽</span>
+    </div>
+    <button class="btn-order" onclick="openOrderModal()">Оформить заказ →</button>
+    <div style="margin-top:12px;font-size:12px;color:var(--text-muted);line-height:1.6">
+      Выставим счёт от ООО «Альянс».<br>
+      Доставка из Европы 7–14 рабочих дней.
+    </div>
+  </div>
+</div>
+
+<div style="max-width:1240px;margin:0 auto;padding:0 16px 40px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+  <a href="{{ "products/" | absURL }}" style="font-size:14px;color:var(--text-muted)">← Продолжить покупки</a>
+  <button onclick="printInvoice()" style="background:none;border:1px solid var(--border);padding:8px 16px;border-radius:var(--radius);font-size:14px;cursor:pointer;color:var(--text-muted);font-family:var(--font)">
+    🖨️ Распечатать счёт
+  </button>
+</div>
 {{ end }}

@@ -1,4 +1,4 @@
 ---
 title: "Контакты"
-layout: "contacts/single"
+type: "contacts"
 ---
