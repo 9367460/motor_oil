@@ -74,20 +74,20 @@ img { max-width: 100%; display: block; }
 
 /* Лого */
 .logo {
-  display: flex; align-items: center; gap: 0;
+  display: flex; align-items: center; gap: 8px;
+  background: var(--orange); border-radius: 4px;
+  padding: 8px 14px 8px 10px;
   flex-shrink: 0; text-decoration: none;
+  transition: background .2s;
 }
+.logo:hover { background: var(--orange-dark); }
 .logo-icon {
-  background: var(--orange);
-  border-radius: 4px 0 0 4px;
   display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0; padding: 8px 10px;
+  flex-shrink: 0;
 }
 .logo-icon svg { display: block; }
 .logo-text {
-  background: var(--orange);
   color: white; font-size: 15px; font-weight: 800; line-height: 1.1;
-  padding: 8px 12px 8px 2px; border-radius: 0 4px 4px 0;
   white-space: nowrap;
 }
 .logo-text span {
@@ -729,7 +729,7 @@ img { max-width: 100%; display: block; }
    ФУТЕР
 ══════════════════════════════════════════════════════════ */
 .site-footer {
-  background: var(--header-bg); color: rgba(255,255,255,0.65);
+  background: #1A1A1A; color: rgba(255,255,255,0.65);
   margin-top: 40px; padding: 40px 16px 20px;
 }
 .footer-inner {
