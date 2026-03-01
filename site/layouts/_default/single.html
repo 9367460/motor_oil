@@ -1,66 +1,121 @@
 {{ define "main" }}
 {{ $p := .Params }}
 
-<!-- Breadcrumb -->
+<!-- Хлебные крошки -->
 <div class="breadcrumb">
   <ol>
     <li><a href="{{ .Site.BaseURL }}">Главная</a></li>
     <li><a href="{{ "products/" | absURL }}">Каталог</a></li>
-    {{ with $p.category }}<li>{{ . }}</li>{{ end }}
+    {{ with $p.category }}<li><a href="{{ "products/" | absURL }}">{{ . }}</a></li>{{ end }}
     <li>{{ .Title }}</li>
   </ol>
 </div>
 
-<div class="product-detail">
+<div class="product-page">
   <div class="product-detail__grid">
 
-    <!-- Gallery -->
+    <!-- Галерея -->
     <div class="product-gallery">
       <div class="product-gallery__main">
         <img id="main-img"
              src="{{ $p.image }}"
              alt="{{ .Title }}"
-             onerror="this.src='/img/no-image.png'">
+             onerror="this.src='https://placehold.co/400x360/F5F5F5/999?text=Нет+фото'">
       </div>
       {{ with $p.images }}{{ if gt (len .) 1 }}
       <div class="product-gallery__thumbs">
         {{ range $i, $img := . }}
         <div class="thumb {{ if eq $i 0 }}active{{ end }}" onclick="switchImg(this, '{{ $img }}')">
-          <img src="{{ $img }}" alt="" loading="lazy" onerror="this.src='/img/no-image.png'">
+          <img src="{{ $img }}" alt="" loading="lazy" onerror="this.style.display='none'">
         </div>
         {{ end }}
       </div>
       {{ end }}{{ end }}
     </div>
 
-    <!-- Info -->
+    <!-- Информация о товаре -->
     <div class="product-info">
-      {{ with $p.category }}<div class="product-info__category">{{ . }}</div>{{ end }}
+
+      <div class="product-info__meta">
+        <span>Бренд: <a href="{{ "products/" | absURL }}">{{ $p.brand }}</a></span>
+        {{ with $p.sku }}<span>Арт.: {{ . }}</span>{{ end }}
+        {{ with $p.viscosity }}<span>Вязкость: <strong>{{ . }}</strong></span>{{ end }}
+      </div>
+
       <h1 class="product-info__title">{{ .Title }}</h1>
-      {{ with $p.brand }}<div class="product-info__brand">Бренд: <strong>{{ . }}</strong></div>{{ end }}
-      {{ with $p.sku }}<div class="product-info__sku">Артикул: {{ . }}</div>{{ end }}
 
-      <div class="product-info__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
-      <div class="product-info__price-note">Цена включает доставку из Европы · НДС не облагается</div>
+      <div class="product-info__avail">В наличии</div>
 
-      <div class="qty-row">
-        <div class="qty-ctrl">
-          <button class="qty-btn" onclick="changeQty(-1)">−</button>
-          <input class="qty-input" id="qty" type="number" value="1" min="1">
-          <button class="qty-btn" onclick="changeQty(1)">+</button>
+      <div class="product-price-block">
+        <div class="product-info__price">{{ printf "%.0f" $p.price_rub }} ₽</div>
+        <div class="product-info__price-note">
+          ≈ {{ printf "%.2f" $p.price_eur }} € · Цена включает доставку из Европы
         </div>
-        <button class="btn-add-cart" onclick="addToCartWithQty()">
-          В корзину →
+
+        <div class="qty-row">
+          <div class="qty-ctrl">
+            <button class="qty-btn" onclick="changeQty(-1)">−</button>
+            <input class="qty-input" id="qty" type="number" value="1" min="1">
+            <button class="qty-btn" onclick="changeQty(1)">+</button>
+          </div>
+          <button class="btn-add-cart" onclick="addToCartWithQty()">
+            В корзину →
+          </button>
+        </div>
+
+        <button class="btn-buy-now" onclick="openOrderModal()">
+          Купить сразу — оформить заказ
         </button>
       </div>
 
-      <button onclick="openOrderModal()" style="width:100%;background:var(--bg);color:var(--primary);border:1px solid var(--primary);padding:12px;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;margin-top:8px;">
-        Купить сразу (оформить заказ)
-      </button>
+      <!-- Характеристики -->
+      <div class="product-specs">
+        <div class="product-specs__title">Характеристики</div>
+        {{ with $p.brand }}
+        <div class="spec-row">
+          <span class="spec-name">Бренд</span>
+          <span class="spec-val">{{ . }}</span>
+        </div>
+        {{ end }}
+        {{ with $p.viscosity }}
+        <div class="spec-row">
+          <span class="spec-name">Вязкость SAE</span>
+          <span class="spec-val">{{ . }}</span>
+        </div>
+        {{ end }}
+        {{ with $p.volume }}
+        <div class="spec-row">
+          <span class="spec-name">Объём / Упаковка</span>
+          <span class="spec-val">{{ . }}</span>
+        </div>
+        {{ end }}
+        {{ with $p.category }}
+        <div class="spec-row">
+          <span class="spec-name">Категория</span>
+          <span class="spec-val">{{ . }}</span>
+        </div>
+        {{ end }}
+        {{ with $p.sku }}
+        <div class="spec-row">
+          <span class="spec-name">Артикул</span>
+          <span class="spec-val">{{ . }}</span>
+        </div>
+        {{ end }}
+        {{ with $p.url_supplier }}
+        <div class="spec-row">
+          <span class="spec-name">На сайте поставщика</span>
+          <span class="spec-val"><a href="{{ . }}" target="_blank" rel="nofollow" style="color:var(--orange)">Открыть →</a></span>
+        </div>
+        {{ end }}
+      </div>
 
       {{ with .Content }}
-      <div class="product-info__desc">{{ . }}</div>
+      <div class="product-info__desc">
+        <strong>Описание</strong>
+        {{ . }}
+      </div>
       {{ end }}
+
     </div>
   </div>
 </div>
@@ -71,17 +126,17 @@
 {{ $p := .Params }}
 <script>
 const product = {
-  id: {{ $p.sku | jsonify }},
-  title: {{ .Title | jsonify }},
-  category: {{ $p.category | jsonify }},
+  id:        {{ $p.sku | jsonify }},
+  title:     {{ .Title | jsonify }},
+  category:  {{ $p.category | jsonify }},
   price_rub: {{ $p.price_rub }},
-  image: {{ $p.image | jsonify }},
-  slug: {{ .RelPermalink | jsonify }}
+  image:     {{ $p.image | jsonify }},
+  slug:      {{ .RelPermalink | jsonify }}
 };
 
 function changeQty(delta) {
   const input = document.getElementById('qty');
-  input.value = Math.max(1, parseInt(input.value||1) + delta);
+  input.value = Math.max(1, parseInt(input.value || 1) + delta);
 }
 
 function addToCartWithQty() {
@@ -95,9 +150,9 @@ function switchImg(thumb, src) {
   thumb.classList.add('active');
 }
 
-// Pre-fill order modal with this product
 document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('qty').addEventListener('change', function() {
+  const qtyInput = document.getElementById('qty');
+  if (qtyInput) qtyInput.addEventListener('change', function() {
     if (parseInt(this.value) < 1) this.value = 1;
   });
 });

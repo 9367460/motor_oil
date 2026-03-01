@@ -60,13 +60,13 @@ const Cart = {
   },
 
   updateUI() {
-    // Update cart count badge
-    const badge = document.querySelector('.cart-count');
+    // Update cart count badge (both the header badge and any .cart-count elements)
     const count = this.getCount();
-    if (badge) {
+    document.querySelectorAll('.cart-count').forEach(badge => {
       badge.textContent = count;
-      badge.style.display = count > 0 ? 'flex' : 'none';
-    }
+      if (count > 0) badge.classList.add('visible');
+      else badge.classList.remove('visible');
+    });
     // Re-render cart page if open
     if (document.getElementById('cart-container')) {
       renderCartPage();
