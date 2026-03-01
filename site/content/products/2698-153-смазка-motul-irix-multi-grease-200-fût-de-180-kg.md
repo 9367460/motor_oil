@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Бочка 180 кг"
 price_eur: 1465.0
-price_rub: 401253.12
+price_rub: 423223.12
 image: "https://www.racinglubes.fr/7596-large_default/graisse-lubrifiant-graisse-motul-irix-multi-grease-200.jpg"
 images:
   - "https://www.racinglubes.fr/7596-large_default/graisse-lubrifiant-graisse-motul-irix-multi-grease-200.jpg"

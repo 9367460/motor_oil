@@ -8,7 +8,7 @@ cat_slug: "produit-atelier"
 viscosity: ""
 volume: "Комплект 453 г"
 price_eur: 124.99
-price_rub: 34238.45
+price_rub: 36108.3
 image: "https://www.racinglubes.fr/9593-large_default/produit-atelier-resine-loctite-ea-3478.jpg"
 images:
   - "https://www.racinglubes.fr/9593-large_default/produit-atelier-resine-loctite-ea-3478.jpg"

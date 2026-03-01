@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "75W80"
 volume: "209L"
 price_eur: 1708.0
-price_rub: 467808.27
+price_rub: 493423.27
 image: "https://www.racinglubes.fr/12107-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-shell-spirax-s6-gxme-75w80.jpg"
 images:
   - "https://www.racinglubes.fr/12107-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-shell-spirax-s6-gxme-75w80.jpg"

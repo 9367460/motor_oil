@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: ""
 volume: "1L"
 price_eur: 17.58
-price_rub: 4819.98
+price_rub: 5078.68
 image: "https://www.racinglubes.fr/7714-large_default/huile-moteur-vehicules-anciens-huile-moteur-motorex-evotec-sae-50.jpg"
 images:
   - "https://www.racinglubes.fr/7714-large_default/huile-moteur-vehicules-anciens-huile-moteur-motorex-evotec-sae-50.jpg"

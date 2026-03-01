@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "10W50"
 volume: "1L"
 price_eur: 19.11
-price_rub: 5239.03
+price_rub: 5520.68
 image: "https://www.racinglubes.fr/11675-large_default/huile-moteur-vehicules-anciens-huile-moteur-porsche-classic-motoroil-10w50.jpg"
 images:
   - "https://www.racinglubes.fr/11675-large_default/huile-moteur-vehicules-anciens-huile-moteur-porsche-classic-motoroil-10w50.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "1L"
 price_eur: 11.04
-price_rub: 3028.74
+price_rub: 3189.34
 image: "https://www.racinglubes.fr/19313-large_default/liquide-de-freinage-liquide-de-frein-castrol-brake-fluid-dot-4.jpg"
 images:
   - "https://www.racinglubes.fr/19313-large_default/liquide-de-freinage-liquide-de-frein-castrol-brake-fluid-dot-4.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--30c"
 viscosity: ""
 volume: "5L"
 price_eur: 27.79
-price_rub: 7616.39
+price_rub: 8028.24
 image: "https://www.racinglubes.fr/15929-large_default/liquide-de-refroidissement-motul-auto-cool-g12-evo-30c.jpg"
 images:
   - "https://www.racinglubes.fr/15929-large_default/liquide-de-refroidissement-motul-auto-cool-g12-evo-30c.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-véhicules-anciens"
 viscosity: ""
 volume: "5L"
 price_eur: 56.01
-price_rub: 15345.55
+price_rub: 16180.7
 image: "https://www.racinglubes.fr/20911-large_default/liquide-de-refroidissement-hawk-classic-cool-180.jpg"
 images:
   - "https://www.racinglubes.fr/20911-large_default/liquide-de-refroidissement-hawk-classic-cool-180.jpg"

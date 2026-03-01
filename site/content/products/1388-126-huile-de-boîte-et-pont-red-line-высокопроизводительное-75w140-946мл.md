@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "75W140"
 volume: "946мл"
 price_eur: 25.75
-price_rub: 7057.65
+price_rub: 7438.9
 image: "https://www.racinglubes.fr/11192-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-high-performance-75w140.jpg"
 images:
   - "https://www.racinglubes.fr/11192-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-high-performance-75w140.jpg"

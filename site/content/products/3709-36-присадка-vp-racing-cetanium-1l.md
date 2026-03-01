@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "1L"
 price_eur: 27.19
-price_rub: 7452.06
+price_rub: 7854.91
 image: "https://www.racinglubes.fr/9636-large_default/additifs-competition-additif-vp-racing-cetanium.jpg"
 images:
   - "https://www.racinglubes.fr/9636-large_default/additifs-competition-additif-vp-racing-cetanium.jpg"

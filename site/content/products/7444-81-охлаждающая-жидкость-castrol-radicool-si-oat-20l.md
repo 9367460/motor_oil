@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "20L"
 price_eur: 157.25
-price_rub: 43074.12
+price_rub: 45427.87
 image: "https://www.racinglubes.fr/18958-large_default/liquide-de-refroidissement-castrol-radicool-si-oat.jpg"
 images:
   - "https://www.racinglubes.fr/18958-large_default/liquide-de-refroidissement-castrol-radicool-si-oat.jpg"

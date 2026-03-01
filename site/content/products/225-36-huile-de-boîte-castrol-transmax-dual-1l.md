@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 15.46
-price_rub: 4239.33
+price_rub: 4466.23
 image: "https://www.racinglubes.fr/19811-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-castrol-transmax-dual.jpg"
 images:
   - "https://www.racinglubes.fr/19811-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-castrol-transmax-dual.jpg"

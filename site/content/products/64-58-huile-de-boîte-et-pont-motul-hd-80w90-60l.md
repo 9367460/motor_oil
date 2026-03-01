@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "80W90"
 volume: "60L"
 price_eur: 401.0
-price_rub: 109834.69
+price_rub: 115844.69
 image: "https://www.racinglubes.fr/10455-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-hd-80w90.jpg"
 images:
   - "https://www.racinglubes.fr/10455-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-hd-80w90.jpg"

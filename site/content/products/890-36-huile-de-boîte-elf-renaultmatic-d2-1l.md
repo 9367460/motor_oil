@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 10.02
-price_rub: 2749.37
+price_rub: 2894.67
 image: "https://www.racinglubes.fr/10882-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-renaultmatic-d2.jpg"
 images:
   - "https://www.racinglubes.fr/10882-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-renaultmatic-d2.jpg"

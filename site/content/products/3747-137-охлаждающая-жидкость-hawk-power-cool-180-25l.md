@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--40c"
 viscosity: ""
 volume: "25L"
 price_eur: 254.15
-price_rub: 69614.02
+price_rub: 73421.27
 image: "https://www.racinglubes.fr/20913-large_default/liquide-de-refroidissement-hawk-power-cool-180.jpg"
 images:
   - "https://www.racinglubes.fr/20913-large_default/liquide-de-refroidissement-hawk-power-cool-180.jpg"

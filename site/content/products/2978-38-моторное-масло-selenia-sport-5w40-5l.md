@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "5W40"
 volume: "5L"
 price_eur: 59.99
-price_rub: 16435.63
+price_rub: 17330.48
 image: "https://www.racinglubes.fr/13948-large_default/huile-moteur-competition-huile-moteur-selenia-sport-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/13948-large_default/huile-moteur-competition-huile-moteur-selenia-sport-5w40.jpg"

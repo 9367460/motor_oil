@@ -8,7 +8,7 @@ cat_slug: "gazole"
 viscosity: ""
 volume: "Флакон 250 мл"
 price_eur: 15.49
-price_rub: 4247.55
+price_rub: 4474.9
 image: "https://www.racinglubes.fr/7428-large_default/gazole-bardahl-anti-bacterien-gazole.jpg"
 images:
   - "https://www.racinglubes.fr/7428-large_default/gazole-bardahl-anti-bacterien-gazole.jpg"

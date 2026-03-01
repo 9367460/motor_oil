@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "75W90"
 volume: "3.785L"
 price_eur: 95.1
-price_rub: 26051.89
+price_rub: 27473.39
 image: "https://www.racinglubes.fr/11167-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-mt-90-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/11167-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-mt-90-75w90.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "208L"
 price_eur: 1149.0
-price_rub: 314704.04
+price_rub: 331934.04
 image: "https://www.racinglubes.fr/10450-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-allgear-epl-90.jpg"
 images:
   - "https://www.racinglubes.fr/10450-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-allgear-epl-90.jpg"

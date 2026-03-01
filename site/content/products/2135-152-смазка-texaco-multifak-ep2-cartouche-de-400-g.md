@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "Картридж 400 г"
 price_eur: 4.85
-price_rub: 1333.36
+price_rub: 1401.11
 image: "https://www.racinglubes.fr/4610-large_default/graisse-texaco-multifak-ep2.jpg"
 images:
   - "https://www.racinglubes.fr/4610-large_default/graisse-texaco-multifak-ep2.jpg"

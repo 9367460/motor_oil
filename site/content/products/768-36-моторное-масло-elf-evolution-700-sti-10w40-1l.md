@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "10W40"
 volume: "1L"
 price_eur: 7.22
-price_rub: 1982.48
+price_rub: 2085.78
 image: "https://www.racinglubes.fr/11897-large_default/huile-moteur-huile-moteur-elf-evolution-700-sti-10w40.jpg"
 images:
   - "https://www.racinglubes.fr/11897-large_default/huile-moteur-huile-moteur-elf-evolution-700-sti-10w40.jpg"

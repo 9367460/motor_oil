@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "5L"
 price_eur: 55.24
-price_rub: 15134.66
+price_rub: 15958.26
 image: "https://www.racinglubes.fr/9984-large_default/degraissant-nettoyant-belgom-degraissant-moteur.jpg"
 images:
   - "https://www.racinglubes.fr/9984-large_default/degraissant-nettoyant-belgom-degraissant-moteur.jpg"

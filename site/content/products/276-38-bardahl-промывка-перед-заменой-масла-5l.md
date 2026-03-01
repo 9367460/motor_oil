@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "5L"
 price_eur: 69.0
-price_rub: 18903.38
+price_rub: 19933.38
 image: "https://www.racinglubes.fr/8295-large_default/huile-bardahl-nettoyant-previdange.jpg"
 images:
   - "https://www.racinglubes.fr/8295-large_default/huile-bardahl-nettoyant-previdange.jpg"

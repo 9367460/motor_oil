@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "400мл"
 price_eur: 40.39
-price_rub: 11067.4
+price_rub: 11668.25
 image: "https://www.racinglubes.fr/8294-large_default/huile-bardahl-full-metal.jpg"
 images:
   - "https://www.racinglubes.fr/8294-large_default/huile-bardahl-full-metal.jpg"

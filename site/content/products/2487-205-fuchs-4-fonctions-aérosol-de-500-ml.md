@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "Аэрозоль 500 мл"
 price_eur: 7.48
-price_rub: 2053.69
+price_rub: 2160.89
 image: "https://www.racinglubes.fr/9743-large_default/degrippant-graissage-degraissant-fuchs-4-fonctions.jpg"
 images:
   - "https://www.racinglubes.fr/9743-large_default/degrippant-graissage-degraissant-fuchs-4-fonctions.jpg"

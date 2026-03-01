@@ -262,7 +262,8 @@ def get_cbr_rate():
 
 
 def compute_price_rub(eur, rate):
-    return round(eur * rate * 3 + 5, 2)
+    # price_eur × 3 (наценка 200%) × (курс ЦБ + 5)
+    return round(eur * 3 * (rate + 5), 2)
 
 
 def slugify(text):

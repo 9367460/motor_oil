@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "473мл"
 price_eur: 16.15
-price_rub: 4428.32
+price_rub: 4665.57
 image: "https://www.racinglubes.fr/9637-large_default/additifs-competition-additif-vp-racing-cool-down.jpg"
 images:
   - "https://www.racinglubes.fr/9637-large_default/additifs-competition-additif-vp-racing-cool-down.jpg"

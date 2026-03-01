@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "75W90"
 volume: "20L"
 price_eur: 254.15
-price_rub: 69614.02
+price_rub: 73421.27
 image: "https://www.racinglubes.fr/4837-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-mobil-mobilube-ptx-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/4837-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-mobil-mobilube-ptx-75w90.jpg"

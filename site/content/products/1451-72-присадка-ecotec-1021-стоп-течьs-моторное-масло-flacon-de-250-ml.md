@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 250 мл"
 price_eur: 19.03
-price_rub: 5217.12
+price_rub: 5497.57
 image: "https://www.racinglubes.fr/10932-large_default/huile-additif-ecotec-1021-stop-fuites-huile-moteur.jpg"
 images:
   - "https://www.racinglubes.fr/10932-large_default/huile-additif-ecotec-1021-stop-fuites-huile-moteur.jpg"

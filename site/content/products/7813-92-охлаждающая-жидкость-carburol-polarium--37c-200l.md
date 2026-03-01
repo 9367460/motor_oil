@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--30c"
 viscosity: ""
 volume: "200L"
 price_eur: 312.0
-price_rub: 85458.52
+price_rub: 90133.52
 image: "https://www.racinglubes.fr/22141-large_default/liquide-de-refroidissement-carburol-polarium-37c.jpg"
 images:
   - "https://www.racinglubes.fr/22141-large_default/liquide-de-refroidissement-carburol-polarium-37c.jpg"

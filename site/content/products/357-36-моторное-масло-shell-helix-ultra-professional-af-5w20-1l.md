@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W20"
 volume: "1L"
 price_eur: 10.96
-price_rub: 3006.83
+price_rub: 3166.23
 image: "https://www.racinglubes.fr/12045-large_default/huile-moteur-huile-moteur-shell-helix-ultra-professional-af-5w20.jpg"
 images:
   - "https://www.racinglubes.fr/12045-large_default/huile-moteur-huile-moteur-shell-helix-ultra-professional-af-5w20.jpg"

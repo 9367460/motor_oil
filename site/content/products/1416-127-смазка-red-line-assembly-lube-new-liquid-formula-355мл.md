@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "355мл"
 price_eur: 19.38
-price_rub: 5312.98
+price_rub: 5598.68
 image: "https://www.racinglubes.fr/11219-large_default/degrippant-graissage-degraissant-graisse-red-line-assembly-lube-new-liquid-formula.jpg"
 images:
   - "https://www.racinglubes.fr/11219-large_default/degrippant-graissage-degraissant-graisse-red-line-assembly-lube-new-liquid-formula.jpg"

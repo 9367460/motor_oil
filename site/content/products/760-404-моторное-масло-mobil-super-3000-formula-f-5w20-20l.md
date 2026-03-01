@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W20"
 volume: "20L"
 price_eur: 130.05
-price_rub: 35624.33
+price_rub: 37570.08
 image: "https://www.racinglubes.fr/20987-large_default/huile-moteur-huile-moteur-mobil-super-3000-formula-f-5w20.jpg"
 images:
   - "https://www.racinglubes.fr/20987-large_default/huile-moteur-huile-moteur-mobil-super-3000-formula-f-5w20.jpg"

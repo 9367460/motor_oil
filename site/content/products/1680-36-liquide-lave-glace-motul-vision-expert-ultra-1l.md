@@ -8,7 +8,7 @@ cat_slug: "lave-glace-et-dégivrant"
 viscosity: ""
 volume: "1L"
 price_eur: 4.39
-price_rub: 1207.37
+price_rub: 1268.22
 image: "https://www.racinglubes.fr/14888-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-expert-ultra.jpg"
 images:
   - "https://www.racinglubes.fr/14888-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-expert-ultra.jpg"

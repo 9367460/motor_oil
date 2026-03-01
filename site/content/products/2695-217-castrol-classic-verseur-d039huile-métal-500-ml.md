@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "500мл"
 price_eur: 13.6
-price_rub: 3729.9
+price_rub: 3928.9
 image: "https://www.racinglubes.fr/6638-large_default/materiel-de-garage-et-outillage-castrol-classic-verseur-dhuile-metal.jpg"
 images:
   - "https://www.racinglubes.fr/6638-large_default/materiel-de-garage-et-outillage-castrol-classic-verseur-dhuile-metal.jpg"

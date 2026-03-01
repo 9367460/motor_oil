@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W40"
 volume: "55L"
 price_eur: 378.99
-price_rub: 103806.38
+price_rub: 109486.23
 image: "https://www.racinglubes.fr/14201-large_default/huile-moteur-huile-moteur-shell-helix-ultra-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/14201-large_default/huile-moteur-huile-moteur-shell-helix-ultra-5w40.jpg"

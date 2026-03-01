@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "454мл"
 price_eur: 13.6
-price_rub: 3729.9
+price_rub: 3928.9
 image: "https://www.racinglubes.fr/9640-large_default/additifs-competition-additif-vp-racing-power-boost.jpg"
 images:
   - "https://www.racinglubes.fr/9640-large_default/additifs-competition-additif-vp-racing-power-boost.jpg"

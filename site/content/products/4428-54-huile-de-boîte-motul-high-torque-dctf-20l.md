@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "20L"
 price_eur: 275.0
-price_rub: 75324.61
+price_rub: 79444.61
 image: "https://www.racinglubes.fr/12335-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-motul-high-torque-dctf.jpg"
 images:
   - "https://www.racinglubes.fr/12335-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-motul-high-torque-dctf.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "946мл"
 price_eur: 26.77
-price_rub: 7337.02
+price_rub: 7733.57
 image: "https://www.racinglubes.fr/11195-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-superlight-shockproof-gear-oil.jpg"
 images:
   - "https://www.racinglubes.fr/11195-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-superlight-shockproof-gear-oil.jpg"

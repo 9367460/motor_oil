@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Картридж 300 мл"
 price_eur: 59.8
-price_rub: 16383.59
+price_rub: 17275.59
 image: "https://www.racinglubes.fr/11391-large_default/pate-a-joint-et-mastic-silicone-loctite-si-5920.jpg"
 images:
   - "https://www.racinglubes.fr/11391-large_default/pate-a-joint-et-mastic-silicone-loctite-si-5920.jpg"

@@ -8,7 +8,7 @@ cat_slug: "dégrippant"
 viscosity: ""
 volume: "400мл"
 price_eur: 25.5
-price_rub: 6989.18
+price_rub: 7366.68
 image: "https://www.racinglubes.fr/11467-large_default/degrippant-bardahl-degrippant-a-froid-45c.jpg"
 images:
   - "https://www.racinglubes.fr/11467-large_default/degrippant-bardahl-degrippant-a-froid-45c.jpg"

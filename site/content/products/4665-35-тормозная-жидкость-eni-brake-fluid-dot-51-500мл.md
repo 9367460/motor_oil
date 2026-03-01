@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "500мл"
 price_eur: 7.22
-price_rub: 1982.48
+price_rub: 2085.78
 image: "https://www.racinglubes.fr/13567-large_default/liquide-de-freinage-liquide-de-frein-eni-brake-fluid-dot-51.jpg"
 images:
   - "https://www.racinglubes.fr/13567-large_default/liquide-de-freinage-liquide-de-frein-eni-brake-fluid-dot-51.jpg"

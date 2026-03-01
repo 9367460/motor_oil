@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 114 г"
 price_eur: 32.59
-price_rub: 8931.06
+price_rub: 9414.91
 image: "https://www.racinglubes.fr/10225-large_default/pate-a-joint-et-mastic-mastic-loctite-ea-3463.jpg"
 images:
   - "https://www.racinglubes.fr/10225-large_default/pate-a-joint-et-mastic-mastic-loctite-ea-3463.jpg"

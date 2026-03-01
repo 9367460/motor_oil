@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W30"
 volume: "5L"
 price_eur: 36.2
-price_rub: 9919.8
+price_rub: 10457.8
 image: "https://www.racinglubes.fr/10852-large_default/huile-moteur-huile-moteur-elf-evolution-full-tech-fe-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/10852-large_default/huile-moteur-huile-moteur-elf-evolution-full-tech-fe-5w30.jpg"

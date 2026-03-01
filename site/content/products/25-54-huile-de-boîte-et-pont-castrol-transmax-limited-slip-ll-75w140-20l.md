@@ -8,7 +8,7 @@ cat_slug: "huiles-à-engrenages"
 viscosity: "75W140"
 volume: "20L"
 price_eur: 231.0
-price_rub: 63273.47
+price_rub: 66733.47
 image: "https://www.racinglubes.fr/19817-large_default/huiles-a-engrenages-huile-de-boite-et-pont-castrol-transmax-limited-slip-ll-75w140.jpg"
 images:
   - "https://www.racinglubes.fr/19817-large_default/huiles-a-engrenages-huile-de-boite-et-pont-castrol-transmax-limited-slip-ll-75w140.jpg"

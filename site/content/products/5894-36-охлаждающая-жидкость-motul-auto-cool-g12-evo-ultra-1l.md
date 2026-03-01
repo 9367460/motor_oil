@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-concentré"
 viscosity: ""
 volume: "1L"
 price_eur: 5.89
-price_rub: 1618.21
+price_rub: 1701.56
 image: "https://www.racinglubes.fr/15930-large_default/liquide-de-refroidissement-motul-auto-cool-g12-evo-ultra.jpg"
 images:
   - "https://www.racinglubes.fr/15930-large_default/liquide-de-refroidissement-motul-auto-cool-g12-evo-ultra.jpg"

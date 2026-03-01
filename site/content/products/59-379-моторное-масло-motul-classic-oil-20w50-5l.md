@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "20W50"
 volume: "5L"
 price_eur: 49.99
-price_rub: 13696.74
+price_rub: 14441.59
 image: "https://www.racinglubes.fr/3792-large_default/vehicules-anciens-racing-lubes-vintage-huile-moteur-motul-classic-oil-20w50.jpg"
 images:
   - "https://www.racinglubes.fr/3792-large_default/vehicules-anciens-racing-lubes-vintage-huile-moteur-motul-classic-oil-20w50.jpg"

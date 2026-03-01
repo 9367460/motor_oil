@@ -8,7 +8,7 @@ cat_slug: "compétition"
 viscosity: "0W10"
 volume: "3.785L"
 price_eur: 83.2
-price_rub: 22792.61
+price_rub: 24035.61
 image: "https://www.racinglubes.fr/11244-large_default/huile-moteur-red-line-10wt-race-oil-0w10-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/11244-large_default/huile-moteur-red-line-10wt-race-oil-0w10-destockage.jpg"

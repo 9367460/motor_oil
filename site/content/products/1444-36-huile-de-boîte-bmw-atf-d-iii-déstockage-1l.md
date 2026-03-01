@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "1L"
 price_eur: 30.51
-price_rub: 8361.37
+price_rub: 8814.02
 image: "https://www.racinglubes.fr/6982-large_default/huile-de-boite-bmw-atf-d-iii-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/6982-large_default/huile-de-boite-bmw-atf-d-iii-destockage.jpg"

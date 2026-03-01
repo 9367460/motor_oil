@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "15W50"
 volume: "2L"
 price_eur: 27.61
-price_rub: 7567.09
+price_rub: 7976.24
 image: "https://www.racinglubes.fr/3190-large_default/huile-moteur-huile-moteur-yacco-galaxie-15w50.jpg"
 images:
   - "https://www.racinglubes.fr/3190-large_default/huile-moteur-huile-moteur-yacco-galaxie-15w50.jpg"

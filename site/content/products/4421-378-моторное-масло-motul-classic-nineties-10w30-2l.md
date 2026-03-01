@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "10W30"
 volume: "2L"
 price_eur: 22.9
-price_rub: 6277.07
+price_rub: 6615.57
 image: "https://www.racinglubes.fr/16641-large_default/huile-moteur-motul-classic-nineties-10w30.jpg"
 images:
   - "https://www.racinglubes.fr/16641-large_default/huile-moteur-motul-classic-nineties-10w30.jpg"

@@ -8,7 +8,7 @@ cat_slug: "lave-glace-et-dégivrant"
 viscosity: ""
 volume: "5L"
 price_eur: 6.62
-price_rub: 1818.15
+price_rub: 1912.45
 image: "https://www.racinglubes.fr/20257-large_default/lave-glace-carburol-visium-10c.jpg"
 images:
   - "https://www.racinglubes.fr/20257-large_default/lave-glace-carburol-visium-10c.jpg"

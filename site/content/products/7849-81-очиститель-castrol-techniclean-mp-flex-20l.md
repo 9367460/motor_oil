@@ -8,7 +8,7 @@ cat_slug: "produit-atelier"
 viscosity: ""
 volume: "20L"
 price_eur: 157.25
-price_rub: 43074.12
+price_rub: 45427.87
 image: "https://www.racinglubes.fr/20289-large_default/nettoyant-castrol-techniclean-mp-flex.jpg"
 images:
   - "https://www.racinglubes.fr/20289-large_default/nettoyant-castrol-techniclean-mp-flex.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "10W40"
 volume: "1L"
 price_eur: 7.14
-price_rub: 1960.57
+price_rub: 2062.67
 image: "https://www.racinglubes.fr/14579-large_default/huile-moteur-huile-moteur-mobil-super-2000-formula-p-10w40.jpg"
 images:
   - "https://www.racinglubes.fr/14579-large_default/huile-moteur-huile-moteur-mobil-super-2000-formula-p-10w40.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "1L"
 price_eur: 8.4
-price_rub: 2305.67
+price_rub: 2426.67
 image: "https://www.racinglubes.fr/13850-large_default/liquide-de-refroidissement-fuchs-maintain-fricofin-v.jpg"
 images:
   - "https://www.racinglubes.fr/13850-large_default/liquide-de-refroidissement-fuchs-maintain-fricofin-v.jpg"

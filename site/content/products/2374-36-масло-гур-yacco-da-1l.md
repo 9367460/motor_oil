@@ -8,7 +8,7 @@ cat_slug: "freinage---direction-assistée"
 viscosity: ""
 volume: "1L"
 price_eur: 10.19
-price_rub: 2795.93
+price_rub: 2943.78
 image: "https://www.racinglubes.fr/6631-large_default/freinage-direction-assistee-huile-direction-assistee-yacco-da.jpg"
 images:
   - "https://www.racinglubes.fr/6631-large_default/freinage-direction-assistee-huile-direction-assistee-yacco-da.jpg"

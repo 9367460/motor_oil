@@ -8,7 +8,7 @@ cat_slug: "produit-atelier"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 16.09
-price_rub: 4411.88
+price_rub: 4648.23
 image: "https://www.racinglubes.fr/9596-large_default/produit-atelier-lubrifiant-loctite-lb-8005.jpg"
 images:
   - "https://www.racinglubes.fr/9596-large_default/produit-atelier-lubrifiant-loctite-lb-8005.jpg"

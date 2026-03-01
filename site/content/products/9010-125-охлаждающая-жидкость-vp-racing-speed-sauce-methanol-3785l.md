@@ -8,7 +8,7 @@ cat_slug: "additifs-carburant"
 viscosity: ""
 volume: "3.785L"
 price_eur: 25.41
-price_rub: 6964.53
+price_rub: 7340.68
 image: "https://www.racinglubes.fr/21667-large_default/liquide-de-refroidissement-vp-racing-speed-sauce-methanol.jpg"
 images:
   - "https://www.racinglubes.fr/21667-large_default/liquide-de-refroidissement-vp-racing-speed-sauce-methanol.jpg"

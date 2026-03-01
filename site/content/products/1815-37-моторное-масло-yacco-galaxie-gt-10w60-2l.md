@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "2L"
 price_eur: 28.04
-price_rub: 7684.86
+price_rub: 8100.46
 image: "https://www.racinglubes.fr/4069-large_default/huile-moteur-competition-huile-moteur-yacco-galaxie-gt-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/4069-large_default/huile-moteur-competition-huile-moteur-yacco-galaxie-gt-10w60.jpg"

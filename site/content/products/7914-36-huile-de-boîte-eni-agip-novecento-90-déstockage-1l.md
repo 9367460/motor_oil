@@ -8,7 +8,7 @@ cat_slug: "huile-boîte-de-vitesse-véhicules-anciens"
 viscosity: ""
 volume: "1L"
 price_eur: 11.91
-price_rub: 3267.02
+price_rub: 3440.67
 image: "https://www.racinglubes.fr/20735-large_default/huile-de-boite-eni-agip-novecento-90-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/20735-large_default/huile-de-boite-eni-agip-novecento-90-destockage.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "20W50"
 volume: "3.785L"
 price_eur: 71.99
-price_rub: 19722.31
+price_rub: 20797.16
 image: "https://www.racinglubes.fr/11190-large_default/huile-moteur-red-line-high-performance-20w50-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/11190-large_default/huile-moteur-red-line-high-performance-20w50-destockage.jpg"

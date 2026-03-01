@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Бочонок 50 кг"
 price_eur: 640.0
-price_rub: 175294.28
+price_rub: 184889.28
 image: "https://www.racinglubes.fr/6612-large_default/graisse-lubrifiant-graisse-motul-irix-tech-grease-300.jpg"
 images:
   - "https://www.racinglubes.fr/6612-large_default/graisse-lubrifiant-graisse-motul-irix-tech-grease-300.jpg"

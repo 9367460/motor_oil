@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "1L"
 price_eur: 39.89
-price_rub: 10930.45
+price_rub: 11523.8
 image: "https://www.racinglubes.fr/7262-large_default/essence-bardahl-nettoyant-injecteurs-essence.jpg"
 images:
   - "https://www.racinglubes.fr/7262-large_default/essence-bardahl-nettoyant-injecteurs-essence.jpg"

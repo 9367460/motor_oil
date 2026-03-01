@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "250мл"
 price_eur: 3.14
-price_rub: 865.01
+price_rub: 907.11
 image: "https://www.racinglubes.fr/19726-large_default/liquide-de-freinage-liquide-de-frein-eurol-brake-fluid-dot-3.jpg"
 images:
   - "https://www.racinglubes.fr/19726-large_default/liquide-de-freinage-liquide-de-frein-eurol-brake-fluid-dot-3.jpg"

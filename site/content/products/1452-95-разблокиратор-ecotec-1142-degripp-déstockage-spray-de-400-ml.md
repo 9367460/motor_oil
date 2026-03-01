@@ -8,7 +8,7 @@ cat_slug: "dégrippant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 11.91
-price_rub: 3267.02
+price_rub: 3440.67
 image: "https://www.racinglubes.fr/10933-large_default/degrippant-ecotec-1142-degripp-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/10933-large_default/degrippant-ecotec-1142-degripp-destockage.jpg"

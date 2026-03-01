@@ -8,7 +8,7 @@ cat_slug: "adblue"
 viscosity: ""
 volume: "10L"
 price_eur: 33.06
-price_rub: 9059.79
+price_rub: 9550.69
 image: "https://www.racinglubes.fr/15060-large_default/adblue-mercedes-benz.jpg"
 images:
   - "https://www.racinglubes.fr/15060-large_default/adblue-mercedes-benz.jpg"

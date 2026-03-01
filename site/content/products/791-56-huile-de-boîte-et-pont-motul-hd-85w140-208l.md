@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "85W140"
 volume: "208L"
 price_eur: 1407.99
-price_rub: 385638.68
+price_rub: 406753.53
 image: "https://www.racinglubes.fr/10458-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-et-pont-motul-hd-85w140.jpg"
 images:
   - "https://www.racinglubes.fr/10458-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-et-pont-motul-hd-85w140.jpg"

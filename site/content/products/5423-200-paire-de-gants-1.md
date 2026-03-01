@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 7.0
-price_rub: 1922.23
+price_rub: 2022.23
 image: "https://www.racinglubes.fr/15350-large_default/product.jpg"
 images:
   - "https://www.racinglubes.fr/15350-large_default/product.jpg"

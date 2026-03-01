@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Бочонок 50 кг"
 price_eur: 425.0
-price_rub: 116408.04
+price_rub: 122778.04
 image: "https://www.racinglubes.fr/12133-large_default/graisse-lubrifiant-graisse-shell-gadus-s2-v220-ac2.jpg"
 images:
   - "https://www.racinglubes.fr/12133-large_default/graisse-lubrifiant-graisse-shell-gadus-s2-v220-ac2.jpg"

@@ -8,7 +8,7 @@ cat_slug: "radiateur-et-système-de-refroidissement"
 viscosity: ""
 volume: "Флакон 500 мл"
 price_eur: 22.9
-price_rub: 6277.07
+price_rub: 6615.57
 image: "https://www.racinglubes.fr/8476-large_default/radiateur-et-systeme-de-refroidissement-bardahl-deshuilant-radiateur.jpg"
 images:
   - "https://www.racinglubes.fr/8476-large_default/radiateur-et-systeme-de-refroidissement-bardahl-deshuilant-radiateur.jpg"

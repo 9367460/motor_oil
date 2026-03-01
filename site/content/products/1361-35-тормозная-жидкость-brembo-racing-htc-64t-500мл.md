@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage-compétition"
 viscosity: ""
 volume: "500мл"
 price_eur: 31.27
-price_rub: 8569.52
+price_rub: 9033.57
 image: "https://www.racinglubes.fr/14157-large_default/liquide-de-freinage-competition-liquide-de-frein-brembo-racing-htc-64t.jpg"
 images:
   - "https://www.racinglubes.fr/14157-large_default/liquide-de-freinage-competition-liquide-de-frein-brembo-racing-htc-64t.jpg"

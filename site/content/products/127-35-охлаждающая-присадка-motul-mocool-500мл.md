@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-compétition"
 viscosity: ""
 volume: "500мл"
 price_eur: 18.4
-price_rub: 5044.57
+price_rub: 5315.57
 image: "https://www.racinglubes.fr/12194-large_default/liquide-de-refroidissement-competition-additif-de-refroidissement-motul-mocool.jpg"
 images:
   - "https://www.racinglubes.fr/12194-large_default/liquide-de-refroidissement-competition-additif-de-refroidissement-motul-mocool.jpg"

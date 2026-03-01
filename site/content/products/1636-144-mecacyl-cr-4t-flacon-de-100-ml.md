@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 100 мл"
 price_eur: 19.72
-price_rub: 5406.1
+price_rub: 5696.9
 image: "https://www.racinglubes.fr/14132-large_default/huile-mecacyl-cr-4t.jpg"
 images:
   - "https://www.racinglubes.fr/14132-large_default/huile-mecacyl-cr-4t.jpg"

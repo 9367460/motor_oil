@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "500мл"
 price_eur: 10.95
-price_rub: 3004.09
+price_rub: 3163.34
 image: "https://www.racinglubes.fr/13210-large_default/materiel-de-garage-et-outillage-bidon-a-pompe-castrol-classic-pump-oil-can.jpg"
 images:
   - "https://www.racinglubes.fr/13210-large_default/materiel-de-garage-et-outillage-bidon-a-pompe-castrol-classic-pump-oil-can.jpg"

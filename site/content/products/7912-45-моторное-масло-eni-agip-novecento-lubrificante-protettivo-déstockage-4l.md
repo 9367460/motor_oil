@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: ""
 volume: "4L"
 price_eur: 40.42
-price_rub: 11075.61
+price_rub: 11676.91
 image: "https://www.racinglubes.fr/20732-large_default/huile-moteur-eni-agip-novecento-lubrificante-protettivo-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/20732-large_default/huile-moteur-eni-agip-novecento-lubrificante-protettivo-destockage.jpg"

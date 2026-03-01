@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "1L"
 price_eur: 239.0
-price_rub: 65464.59
+price_rub: 69044.59
 image: "https://www.racinglubes.fr/3587-large_default/additifs-competition-bardahl-star-formula-bsf-octane-booster.jpg"
 images:
   - "https://www.racinglubes.fr/3587-large_default/additifs-competition-bardahl-star-formula-bsf-octane-booster.jpg"

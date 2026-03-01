@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Бочонок 50 кг"
 price_eur: 432.0
-price_rub: 118325.26
+price_rub: 124800.26
 image: "https://www.racinglubes.fr/6892-large_default/graisse-lubrifiant-graisse-motul-grease-100.jpg"
 images:
   - "https://www.racinglubes.fr/6892-large_default/graisse-lubrifiant-graisse-motul-grease-100.jpg"

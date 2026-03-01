@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 12.74
-price_rub: 3494.35
+price_rub: 3680.45
 image: "https://www.racinglubes.fr/20934-large_default/wd-40-specialist-lubrifiant-sec.jpg"
 images:
   - "https://www.racinglubes.fr/20934-large_default/wd-40-specialist-lubrifiant-sec.jpg"

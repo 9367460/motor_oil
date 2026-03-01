@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "5L"
 price_eur: 56.95
-price_rub: 15603.01
+price_rub: 16452.26
 image: "https://www.racinglubes.fr/10931-large_default/huile-moteur-competition-huile-moteur-elf-htx-chrono-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/10931-large_default/huile-moteur-competition-huile-moteur-elf-htx-chrono-10w60.jpg"

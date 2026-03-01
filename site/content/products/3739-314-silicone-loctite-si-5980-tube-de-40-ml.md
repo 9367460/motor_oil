@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 40 мл"
 price_eur: 14.69
-price_rub: 4028.44
+price_rub: 4243.79
 image: "https://www.racinglubes.fr/10527-large_default/pate-a-joint-et-mastic-silicone-loctite-si-5980.jpg"
 images:
   - "https://www.racinglubes.fr/10527-large_default/pate-a-joint-et-mastic-silicone-loctite-si-5980.jpg"

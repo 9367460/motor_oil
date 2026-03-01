@@ -8,7 +8,7 @@ cat_slug: "autres"
 viscosity: ""
 volume: "1"
 price_eur: 34.85
-price_rub: 9550.05
+price_rub: 10067.8
 image: "https://www.racinglubes.fr/12339-large_default/autres-pistolet-a-graisse-motorex-grease-gun.jpg"
 images:
   - "https://www.racinglubes.fr/12339-large_default/autres-pistolet-a-graisse-motorex-grease-gun.jpg"

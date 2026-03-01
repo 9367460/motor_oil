@@ -8,7 +8,7 @@ cat_slug: "home-mobil"
 viscosity: ""
 volume: "1L"
 price_eur: 7.56
-price_rub: 2075.6
+price_rub: 2184.0
 image: "https://www.racinglubes.fr/14545-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-mobil-atf-220.jpg"
 images:
   - "https://www.racinglubes.fr/14545-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-mobil-atf-220.jpg"

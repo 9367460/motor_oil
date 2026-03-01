@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "85W90"
 volume: "1L"
 price_eur: 9.26
-price_rub: 2541.22
+price_rub: 2675.12
 image: "https://www.racinglubes.fr/19821-large_default/huile-de-boite-castrol-transmax-limited-slip-z-85w90.jpg"
 images:
   - "https://www.racinglubes.fr/19821-large_default/huile-de-boite-castrol-transmax-limited-slip-z-85w90.jpg"

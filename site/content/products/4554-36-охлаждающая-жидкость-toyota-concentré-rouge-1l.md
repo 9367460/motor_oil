@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "1L"
 price_eur: 14.44
-price_rub: 3959.96
+price_rub: 4171.56
 image: "https://www.racinglubes.fr/13559-large_default/liquide-de-refroidissement-liquide-de-refroidissement-toyota-concentre-rouge.jpg"
 images:
   - "https://www.racinglubes.fr/13559-large_default/liquide-de-refroidissement-liquide-de-refroidissement-toyota-concentre-rouge.jpg"

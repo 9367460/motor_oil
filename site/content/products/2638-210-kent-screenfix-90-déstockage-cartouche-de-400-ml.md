@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Картридж 400 мл"
 price_eur: 12.3
-price_rub: 3373.84
+price_rub: 3553.34
 image: "https://www.racinglubes.fr/18618-large_default/kent-screenfix-90-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/18618-large_default/kent-screenfix-90-destockage.jpg"

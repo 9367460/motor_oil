@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "80W90"
 volume: "208L"
 price_eur: 908.65
-price_rub: 248874.69
+price_rub: 262499.44
 image: "https://www.racinglubes.fr/10860-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-tranself-type-b-80w90.jpg"
 images:
   - "https://www.racinglubes.fr/10860-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-tranself-type-b-80w90.jpg"

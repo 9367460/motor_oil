@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "Флакон 500 мл"
 price_eur: 28.89
-price_rub: 7917.67
+price_rub: 8346.02
 image: "https://www.racinglubes.fr/7262-large_default/essence-bardahl-nettoyant-injecteurs-essence.jpg"
 images:
   - "https://www.racinglubes.fr/7262-large_default/essence-bardahl-nettoyant-injecteurs-essence.jpg"

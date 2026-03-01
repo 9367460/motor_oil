@@ -8,7 +8,7 @@ cat_slug: "accessoires-de-nettoyage"
 viscosity: ""
 volume: "1 Pad"
 price_eur: 23.96
-price_rub: 6567.39
+price_rub: 6921.79
 image: "https://www.racinglubes.fr/12360-large_default/accessoires-de-nettoyage-padxpress-traitement-titane-peinture-noire.jpg"
 images:
   - "https://www.racinglubes.fr/12360-large_default/accessoires-de-nettoyage-padxpress-traitement-titane-peinture-noire.jpg"

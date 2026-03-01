@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Картридж 397 г"
 price_eur: 19.54
-price_rub: 5356.8
+price_rub: 5644.9
 image: "https://www.racinglubes.fr/11214-large_default/graisse-lubrifiant-graisse-red-line-cv-2-extreme-pressure-grease.jpg"
 images:
   - "https://www.racinglubes.fr/11214-large_default/graisse-lubrifiant-graisse-red-line-cv-2-extreme-pressure-grease.jpg"

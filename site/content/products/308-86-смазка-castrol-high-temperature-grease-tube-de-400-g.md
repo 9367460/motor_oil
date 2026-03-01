@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Туба 400 г"
 price_eur: 5.86
-price_rub: 1609.99
+price_rub: 1692.89
 image: "https://www.racinglubes.fr/1958-large_default/degrippant-graissage-degraissant-graisse-castrol-high-temperature-grease.jpg"
 images:
   - "https://www.racinglubes.fr/1958-large_default/degrippant-graissage-degraissant-graisse-castrol-high-temperature-grease.jpg"

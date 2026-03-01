@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--37c"
 viscosity: ""
 volume: "1L"
 price_eur: 12.74
-price_rub: 3494.35
+price_rub: 3680.45
 image: "https://www.racinglubes.fr/18951-large_default/liquide-de-refroidissement-castrol-radicool-sf-premix-go.jpg"
 images:
   - "https://www.racinglubes.fr/18951-large_default/liquide-de-refroidissement-castrol-radicool-sf-premix-go.jpg"

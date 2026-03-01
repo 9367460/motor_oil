@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "5W40"
 volume: "1L"
 price_eur: 13.93
-price_rub: 3820.28
+price_rub: 4024.23
 image: "https://www.racinglubes.fr/12073-large_default/huile-moteur-competition-huile-moteur-shell-helix-ultra-racing-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/12073-large_default/huile-moteur-competition-huile-moteur-shell-helix-ultra-racing-5w40.jpg"

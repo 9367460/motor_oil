@@ -8,7 +8,7 @@ cat_slug: "huile-pour-transmission"
 viscosity: ""
 volume: "1L"
 price_eur: 14.36
-price_rub: 3938.05
+price_rub: 4148.45
 image: "https://www.racinglubes.fr/2051-large_default/huile-pour-transmission-huile-de-boite-mobil-atf-shc.jpg"
 images:
   - "https://www.racinglubes.fr/2051-large_default/huile-pour-transmission-huile-de-boite-mobil-atf-shc.jpg"

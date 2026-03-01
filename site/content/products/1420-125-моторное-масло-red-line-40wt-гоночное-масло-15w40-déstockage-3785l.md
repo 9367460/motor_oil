@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "15W40"
 volume: "3.785L"
 price_eur: 83.6
-price_rub: 22902.16
+price_rub: 24151.16
 image: "https://www.racinglubes.fr/11225-large_default/huile-moteur-red-line-40wt-race-oil-15w40-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/11225-large_default/huile-moteur-red-line-40wt-race-oil-15w40-destockage.jpg"

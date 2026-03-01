@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: ""
 volume: "1L"
 price_eur: 15.21
-price_rub: 4170.86
+price_rub: 4394.01
 image: "https://www.racinglubes.fr/11504-large_default/huile-moteur-vehicules-anciens-huile-moteur-eni-agip-novecento-40.jpg"
 images:
   - "https://www.racinglubes.fr/11504-large_default/huile-moteur-vehicules-anciens-huile-moteur-eni-agip-novecento-40.jpg"

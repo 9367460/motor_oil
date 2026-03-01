@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: "75W90"
 volume: "2L"
 price_eur: 37.39
-price_rub: 10245.73
+price_rub: 10801.58
 image: "https://www.racinglubes.fr/14623-large_default/huile-boite-de-vitesse-competition-huile-de-boite-total-transmission-h50168b-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/14623-large_default/huile-boite-de-vitesse-competition-huile-de-boite-total-transmission-h50168b-75w90.jpg"

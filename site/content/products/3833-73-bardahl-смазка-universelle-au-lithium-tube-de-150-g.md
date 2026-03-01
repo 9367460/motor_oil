@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Туба 150 г"
 price_eur: 9.1
-price_rub: 2497.39
+price_rub: 2628.89
 image: "https://www.racinglubes.fr/11451-large_default/graisse-lubrifiant-bardahl-graisse-universelle-au-lithium.jpg"
 images:
   - "https://www.racinglubes.fr/11451-large_default/graisse-lubrifiant-bardahl-graisse-universelle-au-lithium.jpg"

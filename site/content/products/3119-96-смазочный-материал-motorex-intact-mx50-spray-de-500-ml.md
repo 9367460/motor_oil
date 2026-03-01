@@ -8,7 +8,7 @@ cat_slug: "autres"
 viscosity: ""
 volume: "Спрей 500 мл"
 price_eur: 13.42
-price_rub: 3680.6
+price_rub: 3876.9
 image: "https://www.racinglubes.fr/7857-large_default/autres-lubrifiant-motorex-intact-mx50.jpg"
 images:
   - "https://www.racinglubes.fr/7857-large_default/autres-lubrifiant-motorex-intact-mx50.jpg"

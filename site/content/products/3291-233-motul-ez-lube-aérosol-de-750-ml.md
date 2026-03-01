@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Аэрозоль 750 мл"
 price_eur: 7.9
-price_rub: 2168.73
+price_rub: 2282.23
 image: "https://www.racinglubes.fr/8685-large_default/graisse-lubrifiant-motul-ez-lube.jpg"
 images:
   - "https://www.racinglubes.fr/8685-large_default/graisse-lubrifiant-motul-ez-lube.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-compétition"
 viscosity: ""
 volume: "5L"
 price_eur: 23.99
-price_rub: 6575.61
+price_rub: 6930.46
 image: "https://www.racinglubes.fr/12455-large_default/liquide-de-refroidissement-competition-bardahl-racing-liquide-de-refroidissement.jpg"
 images:
   - "https://www.racinglubes.fr/12455-large_default/liquide-de-refroidissement-competition-bardahl-racing-liquide-de-refroidissement.jpg"

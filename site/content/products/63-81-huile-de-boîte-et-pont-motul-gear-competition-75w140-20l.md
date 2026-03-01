@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: "75W140"
 volume: "20L"
 price_eur: 458.15
-price_rub: 125487.47
+price_rub: 132354.72
 image: "https://www.racinglubes.fr/10486-large_default/huile-boite-de-vitesse-huile-de-boite-et-pont-motul-gear-competition-75w140.jpg"
 images:
   - "https://www.racinglubes.fr/10486-large_default/huile-boite-de-vitesse-huile-de-boite-et-pont-motul-gear-competition-75w140.jpg"

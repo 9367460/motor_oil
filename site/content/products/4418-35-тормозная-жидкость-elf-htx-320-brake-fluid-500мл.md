@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage-compétition"
 viscosity: ""
 volume: "500мл"
 price_eur: 30.59
-price_rub: 8383.28
+price_rub: 8837.13
 image: "https://www.racinglubes.fr/12196-large_default/liquide-de-freinage-competition-liquide-de-frein-elf-htx-320-brake-fluid.jpg"
 images:
   - "https://www.racinglubes.fr/12196-large_default/liquide-de-freinage-competition-liquide-de-frein-elf-htx-320-brake-fluid.jpg"

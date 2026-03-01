@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "Флакон 500 мл"
 price_eur: 25.99
-price_rub: 7123.39
+price_rub: 7508.24
 image: "https://www.racinglubes.fr/14913-large_default/essence-bardahl-octane-booster-essence.jpg"
 images:
   - "https://www.racinglubes.fr/14913-large_default/essence-bardahl-octane-booster-essence.jpg"

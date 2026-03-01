@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "5L"
 price_eur: 54.3
-price_rub: 14877.2
+price_rub: 15686.7
 image: "https://www.racinglubes.fr/8853-large_default/huile-moteur-competition-huile-moteur-fuchs-titan-race-pro-s-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/8853-large_default/huile-moteur-competition-huile-moteur-fuchs-titan-race-pro-s-10w60.jpg"

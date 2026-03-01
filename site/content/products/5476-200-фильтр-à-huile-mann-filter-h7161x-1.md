@@ -8,7 +8,7 @@ cat_slug: "filtres-à-huile"
 viscosity: ""
 volume: "1"
 price_eur: 9.17
-price_rub: 2516.57
+price_rub: 2649.12
 image: "https://www.racinglubes.fr/15406-large_default/filtre-a-huile-mann-filter-h7161x.jpg"
 images:
   - "https://www.racinglubes.fr/15406-large_default/filtre-a-huile-mann-filter-h7161x.jpg"

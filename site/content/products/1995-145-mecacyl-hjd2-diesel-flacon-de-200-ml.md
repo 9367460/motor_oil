@@ -8,7 +8,7 @@ cat_slug: "gazole"
 viscosity: ""
 volume: "Флакон 200 мл"
 price_eur: 17.42
-price_rub: 4776.16
+price_rub: 5032.46
 image: "https://www.racinglubes.fr/10280-large_default/gazole-mecacyl-hjd2-diesel.jpg"
 images:
   - "https://www.racinglubes.fr/10280-large_default/gazole-mecacyl-hjd2-diesel.jpg"

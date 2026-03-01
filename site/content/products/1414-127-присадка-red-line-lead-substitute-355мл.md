@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "355мл"
 price_eur: 17.41
-price_rub: 4773.42
+price_rub: 5029.57
 image: "https://www.racinglubes.fr/11217-large_default/essence-additif-red-line-lead-substitute.jpg"
 images:
   - "https://www.racinglubes.fr/11217-large_default/essence-additif-red-line-lead-substitute.jpg"

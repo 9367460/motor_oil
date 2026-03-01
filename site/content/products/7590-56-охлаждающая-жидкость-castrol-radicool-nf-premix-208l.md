@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--35c"
 viscosity: ""
 volume: "208L"
 price_eur: 923.0
-price_rub: 252805.01
+price_rub: 266645.01
 image: "https://www.racinglubes.fr/19356-large_default/liquide-de-refroidissement-castrol-radicool-nf-premix.jpg"
 images:
   - "https://www.racinglubes.fr/19356-large_default/liquide-de-refroidissement-castrol-radicool-nf-premix.jpg"

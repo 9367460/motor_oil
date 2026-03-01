@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--35c"
 viscosity: ""
 volume: "60L"
 price_eur: 199.0
-price_rub: 54509.01
+price_rub: 57489.01
 image: "https://www.racinglubes.fr/20071-large_default/liquide-de-refroidissement-fuchs-fricofin-universel-50.jpg"
 images:
   - "https://www.racinglubes.fr/20071-large_default/liquide-de-refroidissement-fuchs-fricofin-universel-50.jpg"

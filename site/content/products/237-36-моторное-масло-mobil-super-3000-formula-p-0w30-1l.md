@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "1L"
 price_eur: 10.1
-price_rub: 2771.28
+price_rub: 2917.78
 image: "https://www.racinglubes.fr/20995-large_default/huile-moteur-huile-moteur-mobil-super-3000-formula-p-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/20995-large_default/huile-moteur-huile-moteur-mobil-super-3000-formula-p-0w30.jpg"

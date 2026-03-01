@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--25c"
 viscosity: ""
 volume: "5L"
 price_eur: 6.63
-price_rub: 1820.89
+price_rub: 1915.34
 image: "https://www.racinglubes.fr/20259-large_default/liquide-de-refroidissement-carburol-polarium-25c.jpg"
 images:
   - "https://www.racinglubes.fr/20259-large_default/liquide-de-refroidissement-carburol-polarium-25c.jpg"

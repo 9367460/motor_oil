@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "20L"
 price_eur: 151.3
-price_rub: 41444.48
+price_rub: 43708.98
 image: "https://www.racinglubes.fr/18961-large_default/liquide-de-refroidissement-castrol-radicool-sf.jpg"
 images:
   - "https://www.racinglubes.fr/18961-large_default/liquide-de-refroidissement-castrol-radicool-sf.jpg"

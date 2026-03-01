@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--35c"
 viscosity: ""
 volume: "5L"
 price_eur: 18.59
-price_rub: 5096.61
+price_rub: 5370.46
 image: "https://www.racinglubes.fr/14677-large_default/liquide-de-refroidissement-bardahl-xcl-universel-35c.jpg"
 images:
   - "https://www.racinglubes.fr/14677-large_default/liquide-de-refroidissement-bardahl-xcl-universel-35c.jpg"

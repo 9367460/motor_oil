@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: ""
 volume: "1L"
 price_eur: 32.12
-price_rub: 8802.33
+price_rub: 9279.13
 image: "https://www.racinglubes.fr/16107-large_default/huile-de-boite-fuchs-titan-ffl-7-a.jpg"
 images:
   - "https://www.racinglubes.fr/16107-large_default/huile-de-boite-fuchs-titan-ffl-7-a.jpg"

@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "237мл"
 price_eur: 6.71
-price_rub: 1842.8
+price_rub: 1938.45
 image: "https://www.racinglubes.fr/11277-large_default/materiel-de-garage-et-outillage-red-line-air-tool-oil.jpg"
 images:
   - "https://www.racinglubes.fr/11277-large_default/materiel-de-garage-et-outillage-red-line-air-tool-oil.jpg"

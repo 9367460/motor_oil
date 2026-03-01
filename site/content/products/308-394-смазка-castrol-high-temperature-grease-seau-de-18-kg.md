@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Ведро 18 кг"
 price_eur: 149.6
-price_rub: 40978.87
+price_rub: 43217.87
 image: "https://www.racinglubes.fr/1958-large_default/degrippant-graissage-degraissant-graisse-castrol-high-temperature-grease.jpg"
 images:
   - "https://www.racinglubes.fr/1958-large_default/degrippant-graissage-degraissant-graisse-castrol-high-temperature-grease.jpg"

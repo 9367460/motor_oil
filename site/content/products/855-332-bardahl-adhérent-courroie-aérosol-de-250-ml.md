@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Аэрозоль 250 мл"
 price_eur: 11.99
-price_rub: 3288.94
+price_rub: 3463.79
 image: "https://www.racinglubes.fr/12838-large_default/graisse-lubrifiant-bardahl-adherent-courroie.jpg"
 images:
   - "https://www.racinglubes.fr/12838-large_default/graisse-lubrifiant-bardahl-adherent-courroie.jpg"

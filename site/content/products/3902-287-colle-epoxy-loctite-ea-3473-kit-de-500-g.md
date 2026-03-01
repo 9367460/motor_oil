@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Комплект 500 г"
 price_eur: 71.39
-price_rub: 19557.97
+price_rub: 20623.82
 image: "https://www.racinglubes.fr/10228-large_default/colles-et-fixe-ecrous-colle-epoxy-loctite-ea-3473.jpg"
 images:
   - "https://www.racinglubes.fr/10228-large_default/colles-et-fixe-ecrous-colle-epoxy-loctite-ea-3473.jpg"

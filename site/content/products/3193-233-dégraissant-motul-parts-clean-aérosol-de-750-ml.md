@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Аэрозоль 750 мл"
 price_eur: 8.69
-price_rub: 2385.1
+price_rub: 2510.45
 image: "https://www.racinglubes.fr/8255-large_default/degraissant-nettoyant-degraissant-motul-parts-clean.jpg"
 images:
   - "https://www.racinglubes.fr/8255-large_default/degraissant-nettoyant-degraissant-motul-parts-clean.jpg"

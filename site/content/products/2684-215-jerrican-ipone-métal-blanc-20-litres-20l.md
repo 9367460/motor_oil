@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "20L"
 price_eur: 56.99
-price_rub: 15613.96
+price_rub: 16463.81
 image: "https://www.racinglubes.fr/6320-large_default/materiel-de-garage-et-outillage-jerrican-ipone-metal-blanc-20-litres.jpg"
 images:
   - "https://www.racinglubes.fr/6320-large_default/materiel-de-garage-et-outillage-jerrican-ipone-metal-blanc-20-litres.jpg"

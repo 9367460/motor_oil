@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 200 мл"
 price_eur: 39.99
-price_rub: 10957.84
+price_rub: 11552.69
 image: "https://www.racinglubes.fr/8496-large_default/pate-a-joint-et-mastic-bardahl-joint-silicone-noir.jpg"
 images:
   - "https://www.racinglubes.fr/8496-large_default/pate-a-joint-et-mastic-bardahl-joint-silicone-noir.jpg"

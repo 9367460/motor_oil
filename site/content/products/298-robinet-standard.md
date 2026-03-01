@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: ""
 price_eur: 0.99
-price_rub: 276.15
+price_rub: 286.0
 image: "https://www.racinglubes.fr/2090-large_default/materiel-de-garage-et-outillage-robinet-standard.jpg"
 images:
   - "https://www.racinglubes.fr/2090-large_default/materiel-de-garage-et-outillage-robinet-standard.jpg"

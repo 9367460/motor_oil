@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--25c"
 viscosity: ""
 volume: "5L"
 price_eur: 19.99
-price_rub: 5480.05
+price_rub: 5774.9
 image: "https://www.racinglubes.fr/14091-large_default/liquide-de-refroidissement-25c-liquide-de-refroidissement-motul-auto-cool-multi-25c.jpg"
 images:
   - "https://www.racinglubes.fr/14091-large_default/liquide-de-refroidissement-25c-liquide-de-refroidissement-motul-auto-cool-multi-25c.jpg"

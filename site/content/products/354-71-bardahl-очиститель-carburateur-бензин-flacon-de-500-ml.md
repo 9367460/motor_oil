@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "Флакон 500 мл"
 price_eur: 27.89
-price_rub: 7643.78
+price_rub: 8057.13
 image: "https://www.racinglubes.fr/8478-large_default/essence-bardahl-nettoyant-carburateur-essence.jpg"
 images:
   - "https://www.racinglubes.fr/8478-large_default/essence-bardahl-nettoyant-carburateur-essence.jpg"

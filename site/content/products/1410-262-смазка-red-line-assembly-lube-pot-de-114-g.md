@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "Банка 114 г"
 price_eur: 13.08
-price_rub: 3587.47
+price_rub: 3778.67
 image: "https://www.racinglubes.fr/3516-large_default/degrippant-graissage-degraissant-graisse-red-line-assembly-lube.jpg"
 images:
   - "https://www.racinglubes.fr/3516-large_default/degrippant-graissage-degraissant-graisse-red-line-assembly-lube.jpg"

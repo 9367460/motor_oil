@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "250мл"
 price_eur: 15.46
-price_rub: 4239.33
+price_rub: 4466.23
 image: "https://www.racinglubes.fr/13642-large_default/essence-additif-carburant-castrol-valvemaster.jpg"
 images:
   - "https://www.racinglubes.fr/13642-large_default/essence-additif-carburant-castrol-valvemaster.jpg"

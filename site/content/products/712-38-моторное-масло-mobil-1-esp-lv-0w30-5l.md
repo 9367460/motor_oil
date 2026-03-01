@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "5L"
 price_eur: 59.5
-price_rub: 16301.43
+price_rub: 17188.93
 image: "https://www.racinglubes.fr/20940-large_default/huile-moteur-huile-moteur-mobil-1-esp-lv-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/20940-large_default/huile-moteur-huile-moteur-mobil-1-esp-lv-0w30.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 11.05
-price_rub: 3031.48
+price_rub: 3192.23
 image: "https://www.racinglubes.fr/7977-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-toyota-atf-diii.jpg"
 images:
   - "https://www.racinglubes.fr/7977-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-toyota-atf-diii.jpg"

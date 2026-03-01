@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 11.04
-price_rub: 3028.74
+price_rub: 3189.34
 image: "https://www.racinglubes.fr/3767-large_default/huiles-pour-transmissions-automatiques-huile-de-transmission-automatique-mobil-atf-d-21065-smart.jpg"
 images:
   - "https://www.racinglubes.fr/3767-large_default/huiles-pour-transmissions-automatiques-huile-de-transmission-automatique-mobil-atf-d-21065-smart.jpg"

@@ -8,7 +8,7 @@ cat_slug: "plv-présentoir"
 viscosity: ""
 volume: "1"
 price_eur: 1505.0
-price_rub: 412208.7
+price_rub: 434778.7
 image: "https://www.racinglubes.fr/20206-large_default/presentoir-metal-bidon-1l-et-5l-carburol.jpg"
 images:
   - "https://www.racinglubes.fr/20206-large_default/presentoir-metal-bidon-1l-et-5l-carburol.jpg"

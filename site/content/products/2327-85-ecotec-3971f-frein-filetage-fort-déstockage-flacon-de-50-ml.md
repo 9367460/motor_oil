@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Флакон 50 мл"
 price_eur: 18.09
-price_rub: 4959.66
+price_rub: 5226.01
 image: "https://www.racinglubes.fr/13681-large_default/colles-et-fixe-ecrous-ecotec-371f-frein-filetage-fort.jpg"
 images:
   - "https://www.racinglubes.fr/13681-large_default/colles-et-fixe-ecrous-ecotec-371f-frein-filetage-fort.jpg"

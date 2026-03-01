@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: "75W140"
 volume: "2L"
 price_eur: 31.02
-price_rub: 8501.05
+price_rub: 8961.35
 image: "https://www.racinglubes.fr/11707-large_default/huile-boite-de-vitesse-competition-huile-de-boite-et-pont-yacco-bvx-ls-1000-75w140.jpg"
 images:
   - "https://www.racinglubes.fr/11707-large_default/huile-boite-de-vitesse-competition-huile-de-boite-et-pont-yacco-bvx-ls-1000-75w140.jpg"

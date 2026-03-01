@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1 Pompe"
 price_eur: 34.0
-price_rub: 9317.24
+price_rub: 9822.24
 image: "https://www.racinglubes.fr/12527-large_default/materiel-de-garage-et-outillage-samoa-pompe-a-graisse-manuelle-pour-cartouche-a-visser.jpg"
 images:
   - "https://www.racinglubes.fr/12527-large_default/materiel-de-garage-et-outillage-samoa-pompe-a-graisse-manuelle-pour-cartouche-a-visser.jpg"

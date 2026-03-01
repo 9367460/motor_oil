@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: ""
 volume: "5L"
 price_eur: 49.3
-price_rub: 13507.75
+price_rub: 14242.25
 image: "https://www.racinglubes.fr/10928-large_default/huile-moteur-vehicules-anciens-huile-moteur-elf-htx-prestige-sae-40.jpg"
 images:
   - "https://www.racinglubes.fr/10928-large_default/huile-moteur-vehicules-anciens-huile-moteur-elf-htx-prestige-sae-40.jpg"

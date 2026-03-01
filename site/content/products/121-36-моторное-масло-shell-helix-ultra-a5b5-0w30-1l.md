@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "1L"
 price_eur: 12.75
-price_rub: 3497.09
+price_rub: 3683.34
 image: "https://www.racinglubes.fr/14174-large_default/huile-moteur-huile-moteur-shell-helix-ultra-a5-b5-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/14174-large_default/huile-moteur-huile-moteur-shell-helix-ultra-a5-b5-0w30.jpg"

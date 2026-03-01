@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Аэрозоль 50 мл"
 price_eur: 27.19
-price_rub: 7452.06
+price_rub: 7854.91
 image: "https://www.racinglubes.fr/9589-large_default/colles-et-fixe-ecrous-loctite-aa-317-734.jpg"
 images:
   - "https://www.racinglubes.fr/9589-large_default/colles-et-fixe-ecrous-loctite-aa-317-734.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "1L"
 price_eur: 2.99
-price_rub: 823.93
+price_rub: 863.78
 image: "https://www.racinglubes.fr/19530-large_default/liquide-de-refroidissement-universel-35c.jpg"
 images:
   - "https://www.racinglubes.fr/19530-large_default/liquide-de-refroidissement-universel-35c.jpg"

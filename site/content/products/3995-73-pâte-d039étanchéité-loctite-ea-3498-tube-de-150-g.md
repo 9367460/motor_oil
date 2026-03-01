@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 150 г"
 price_eur: 8.39
-price_rub: 2302.93
+price_rub: 2423.78
 image: "https://www.racinglubes.fr/11407-large_default/pate-a-joint-et-mastic-pate-detancheite-loctite-ea-3498.jpg"
 images:
   - "https://www.racinglubes.fr/11407-large_default/pate-a-joint-et-mastic-pate-detancheite-loctite-ea-3498.jpg"

@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "5L"
 price_eur: 14.99
-price_rub: 4110.6
+price_rub: 4330.45
 image: "https://www.racinglubes.fr/21551-large_default/castrol-broc-gradue-5l.jpg"
 images:
   - "https://www.racinglubes.fr/21551-large_default/castrol-broc-gradue-5l.jpg"

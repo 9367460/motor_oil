@@ -8,7 +8,7 @@ cat_slug: "maintenance-filtration-refroidissement-et-entretien"
 viscosity: ""
 volume: "Рулон 2 м"
 price_eur: 6.37
-price_rub: 1749.68
+price_rub: 1840.23
 image: "https://www.racinglubes.fr/8499-large_default/bardahl-double-face-transparent-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/8499-large_default/bardahl-double-face-transparent-destockage.jpg"

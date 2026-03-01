@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 466.65
-price_rub: 127815.54
+price_rub: 134810.29
 image: "https://www.racinglubes.fr/12520-large_default/materiel-de-garage-et-outillage-samoa-ensemble-mobile-avec-diable-pour-tonnelet.jpg"
 images:
   - "https://www.racinglubes.fr/12520-large_default/materiel-de-garage-et-outillage-samoa-ensemble-mobile-avec-diable-pour-tonnelet.jpg"

@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "Туба 150 мл"
 price_eur: 25.9
-price_rub: 7098.74
+price_rub: 7482.24
 image: "https://www.racinglubes.fr/12454-large_default/additifs-competition-bardahl-racing-anti-usure-boite-de-vitesses-manuelle.jpg"
 images:
   - "https://www.racinglubes.fr/12454-large_default/additifs-competition-bardahl-racing-anti-usure-boite-de-vitesses-manuelle.jpg"

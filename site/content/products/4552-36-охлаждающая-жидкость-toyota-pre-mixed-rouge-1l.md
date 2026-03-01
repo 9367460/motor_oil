@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "1L"
 price_eur: 10.95
-price_rub: 3004.09
+price_rub: 3163.34
 image: "https://www.racinglubes.fr/14153-large_default/liquide-de-refroidissement-liquide-de-refroidissement-toyota-pre-mixed-red.jpg"
 images:
   - "https://www.racinglubes.fr/14153-large_default/liquide-de-refroidissement-liquide-de-refroidissement-toyota-pre-mixed-red.jpg"

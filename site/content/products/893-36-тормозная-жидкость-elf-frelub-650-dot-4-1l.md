@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "1L"
 price_eur: 10.62
-price_rub: 2913.71
+price_rub: 3068.01
 image: "https://www.racinglubes.fr/10884-large_default/freinage-direction-assistee-liquide-de-frein-elf-frelub-650-dot-4.jpg"
 images:
   - "https://www.racinglubes.fr/10884-large_default/freinage-direction-assistee-liquide-de-frein-elf-frelub-650-dot-4.jpg"

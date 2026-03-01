@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "50мл"
 price_eur: 37.0
-price_rub: 10138.91
+price_rub: 10688.91
 image: "https://www.racinglubes.fr/9889-large_default/colles-et-fixe-ecrous-colle-anaerobie-loctite-5188.jpg"
 images:
   - "https://www.racinglubes.fr/9889-large_default/colles-et-fixe-ecrous-colle-anaerobie-loctite-5188.jpg"

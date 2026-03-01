@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Аэрозоль 250 мл"
 price_eur: 13.99
-price_rub: 3836.71
+price_rub: 4041.56
 image: "https://www.racinglubes.fr/11358-large_default/graisse-lubrifiant-bardahl-anti-bruit-freins.jpg"
 images:
   - "https://www.racinglubes.fr/11358-large_default/graisse-lubrifiant-bardahl-anti-bruit-freins.jpg"

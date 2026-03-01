@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-compétition"
 viscosity: ""
 volume: "5L"
 price_eur: 93.41
-price_rub: 25589.02
+price_rub: 26985.17
 image: "https://www.racinglubes.fr/10740-large_default/liquide-de-refroidissement-competition-liquide-de-refroidissement-total-htx-coolant-ci.jpg"
 images:
   - "https://www.racinglubes.fr/10740-large_default/liquide-de-refroidissement-competition-liquide-de-refroidissement-total-htx-coolant-ci.jpg"

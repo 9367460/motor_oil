@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "20L"
 price_eur: 135.15
-price_rub: 37021.17
+price_rub: 39043.42
 image: "https://www.racinglubes.fr/20288-large_default/nettoyant-castrol-techniclean-fc-plus.jpg"
 images:
   - "https://www.racinglubes.fr/20288-large_default/nettoyant-castrol-techniclean-fc-plus.jpg"

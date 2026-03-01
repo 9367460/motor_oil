@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "Флакон 200 мл"
 price_eur: 16.56
-price_rub: 4540.61
+price_rub: 4784.01
 image: "https://www.racinglubes.fr/14128-large_default/essence-mecacyl-hje-essence.jpg"
 images:
   - "https://www.racinglubes.fr/14128-large_default/essence-mecacyl-hje-essence.jpg"

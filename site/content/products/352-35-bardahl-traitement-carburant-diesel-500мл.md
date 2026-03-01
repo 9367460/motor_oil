@@ -8,7 +8,7 @@ cat_slug: "gazole"
 viscosity: ""
 volume: "500мл"
 price_eur: 24.89
-price_rub: 6822.11
+price_rub: 7190.46
 image: "https://www.racinglubes.fr/8284-large_default/gazole-bardahl-traitement-carburant-diesel.jpg"
 images:
   - "https://www.racinglubes.fr/8284-large_default/gazole-bardahl-traitement-carburant-diesel.jpg"

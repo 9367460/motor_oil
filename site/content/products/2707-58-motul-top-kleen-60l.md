@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "60L"
 price_eur: 419.0
-price_rub: 114764.7
+price_rub: 121044.7
 image: "https://www.racinglubes.fr/6722-large_default/degraissant-nettoyant-motul-top-kleen.jpg"
 images:
   - "https://www.racinglubes.fr/6722-large_default/degraissant-nettoyant-motul-top-kleen.jpg"

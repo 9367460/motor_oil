@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 13.6
-price_rub: 3729.9
+price_rub: 3928.9
 image: "https://www.racinglubes.fr/12290-large_default/graisse-lubrifiant-wd-40-specialist-graisse-en-spray-longue-duree.jpg"
 images:
   - "https://www.racinglubes.fr/12290-large_default/graisse-lubrifiant-wd-40-specialist-graisse-en-spray-longue-duree.jpg"

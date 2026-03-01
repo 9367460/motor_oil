@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "10W30"
 volume: "1L"
 price_eur: 17.58
-price_rub: 4819.98
+price_rub: 5078.68
 image: "https://www.racinglubes.fr/7708-large_default/huile-moteur-vehicules-anciens-huile-moteur-motorex-evotec-10w30.jpg"
 images:
   - "https://www.racinglubes.fr/7708-large_default/huile-moteur-vehicules-anciens-huile-moteur-motorex-evotec-10w30.jpg"

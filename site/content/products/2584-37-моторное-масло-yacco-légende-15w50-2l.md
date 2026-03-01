@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "15W50"
 volume: "2L"
 price_eur: 21.25
-price_rub: 5825.15
+price_rub: 6138.9
 image: "https://www.racinglubes.fr/6080-large_default/huile-moteur-vehicules-anciens-huile-moteur-yacco-legende-15w50.jpg"
 images:
   - "https://www.racinglubes.fr/6080-large_default/huile-moteur-vehicules-anciens-huile-moteur-yacco-legende-15w50.jpg"

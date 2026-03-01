@@ -8,7 +8,7 @@ cat_slug: "turbo-vannes-egr"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 23.89
-price_rub: 6548.22
+price_rub: 6901.57
 image: "https://www.racinglubes.fr/8489-large_default/turbo-vannes-egr-bardahl-nettoyant-vanne-egr-moteur-diesel.jpg"
 images:
   - "https://www.racinglubes.fr/8489-large_default/turbo-vannes-egr-bardahl-nettoyant-vanne-egr-moteur-diesel.jpg"

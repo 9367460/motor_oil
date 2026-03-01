@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 8.42
-price_rub: 2311.15
+price_rub: 2432.45
 image: "https://www.racinglubes.fr/12091-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-shell-spirax-s2-atf-ax.jpg"
 images:
   - "https://www.racinglubes.fr/12091-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-shell-spirax-s2-atf-ax.jpg"

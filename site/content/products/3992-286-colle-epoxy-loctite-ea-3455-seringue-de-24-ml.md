@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Шприц 24 мл"
 price_eur: 13.69
-price_rub: 3754.55
+price_rub: 3954.9
 image: "https://www.racinglubes.fr/10224-large_default/colles-et-fixe-ecrous-colle-epoxy-loctite-ea-3455.jpg"
 images:
   - "https://www.racinglubes.fr/10224-large_default/colles-et-fixe-ecrous-colle-epoxy-loctite-ea-3455.jpg"

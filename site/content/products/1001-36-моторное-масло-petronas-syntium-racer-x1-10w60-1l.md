@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "1L"
 price_eur: 13.09
-price_rub: 3590.21
+price_rub: 3781.56
 image: "https://www.racinglubes.fr/11025-large_default/huile-moteur-huile-moteur-petronas-syntium-racer-x1-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/11025-large_default/huile-moteur-huile-moteur-petronas-syntium-racer-x1-10w60.jpg"

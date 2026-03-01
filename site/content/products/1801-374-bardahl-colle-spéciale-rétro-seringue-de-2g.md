@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Шприц 2 г"
 price_eur: 11.29
-price_rub: 3097.21
+price_rub: 3261.56
 image: "https://www.racinglubes.fr/13954-large_default/colles-et-fixe-ecrous-bardahl-colle-speciale-retro.jpg"
 images:
   - "https://www.racinglubes.fr/13954-large_default/colles-et-fixe-ecrous-bardahl-colle-speciale-retro.jpg"

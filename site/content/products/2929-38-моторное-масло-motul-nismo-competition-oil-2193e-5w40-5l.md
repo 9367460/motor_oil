@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "5W40"
 volume: "5L"
 price_eur: 85.9
-price_rub: 23532.11
+price_rub: 24815.61
 image: "https://www.racinglubes.fr/11672-large_default/huile-moteur-competition-huile-moteur-motul-nismo-competition-oil-2193e-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/11672-large_default/huile-moteur-competition-huile-moteur-motul-nismo-competition-oil-2193e-5w40.jpg"

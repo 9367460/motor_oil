@@ -8,7 +8,7 @@ cat_slug: "liquide-de-direction-assistée"
 viscosity: ""
 volume: "500мл"
 price_eur: 8.4
-price_rub: 2305.67
+price_rub: 2426.67
 image: "https://www.racinglubes.fr/11432-large_default/freinage-direction-assistee-liquide-de-direction-assistee-eni-agip-chf.jpg"
 images:
   - "https://www.racinglubes.fr/11432-large_default/freinage-direction-assistee-liquide-de-direction-assistee-eni-agip-chf.jpg"

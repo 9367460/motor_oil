@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W50"
 volume: "5L"
 price_eur: 35.77
-price_rub: 9802.03
+price_rub: 10333.58
 image: "https://www.racinglubes.fr/15002-large_default/huile-moteur-total-quartz-racing-10w50.jpg"
 images:
   - "https://www.racinglubes.fr/15002-large_default/huile-moteur-total-quartz-racing-10w50.jpg"

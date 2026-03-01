@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "0W30"
 volume: "1L"
 price_eur: 19.0
-price_rub: 5208.9
+price_rub: 5488.9
 image: "https://www.racinglubes.fr/7476-large_default/huile-moteur-competition-huile-moteur-motul-nismo-competition-oil-2108e-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/7476-large_default/huile-moteur-competition-huile-moteur-motul-nismo-competition-oil-2108e-0w30.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "5L"
 price_eur: 26.17
-price_rub: 7172.69
+price_rub: 7560.24
 image: "https://www.racinglubes.fr/13831-large_default/fuchs-fricofin-antigel.jpg"
 images:
   - "https://www.racinglubes.fr/13831-large_default/fuchs-fricofin-antigel.jpg"
