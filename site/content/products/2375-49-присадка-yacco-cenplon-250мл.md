@@ -8,7 +8,7 @@ cat_slug: "additifs-véhicules-anciens"
 viscosity: ""
 volume: "250мл"
 price_eur: 11.89
-price_rub: 4347.06
+price_rub: 3261.55
 image: "https://www.racinglubes.fr/13679-large_default/additifs-vehicules-anciens-additif-yacco-cenplon.jpg"
 images:
   - "https://www.racinglubes.fr/13679-large_default/additifs-vehicules-anciens-additif-yacco-cenplon.jpg"

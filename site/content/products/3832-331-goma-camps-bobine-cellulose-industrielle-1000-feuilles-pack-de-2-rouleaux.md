@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "Уп. 2 рул."
 price_eur: 19.9
-price_rub: 7272.2
+price_rub: 5455.4
 image: "https://www.racinglubes.fr/9822-large_default/materiel-de-garage-et-outillage-goma-camps-bobine-cellulose-industrielle-1000-feuilles.jpg"
 images:
   - "https://www.racinglubes.fr/9822-large_default/materiel-de-garage-et-outillage-goma-camps-bobine-cellulose-industrielle-1000-feuilles.jpg"

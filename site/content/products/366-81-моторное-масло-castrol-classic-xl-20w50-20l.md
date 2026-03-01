@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "20W50"
 volume: "20L"
 price_eur: 169.15
-price_rub: 61776.21
+price_rub: 46333.41
 image: "https://www.racinglubes.fr/3227-large_default/huile-moteur-vehicules-anciens-huile-moteur-castrol-classic-xl-20w50.jpg"
 images:
   - "https://www.racinglubes.fr/3227-large_default/huile-moteur-vehicules-anciens-huile-moteur-castrol-classic-xl-20w50.jpg"

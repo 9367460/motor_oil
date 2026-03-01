@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--25c"
 viscosity: ""
 volume: "5L"
 price_eur: 7.8
-price_rub: 2853.45
+price_rub: 2141.34
 image: "https://www.racinglubes.fr/13055-large_default/liquide-de-refroidissement-25c-liquide-de-refroidissement-universel-25c.jpg"
 images:
   - "https://www.racinglubes.fr/13055-large_default/liquide-de-refroidissement-25c-liquide-de-refroidissement-universel-25c.jpg"

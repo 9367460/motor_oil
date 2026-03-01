@@ -8,7 +8,7 @@ cat_slug: "autre"
 viscosity: ""
 volume: "355мл"
 price_eur: 18.18
-price_rub: 6644.08
+price_rub: 4984.31
 image: "https://www.racinglubes.fr/11218-large_default/autre-additif-carburant-red-line-alcohol-fuel-lubricant.jpg"
 images:
   - "https://www.racinglubes.fr/11218-large_default/autre-additif-carburant-red-line-alcohol-fuel-lubricant.jpg"

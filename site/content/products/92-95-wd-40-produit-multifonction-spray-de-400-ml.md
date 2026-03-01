@@ -8,7 +8,7 @@ cat_slug: "dégrippant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 9.01
-price_rub: 3295.33
+price_rub: 2472.74
 image: "https://www.racinglubes.fr/10579-large_default/degrippant-wd-40-produit-multifonction.jpg"
 images:
   - "https://www.racinglubes.fr/10579-large_default/degrippant-wd-40-produit-multifonction.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huiles-à-engrenages"
 viscosity: "75W90"
 volume: "208L"
 price_eur: 1516.0
-price_rub: 553626.98
+price_rub: 415221.48
 image: "https://www.racinglubes.fr/19833-large_default/huiles-a-engrenages-huile-de-boite-castrol-transmax-manual-multivehicle-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/19833-large_default/huiles-a-engrenages-huile-de-boite-castrol-transmax-manual-multivehicle-75w90.jpg"

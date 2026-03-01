@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 100 мл"
 price_eur: 20.99
-price_rub: 7670.25
+price_rub: 5753.94
 image: "https://www.racinglubes.fr/14130-large_default/huile-mecacyl-hyper-lubrifiant-bva.jpg"
 images:
   - "https://www.racinglubes.fr/14130-large_default/huile-mecacyl-hyper-lubrifiant-bva.jpg"

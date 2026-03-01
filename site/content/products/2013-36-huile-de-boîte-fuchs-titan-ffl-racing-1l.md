@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "1L"
 price_eur: 24.64
-price_rub: 9003.18
+price_rub: 6753.64
 image: "https://www.racinglubes.fr/9306-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-pentosin-ffl-racing.jpg"
 images:
   - "https://www.racinglubes.fr/9306-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-pentosin-ffl-racing.jpg"

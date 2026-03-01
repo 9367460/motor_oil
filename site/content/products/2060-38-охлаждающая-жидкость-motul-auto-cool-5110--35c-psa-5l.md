@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--35c"
 viscosity: ""
 volume: "5L"
 price_eur: 25.99
-price_rub: 9496.18
+price_rub: 7123.39
 image: "https://www.racinglubes.fr/14089-large_default/liquide-de-refroidissement-35c-liquide-de-refroidissement-motul-auto-cool-5110-35c-psa.jpg"
 images:
   - "https://www.racinglubes.fr/14089-large_default/liquide-de-refroidissement-35c-liquide-de-refroidissement-motul-auto-cool-5110-35c-psa.jpg"

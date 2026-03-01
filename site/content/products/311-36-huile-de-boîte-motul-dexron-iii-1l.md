@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 9.49
-price_rub: 3470.62
+price_rub: 2604.21
 image: "https://www.racinglubes.fr/10431-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-motul-dexron-iii.jpg"
 images:
   - "https://www.racinglubes.fr/10431-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-motul-dexron-iii.jpg"

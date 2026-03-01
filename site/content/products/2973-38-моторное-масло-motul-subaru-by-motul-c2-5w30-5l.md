@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W30"
 volume: "5L"
 price_eur: 61.99
-price_rub: 22642.88
+price_rub: 16983.41
 image: "https://www.racinglubes.fr/7557-large_default/huile-moteur-huile-moteur-motul-subaru-by-motul-c2-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/7557-large_default/huile-moteur-huile-moteur-motul-subaru-by-motul-c2-5w30.jpg"

@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 16.0
-price_rub: 5847.98
+price_rub: 4387.23
 image: "https://www.racinglubes.fr/13088-large_default/materiel-de-garage-et-outillage-sakvidange-5-litres.jpg"
 images:
   - "https://www.racinglubes.fr/13088-large_default/materiel-de-garage-et-outillage-sakvidange-5-litres.jpg"

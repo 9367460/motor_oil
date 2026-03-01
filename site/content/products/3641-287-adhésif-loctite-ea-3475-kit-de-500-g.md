@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Комплект 500 г"
 price_eur: 76.6
-price_rub: 27978.25
+price_rub: 20984.94
 image: "https://www.racinglubes.fr/10229-large_default/colles-et-fixe-ecrous-adhesif-loctite-ea-3475.jpg"
 images:
   - "https://www.racinglubes.fr/10229-large_default/colles-et-fixe-ecrous-adhesif-loctite-ea-3475.jpg"

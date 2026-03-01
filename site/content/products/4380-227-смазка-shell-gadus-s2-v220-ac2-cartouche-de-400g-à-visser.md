@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Картридж 400 г"
 price_eur: 5.95
-price_rub: 2177.86
+price_rub: 1634.64
 image: "https://www.racinglubes.fr/12133-large_default/graisse-lubrifiant-graisse-shell-gadus-s2-v220-ac2.jpg"
 images:
   - "https://www.racinglubes.fr/12133-large_default/graisse-lubrifiant-graisse-shell-gadus-s2-v220-ac2.jpg"

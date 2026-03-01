@@ -8,7 +8,7 @@ cat_slug: "accessoires-de-nettoyage"
 viscosity: ""
 volume: "1 Pad"
 price_eur: 23.6
-price_rub: 8623.39
+price_rub: 6468.79
 image: "https://www.racinglubes.fr/12355-large_default/accessoires-de-nettoyage-padxpress-anti-hologrammes.jpg"
 images:
   - "https://www.racinglubes.fr/12355-large_default/accessoires-de-nettoyage-padxpress-anti-hologrammes.jpg"

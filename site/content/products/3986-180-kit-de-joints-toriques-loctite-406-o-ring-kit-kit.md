@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Kit"
 price_eur: 85.19
-price_rub: 31115.2
+price_rub: 23337.65
 image: "https://www.racinglubes.fr/10515-large_default/pate-a-joint-et-mastic-kit-de-joints-toriques-loctite-406-o-ring-kit.jpg"
 images:
   - "https://www.racinglubes.fr/10515-large_default/pate-a-joint-et-mastic-kit-de-joints-toriques-loctite-406-o-ring-kit.jpg"

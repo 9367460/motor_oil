@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--37c"
 viscosity: ""
 volume: "20L"
 price_eur: 75.65
-price_rub: 27631.32
+price_rub: 20724.74
 image: "https://www.racinglubes.fr/15925-large_default/liquide-de-refroidissement-motul-auto-cool-optimal-37c.jpg"
 images:
   - "https://www.racinglubes.fr/15925-large_default/liquide-de-refroidissement-motul-auto-cool-optimal-37c.jpg"

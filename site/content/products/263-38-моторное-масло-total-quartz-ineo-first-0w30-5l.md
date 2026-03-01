@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "5L"
 price_eur: 39.1
-price_rub: 14283.77
+price_rub: 10714.08
 image: "https://www.racinglubes.fr/15307-large_default/huile-moteur-huile-moteur-total-quartz-ineo-first-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/15307-large_default/huile-moteur-huile-moteur-total-quartz-ineo-first-0w30.jpg"

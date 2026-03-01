@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "80W140"
 volume: "946мл"
 price_eur: 25.07
-price_rub: 9160.21
+price_rub: 6871.41
 image: "https://www.racinglubes.fr/11193-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-high-performance-80w140.jpg"
 images:
   - "https://www.racinglubes.fr/11193-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-high-performance-80w140.jpg"

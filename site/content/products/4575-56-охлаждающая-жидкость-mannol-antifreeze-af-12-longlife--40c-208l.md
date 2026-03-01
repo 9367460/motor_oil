@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--40c"
 viscosity: ""
 volume: "208L"
 price_eur: 619.0
-price_rub: 226055.13
+price_rub: 169542.6
 image: "https://www.racinglubes.fr/12515-large_default/liquide-de-refroidissement-40c-liquide-de-refroidissement-mannol-antifreeze-af-12-longlife-40c.jpg"
 images:
   - "https://www.racinglubes.fr/12515-large_default/liquide-de-refroidissement-40c-liquide-de-refroidissement-mannol-antifreeze-af-12-longlife-40c.jpg"

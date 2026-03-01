@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "20L"
 price_eur: 189.55
-price_rub: 69226.01
+price_rub: 51920.75
 image: "https://www.racinglubes.fr/14576-large_default/huile-moteur-mobil-1-racing-formula-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/14576-large_default/huile-moteur-mobil-1-racing-formula-10w60.jpg"

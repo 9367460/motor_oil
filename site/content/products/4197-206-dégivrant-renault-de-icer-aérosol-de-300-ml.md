@@ -8,7 +8,7 @@ cat_slug: "lave-glace-et-dégivrant"
 viscosity: ""
 volume: "Аэрозоль 300 мл"
 price_eur: 4.2
-price_rub: 1538.78
+price_rub: 1155.34
 image: "https://www.racinglubes.fr/11541-large_default/lave-glace-et-degivrant-degivrant-renault-de-icer.jpg"
 images:
   - "https://www.racinglubes.fr/11541-large_default/lave-glace-et-degivrant-degivrant-renault-de-icer.jpg"

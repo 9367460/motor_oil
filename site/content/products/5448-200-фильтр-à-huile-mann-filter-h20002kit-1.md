@@ -8,7 +8,7 @@ cat_slug: "filtres-à-huile"
 viscosity: ""
 volume: "1"
 price_eur: 22.6
-price_rub: 8258.2
+price_rub: 6194.9
 image: "https://www.racinglubes.fr/15378-large_default/filtre-a-huile-mann-filter-h20002kit.jpg"
 images:
   - "https://www.racinglubes.fr/15378-large_default/filtre-a-huile-mann-filter-h20002kit.jpg"

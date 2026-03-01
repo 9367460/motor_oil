@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "500мл"
 price_eur: 6.7
-price_rub: 2451.75
+price_rub: 1840.06
 image: "https://www.racinglubes.fr/10357-large_default/liquide-de-freinage-liquide-de-frein-motul-dot-4-lv-low-viscosity.jpg"
 images:
   - "https://www.racinglubes.fr/10357-large_default/liquide-de-freinage-liquide-de-frein-motul-dot-4-lv-low-viscosity.jpg"

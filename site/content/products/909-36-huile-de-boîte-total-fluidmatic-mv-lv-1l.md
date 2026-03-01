@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "1L"
 price_eur: 8.49
-price_rub: 3105.43
+price_rub: 2330.32
 image: "https://www.racinglubes.fr/14952-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-total-fluidmatic-mv-lv.jpg"
 images:
   - "https://www.racinglubes.fr/14952-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-total-fluidmatic-mv-lv.jpg"

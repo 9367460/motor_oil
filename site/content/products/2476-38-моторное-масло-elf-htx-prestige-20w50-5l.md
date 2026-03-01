@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "20W50"
 volume: "5L"
 price_eur: 50.57
-price_rub: 18472.46
+price_rub: 13855.59
 image: "https://www.racinglubes.fr/10929-large_default/huile-moteur-vehicules-anciens-huile-moteur-elf-htx-prestige-20w50.jpg"
 images:
   - "https://www.racinglubes.fr/10929-large_default/huile-moteur-vehicules-anciens-huile-moteur-elf-htx-prestige-20w50.jpg"

@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 150 г"
 price_eur: 10.99
-price_rub: 4018.39
+price_rub: 3015.05
 image: "https://www.racinglubes.fr/8497-large_default/pate-a-joint-et-mastic-bardahl-mastic-echappement.jpg"
 images:
   - "https://www.racinglubes.fr/8497-large_default/pate-a-joint-et-mastic-bardahl-mastic-echappement.jpg"

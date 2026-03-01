@@ -8,7 +8,7 @@ cat_slug: "automobile"
 viscosity: "0W40"
 volume: "1L"
 price_eur: 9.68
-price_rub: 3540.0
+price_rub: 2656.25
 image: "https://www.racinglubes.fr/14171-large_default/huile-moteur-huile-moteur-shell-helix-ultra-0w40.jpg"
 images:
   - "https://www.racinglubes.fr/14171-large_default/huile-moteur-huile-moteur-shell-helix-ultra-0w40.jpg"

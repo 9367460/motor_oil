@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Аэрозоль 250 мл"
 price_eur: 10.19
-price_rub: 3726.25
+price_rub: 2795.93
 image: "https://www.racinglubes.fr/10034-large_default/degraissant-nettoyant-bardahl-decolle-etiquette.jpg"
 images:
   - "https://www.racinglubes.fr/10034-large_default/degraissant-nettoyant-bardahl-decolle-etiquette.jpg"

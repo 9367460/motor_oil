@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "5L"
 price_eur: 52.89
-price_rub: 19319.69
+price_rub: 14491.02
 image: "https://www.racinglubes.fr/18051-large_default/huile-moteur-huile-moteur-motul-8100-eco-clean-c2-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/18051-large_default/huile-moteur-huile-moteur-motul-8100-eco-clean-c2-0w30.jpg"

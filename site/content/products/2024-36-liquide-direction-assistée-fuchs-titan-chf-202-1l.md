@@ -8,7 +8,7 @@ cat_slug: "liquide-de-direction-assistée"
 viscosity: ""
 volume: "1L"
 price_eur: 16.91
-price_rub: 6180.3
+price_rub: 4636.47
 image: "https://www.racinglubes.fr/13867-large_default/freinage-direction-assistee-liquide-direction-assistee-pentosin-chf-202.jpg"
 images:
   - "https://www.racinglubes.fr/13867-large_default/freinage-direction-assistee-liquide-direction-assistee-pentosin-chf-202.jpg"

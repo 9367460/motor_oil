@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 15.97
-price_rub: 5837.02
+price_rub: 4379.02
 image: "https://www.racinglubes.fr/21693-large_default/vp-racing-tube-deluxe.jpg"
 images:
   - "https://www.racinglubes.fr/21693-large_default/vp-racing-tube-deluxe.jpg"

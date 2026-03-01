@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "75W90"
 volume: "20L"
 price_eur: 515.0
-price_rub: 188075.79
+price_rub: 141058.09
 image: "https://www.racinglubes.fr/10484-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-gear-300-ls-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/10484-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-gear-300-ls-75w90.jpg"

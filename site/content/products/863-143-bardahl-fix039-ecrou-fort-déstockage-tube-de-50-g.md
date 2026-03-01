@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Туба 50 г"
 price_eur: 22.39
-price_rub: 8181.51
+price_rub: 6137.39
 image: "https://www.racinglubes.fr/8278-large_default/bardahl-fix-ecrou-fort-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/8278-large_default/bardahl-fix-ecrou-fort-destockage.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "20L"
 price_eur: 215.0
-price_rub: 78519.99
+price_rub: 58891.24
 image: "https://www.racinglubes.fr/10444-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-motul-multi-dctf.jpg"
 images:
   - "https://www.racinglubes.fr/10444-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-motul-multi-dctf.jpg"

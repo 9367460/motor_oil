@@ -8,7 +8,7 @@ cat_slug: "compétition"
 viscosity: "5W20"
 volume: "3.785L"
 price_eur: 87.2
-price_rub: 31849.22
+price_rub: 23888.16
 image: "https://www.racinglubes.fr/11248-large_default/huile-moteur-red-line-20wt-race-oil-5w20-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/11248-large_default/huile-moteur-red-line-20wt-race-oil-5w20-destockage.jpg"

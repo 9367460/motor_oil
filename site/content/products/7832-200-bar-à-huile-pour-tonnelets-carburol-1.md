@@ -8,7 +8,7 @@ cat_slug: "plv-présentoir"
 viscosity: ""
 volume: "1"
 price_eur: 1831.0
-price_rub: 668660.57
+price_rub: 501496.67
 image: "https://www.racinglubes.fr/20232-large_default/bar-a-huile-pour-tonnelets-carburol.jpg"
 images:
   - "https://www.racinglubes.fr/20232-large_default/bar-a-huile-pour-tonnelets-carburol.jpg"

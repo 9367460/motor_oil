@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 56 г"
 price_eur: 12.25
-price_rub: 4478.53
+price_rub: 3360.15
 image: "https://www.racinglubes.fr/8285-large_default/pate-a-joint-et-mastic-bardahl-mastic-epoxy-special-metal.jpg"
 images:
   - "https://www.racinglubes.fr/8285-large_default/pate-a-joint-et-mastic-bardahl-mastic-epoxy-special-metal.jpg"

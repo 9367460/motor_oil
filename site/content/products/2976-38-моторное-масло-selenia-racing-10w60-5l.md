@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "5L"
 price_eur: 67.0
-price_rub: 24472.46
+price_rub: 18355.6
 image: "https://www.racinglubes.fr/12607-large_default/huile-moteur-competition-huile-moteur-selenia-racing-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/12607-large_default/huile-moteur-competition-huile-moteur-selenia-racing-10w60.jpg"

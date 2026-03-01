@@ -8,7 +8,7 @@ cat_slug: "home-mobil"
 viscosity: "75W90"
 volume: "60L"
 price_eur: 751.0
-price_rub: 274259.69
+price_rub: 205696.01
 image: "https://www.racinglubes.fr/14572-large_default/huile-pour-transmission-huile-de-boite-mobil-mobilube-1-shc-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/14572-large_default/huile-pour-transmission-huile-de-boite-mobil-mobilube-1-shc-75w90.jpg"

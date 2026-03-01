@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 415.65
-price_rub: 151794.56
+price_rub: 113847.17
 image: "https://www.racinglubes.fr/12521-large_default/materiel-de-garage-et-outillage-samoa-ensemble-fixe-pour-fut.jpg"
 images:
   - "https://www.racinglubes.fr/12521-large_default/materiel-de-garage-et-outillage-samoa-ensemble-fixe-pour-fut.jpg"

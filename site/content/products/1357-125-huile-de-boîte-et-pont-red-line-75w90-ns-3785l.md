@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "75W90"
 volume: "3.785L"
 price_eur: 92.65
-price_rub: 33839.48
+price_rub: 25380.86
 image: "https://www.racinglubes.fr/11170-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-75w90-ns.jpg"
 images:
   - "https://www.racinglubes.fr/11170-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-75w90-ns.jpg"

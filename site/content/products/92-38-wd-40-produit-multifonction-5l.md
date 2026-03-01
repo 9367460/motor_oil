@@ -8,7 +8,7 @@ cat_slug: "dégrippant"
 viscosity: ""
 volume: "5L"
 price_eur: 61.19
-price_rub: 22350.73
+price_rub: 16764.3
 image: "https://www.racinglubes.fr/10579-large_default/degrippant-wd-40-produit-multifonction.jpg"
 images:
   - "https://www.racinglubes.fr/10579-large_default/degrippant-wd-40-produit-multifonction.jpg"

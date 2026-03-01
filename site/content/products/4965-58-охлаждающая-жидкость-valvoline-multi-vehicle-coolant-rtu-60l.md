@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--37c"
 viscosity: ""
 volume: "60L"
 price_eur: 215.0
-price_rub: 78519.99
+price_rub: 58891.24
 image: "https://www.racinglubes.fr/16086-large_default/liquide-de-refroidissement-valvoline-multi-vehicle-coolant-rtu-.jpg"
 images:
   - "https://www.racinglubes.fr/16086-large_default/liquide-de-refroidissement-valvoline-multi-vehicle-coolant-rtu-.jpg"

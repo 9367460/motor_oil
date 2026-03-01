@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 28.6
-price_rub: 10449.32
+price_rub: 7838.24
 image: "https://www.racinglubes.fr/9604-large_default/graisse-lubrifiant-lubrifiant-loctite-lb-8101.jpg"
 images:
   - "https://www.racinglubes.fr/9604-large_default/graisse-lubrifiant-lubrifiant-loctite-lb-8101.jpg"

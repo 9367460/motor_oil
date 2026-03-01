@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "80W90"
 volume: "1L"
 price_eur: 8.49
-price_rub: 3105.43
+price_rub: 2330.32
 image: "https://www.racinglubes.fr/3469-large_default/huile-pour-transmission-huile-de-boite-mobil-mobilube-hd-80w90.jpg"
 images:
   - "https://www.racinglubes.fr/3469-large_default/huile-pour-transmission-huile-de-boite-mobil-mobilube-hd-80w90.jpg"

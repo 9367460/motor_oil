@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "Бочонок 18 кг"
 price_eur: 163.0
-price_rub: 59530.32
+price_rub: 44648.99
 image: "https://www.racinglubes.fr/4610-large_default/graisse-texaco-multifak-ep2.jpg"
 images:
   - "https://www.racinglubes.fr/4610-large_default/graisse-texaco-multifak-ep2.jpg"

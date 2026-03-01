@@ -8,7 +8,7 @@ cat_slug: "dégrippant"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 9.17
-price_rub: 3353.76
+price_rub: 2516.57
 image: "https://www.racinglubes.fr/8044-large_default/degrippant-fuchs-anti-adherent-soudure.jpg"
 images:
   - "https://www.racinglubes.fr/8044-large_default/degrippant-fuchs-anti-adherent-soudure.jpg"

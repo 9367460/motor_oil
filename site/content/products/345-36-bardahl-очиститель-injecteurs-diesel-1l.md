@@ -8,7 +8,7 @@ cat_slug: "gazole"
 viscosity: ""
 volume: "1L"
 price_eur: 39.9
-price_rub: 14575.92
+price_rub: 10933.19
 image: "https://www.racinglubes.fr/7264-large_default/gazole-bardahl-nettoyant-injecteurs-diesel.jpg"
 images:
   - "https://www.racinglubes.fr/7264-large_default/gazole-bardahl-nettoyant-injecteurs-diesel.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-concentré"
 viscosity: ""
 volume: "3.785L"
 price_eur: 51.65
-price_rub: 18866.86
+price_rub: 14151.39
 image: "https://www.racinglubes.fr/15876-large_default/liquide-de-refroidissement-red-line-supercool-concentrate.jpg"
 images:
   - "https://www.racinglubes.fr/15876-large_default/liquide-de-refroidissement-red-line-supercool-concentrate.jpg"

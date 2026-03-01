@@ -8,7 +8,7 @@ cat_slug: "huile-boîte-de-vitesse-véhicules-anciens"
 viscosity: ""
 volume: "1L"
 price_eur: 15.71
-price_rub: 5742.07
+price_rub: 4307.8
 image: "https://www.racinglubes.fr/3825-large_default/huile-boite-de-vitesse-vehicules-anciens-huile-de-boite-castrol-classic-ep-140.jpg"
 images:
   - "https://www.racinglubes.fr/3825-large_default/huile-boite-de-vitesse-vehicules-anciens-huile-de-boite-castrol-classic-ep-140.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "5W40"
 volume: "1L"
 price_eur: 12.58
-price_rub: 4599.04
+price_rub: 3450.53
 image: "https://www.racinglubes.fr/11976-large_default/huile-moteur-huile-moteur-yacco-galaxie-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/11976-large_default/huile-moteur-huile-moteur-yacco-galaxie-5w40.jpg"

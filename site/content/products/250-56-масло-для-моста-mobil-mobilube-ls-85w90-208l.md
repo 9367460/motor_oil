@@ -8,7 +8,7 @@ cat_slug: "huiles-à-engrenages"
 viscosity: "85W90"
 volume: "208L"
 price_eur: 1392.0
-price_rub: 508343.91
+price_rub: 381259.18
 image: "https://www.racinglubes.fr/11341-large_default/huiles-a-engrenages-huile-de-pont-mobil-mobilube-ls-85w90.jpg"
 images:
   - "https://www.racinglubes.fr/11341-large_default/huiles-a-engrenages-huile-de-pont-mobil-mobilube-ls-85w90.jpg"

@@ -8,7 +8,7 @@ cat_slug: "produit-atelier"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 22.0
-price_rub: 8039.09
+price_rub: 6030.57
 image: "https://www.racinglubes.fr/9567-large_default/produit-atelier-adhesif-loctite-3020.jpg"
 images:
   - "https://www.racinglubes.fr/9567-large_default/produit-atelier-adhesif-loctite-3020.jpg"

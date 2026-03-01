@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 18.49
-price_rub: 6757.29
+price_rub: 5069.22
 image: "https://www.racinglubes.fr/8479-large_default/degraissant-nettoyant-bardahl-nettoyant-carburateur-essence-spray.jpg"
 images:
   - "https://www.racinglubes.fr/8479-large_default/degraissant-nettoyant-bardahl-nettoyant-carburateur-essence-spray.jpg"

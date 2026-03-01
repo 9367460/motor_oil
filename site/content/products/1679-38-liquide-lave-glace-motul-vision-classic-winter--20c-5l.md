@@ -8,7 +8,7 @@ cat_slug: "lave-glace-et-dégivrant"
 viscosity: ""
 volume: "5L"
 price_eur: 13.0
-price_rub: 4752.42
+price_rub: 3565.56
 image: "https://www.racinglubes.fr/14886-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-classic-winter.jpg"
 images:
   - "https://www.racinglubes.fr/14886-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-classic-winter.jpg"

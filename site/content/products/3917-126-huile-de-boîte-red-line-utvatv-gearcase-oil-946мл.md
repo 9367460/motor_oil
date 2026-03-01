@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "946мл"
 price_eur: 23.8
-price_rub: 8696.43
+price_rub: 6523.57
 image: "https://www.racinglubes.fr/11257-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-utv-atv-gearcase-oil.jpg"
 images:
   - "https://www.racinglubes.fr/11257-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-utv-atv-gearcase-oil.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: ""
 volume: "2L"
 price_eur: 19.46
-price_rub: 7111.52
+price_rub: 5334.89
 image: "https://www.racinglubes.fr/6081-large_default/huile-moteur-vehicules-anciens-huile-moteur-yacco-legende-monograde-sae-30.jpg"
 images:
   - "https://www.racinglubes.fr/6081-large_default/huile-moteur-vehicules-anciens-huile-moteur-yacco-legende-monograde-sae-30.jpg"

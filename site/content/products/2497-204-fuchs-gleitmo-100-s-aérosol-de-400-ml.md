@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 22.54
-price_rub: 8236.29
+price_rub: 6178.47
 image: "https://www.racinglubes.fr/11300-large_default/pate-a-joint-et-mastic-fuchs-gleitmo-100-s.jpg"
 images:
   - "https://www.racinglubes.fr/11300-large_default/pate-a-joint-et-mastic-fuchs-gleitmo-100-s.jpg"

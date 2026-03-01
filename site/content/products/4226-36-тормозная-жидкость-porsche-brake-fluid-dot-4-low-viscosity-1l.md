@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "1L"
 price_eur: 30.59
-price_rub: 11176.04
+price_rub: 8383.28
 image: "https://www.racinglubes.fr/11688-large_default/liquide-de-freinage-liquide-de-frein-porsche-brake-fluid-dot-4-low-viscosity.jpg"
 images:
   - "https://www.racinglubes.fr/11688-large_default/liquide-de-freinage-liquide-de-frein-porsche-brake-fluid-dot-4-low-viscosity.jpg"

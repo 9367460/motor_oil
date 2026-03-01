@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "75W90"
 volume: "60L"
 price_eur: 507.0
-price_rub: 185154.3
+price_rub: 138866.98
 image: "https://www.racinglubes.fr/10472-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-motul-motyl-gear-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/10472-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-motul-motyl-gear-75w90.jpg"

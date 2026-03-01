@@ -8,7 +8,7 @@ cat_slug: "véhicules-anciens-racing-lubes-vintage"
 viscosity: ""
 volume: "20L"
 price_eur: 217.6
-price_rub: 79469.47
+price_rub: 59603.36
 image: "https://www.racinglubes.fr/3768-large_default/vehicules-anciens-huile-de-boite-castrol-classic-tqf.jpg"
 images:
   - "https://www.racinglubes.fr/3768-large_default/vehicules-anciens-huile-de-boite-castrol-classic-tqf.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "946мл"
 price_eur: 20.82
-price_rub: 7608.17
+price_rub: 5707.38
 image: "https://www.racinglubes.fr/11204-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-racing-atf.jpg"
 images:
   - "https://www.racinglubes.fr/11204-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-red-line-racing-atf.jpg"

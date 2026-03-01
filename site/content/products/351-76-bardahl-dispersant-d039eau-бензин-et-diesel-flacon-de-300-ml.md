@@ -8,7 +8,7 @@ cat_slug: "additifs"
 viscosity: ""
 volume: "Флакон 300 мл"
 price_eur: 15.99
-price_rub: 5844.32
+price_rub: 4384.49
 image: "https://www.racinglubes.fr/8473-large_default/additifs-bardahl-dispersant-deau-essence-et-diesel.jpg"
 images:
   - "https://www.racinglubes.fr/8473-large_default/additifs-bardahl-dispersant-deau-essence-et-diesel.jpg"

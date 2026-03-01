@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "75W80"
 volume: "5L"
 price_eur: 39.99
-price_rub: 14608.79
+price_rub: 10957.84
 image: "https://www.racinglubes.fr/10466-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-motul-motyl-gear-75w80.jpg"
 images:
   - "https://www.racinglubes.fr/10466-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-motul-motyl-gear-75w80.jpg"

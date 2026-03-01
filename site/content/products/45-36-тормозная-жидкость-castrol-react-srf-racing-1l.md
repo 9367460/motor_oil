@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage-compétition"
 viscosity: ""
 volume: "1L"
 price_eur: 56.94
-price_rub: 20798.69
+price_rub: 15600.27
 image: "https://www.racinglubes.fr/18699-large_default/freinage-direction-assistee-liquide-de-frein-castrol-react-srf-racing.jpg"
 images:
   - "https://www.racinglubes.fr/18699-large_default/freinage-direction-assistee-liquide-de-frein-castrol-react-srf-racing.jpg"

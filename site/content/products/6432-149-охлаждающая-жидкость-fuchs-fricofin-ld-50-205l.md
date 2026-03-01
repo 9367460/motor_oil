@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--40c"
 viscosity: ""
 volume: "205L"
 price_eur: 633.0
-price_rub: 231167.74
+price_rub: 173377.05
 image: "https://www.racinglubes.fr/16316-large_default/liquide-de-refroidissement-fuchs-fricofin-ld-50.jpg"
 images:
   - "https://www.racinglubes.fr/16316-large_default/liquide-de-refroidissement-fuchs-fricofin-ld-50.jpg"

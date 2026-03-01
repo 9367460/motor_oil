@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: ""
 volume: "946мл"
 price_eur: 26.77
-price_rub: 9781.03
+price_rub: 7337.02
 image: "https://www.racinglubes.fr/11211-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-lightweight-shockproof-gear-oil.jpg"
 images:
   - "https://www.racinglubes.fr/11211-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-red-line-lightweight-shockproof-gear-oil.jpg"

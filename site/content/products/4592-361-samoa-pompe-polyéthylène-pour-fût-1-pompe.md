@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1 Pompe"
 price_eur: 22.09
-price_rub: 8071.96
+price_rub: 6055.22
 image: "https://www.racinglubes.fr/12524-large_default/materiel-de-garage-et-outillage-samoa-pompe-polyethylene-pour-fut.jpg"
 images:
   - "https://www.racinglubes.fr/12524-large_default/materiel-de-garage-et-outillage-samoa-pompe-polyethylene-pour-fut.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: "75W140"
 volume: "1L"
 price_eur: 29.5
-price_rub: 10777.99
+price_rub: 8084.74
 image: "https://www.racinglubes.fr/7478-large_default/huile-boite-de-vitesse-competition-huile-de-boite-et-pont-motul-nismo-competition-oil-2189e-75w140.jpg"
 images:
   - "https://www.racinglubes.fr/7478-large_default/huile-boite-de-vitesse-competition-huile-de-boite-et-pont-motul-nismo-competition-oil-2189e-75w140.jpg"

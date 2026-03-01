@@ -8,7 +8,7 @@ cat_slug: "adblue"
 viscosity: ""
 volume: "200L"
 price_eur: 288.0
-price_rub: 105178.57
+price_rub: 78885.18
 image: "https://www.racinglubes.fr/21175-large_default/carburol-adblue.jpg"
 images:
   - "https://www.racinglubes.fr/21175-large_default/carburol-adblue.jpg"

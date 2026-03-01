@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "1L"
 price_eur: 18.89
-price_rub: 6903.36
+price_rub: 5178.77
 image: "https://www.racinglubes.fr/10421-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-motul-atf-23614.jpg"
 images:
   - "https://www.racinglubes.fr/10421-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-motul-atf-23614.jpg"

@@ -25,7 +25,7 @@ def get_rate():
 
 
 def calc_price(price_eur, rate):
-    return round(price_eur * rate * 4 + 5, 2)
+    return round(price_eur * rate * 3 + 5, 2)
 
 
 def get_field(fm, name):

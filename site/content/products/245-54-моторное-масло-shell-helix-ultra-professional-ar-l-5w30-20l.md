@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W30"
 volume: "20L"
 price_eur: 172.0
-price_rub: 62816.99
+price_rub: 47113.99
 image: "https://www.racinglubes.fr/12065-large_default/huile-moteur-huile-moteur-shell-helix-ultra-professional-ar-l-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/12065-large_default/huile-moteur-huile-moteur-shell-helix-ultra-professional-ar-l-5w30.jpg"

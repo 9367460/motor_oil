@@ -8,7 +8,7 @@ cat_slug: "home-mobil"
 viscosity: "5W30"
 volume: "208L"
 price_eur: 1056.99
-price_rub: 386002.95
+price_rub: 289503.46
 image: "https://www.racinglubes.fr/20973-large_default/huile-moteur-huile-moteur-mobil-super-3000-x1-formula-fe-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/20973-large_default/huile-moteur-huile-moteur-mobil-super-3000-x1-formula-fe-5w30.jpg"

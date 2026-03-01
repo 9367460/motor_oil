@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 12.74
-price_rub: 4657.47
+price_rub: 3494.35
 image: "https://www.racinglubes.fr/12301-large_default/degraissant-nettoyant-wd-40-specialist-nettoyant-contacts.jpg"
 images:
   - "https://www.racinglubes.fr/12301-large_default/degraissant-nettoyant-wd-40-specialist-nettoyant-contacts.jpg"

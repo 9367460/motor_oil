@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "1L"
 price_eur: 11.89
-price_rub: 4347.06
+price_rub: 3261.55
 image: "https://www.racinglubes.fr/10732-large_default/liquide-de-freinage-liquide-de-frein-total-hbf-4.jpg"
 images:
   - "https://www.racinglubes.fr/10732-large_default/liquide-de-freinage-liquide-de-frein-total-hbf-4.jpg"

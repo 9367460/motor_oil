@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "50мл"
 price_eur: 36.29
-price_rub: 13257.6
+price_rub: 9944.45
 image: "https://www.racinglubes.fr/9584-large_default/colles-et-fixe-ecrous-frein-filet-loctite-5800.jpg"
 images:
   - "https://www.racinglubes.fr/9584-large_default/colles-et-fixe-ecrous-frein-filet-loctite-5800.jpg"

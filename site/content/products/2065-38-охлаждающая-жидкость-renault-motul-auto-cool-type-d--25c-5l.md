@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--25c"
 viscosity: ""
 volume: "5L"
 price_eur: 19.79
-price_rub: 7232.03
+price_rub: 5425.27
 image: "https://www.racinglubes.fr/14087-large_default/liquide-de-refroidissement-25c-liquide-de-refroidissement-motul-auto-cool-type-d-25c-renault.jpg"
 images:
   - "https://www.racinglubes.fr/14087-large_default/liquide-de-refroidissement-25c-liquide-de-refroidissement-motul-auto-cool-type-d-25c-renault.jpg"

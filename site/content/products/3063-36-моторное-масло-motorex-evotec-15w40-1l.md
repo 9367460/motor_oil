@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "15W40"
 volume: "1L"
 price_eur: 17.58
-price_rub: 6424.97
+price_rub: 4819.98
 image: "https://www.racinglubes.fr/7710-large_default/huile-moteur-vehicules-anciens-huile-moteur-motorex-evotec-15w40.jpg"
 images:
   - "https://www.racinglubes.fr/7710-large_default/huile-moteur-vehicules-anciens-huile-moteur-motorex-evotec-15w40.jpg"

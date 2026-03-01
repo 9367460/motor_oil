@@ -8,7 +8,7 @@ cat_slug: "lave-glace-et-dégivrant"
 viscosity: ""
 volume: "500мл"
 price_eur: 3.22
-price_rub: 1180.9
+price_rub: 886.92
 image: "https://www.racinglubes.fr/11303-large_default/lave-glace-et-degivrant-fuchs-lave-glace-concentre.jpg"
 images:
   - "https://www.racinglubes.fr/11303-large_default/lave-glace-et-degivrant-fuchs-lave-glace-concentre.jpg"

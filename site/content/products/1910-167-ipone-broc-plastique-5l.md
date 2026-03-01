@@ -8,7 +8,7 @@ cat_slug: "maintenance-et-entretien"
 viscosity: ""
 volume: "5L"
 price_eur: 18.89
-price_rub: 6903.36
+price_rub: 5178.77
 image: "https://www.racinglubes.fr/4469-large_default/materiel-de-garage-et-outillage-ipone-broc-plastique.jpg"
 images:
   - "https://www.racinglubes.fr/4469-large_default/materiel-de-garage-et-outillage-ipone-broc-plastique.jpg"

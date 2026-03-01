@@ -8,7 +8,7 @@ cat_slug: "maintenance-et-entretien"
 viscosity: ""
 volume: "Ёмкость 500 мл"
 price_eur: 8.89
-price_rub: 3251.5
+price_rub: 2439.88
 image: "https://www.racinglubes.fr/4285-large_default/maintenance-et-entretien-ipone-doseur-gradue.jpg"
 images:
   - "https://www.racinglubes.fr/4285-large_default/maintenance-et-entretien-ipone-doseur-gradue.jpg"

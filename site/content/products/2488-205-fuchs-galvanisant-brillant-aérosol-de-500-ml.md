@@ -8,7 +8,7 @@ cat_slug: "dégrippant"
 viscosity: ""
 volume: "Аэрозоль 500 мл"
 price_eur: 10.03
-price_rub: 3667.82
+price_rub: 2752.11
 image: "https://www.racinglubes.fr/6223-large_default/degrippant-fuchs-galvanisant-brillant.jpg"
 images:
   - "https://www.racinglubes.fr/6223-large_default/degrippant-fuchs-galvanisant-brillant.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "75W80"
 volume: "20L"
 price_eur: 165.0
-price_rub: 60260.69
+price_rub: 45196.77
 image: "https://www.racinglubes.fr/12104-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-shell-spirax-s4-g-75w80.jpg"
 images:
   - "https://www.racinglubes.fr/12104-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-shell-spirax-s4-g-75w80.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement"
 viscosity: ""
 volume: "208L"
 price_eur: 996.0
-price_rub: 363730.26
+price_rub: 272798.94
 image: "https://www.racinglubes.fr/16031-large_default/liquide-de-refroidissement-texaco-egx-pre-mixed-5050.jpg"
 images:
   - "https://www.racinglubes.fr/16031-large_default/liquide-de-refroidissement-texaco-egx-pre-mixed-5050.jpg"

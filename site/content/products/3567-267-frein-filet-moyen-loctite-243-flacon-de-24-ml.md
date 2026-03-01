@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Флакон 24 мл"
 price_eur: 28.9
-price_rub: 10558.88
+price_rub: 7920.41
 image: "https://www.racinglubes.fr/10195-large_default/colles-et-fixe-ecrous-frein-filet-moyen-loctite-243.jpg"
 images:
   - "https://www.racinglubes.fr/10195-large_default/colles-et-fixe-ecrous-frein-filet-moyen-loctite-243.jpg"

@@ -1,13 +1,158 @@
 [
   {
-    "name": "Моторное масло Спорт",
-    "slug": "huile-moteur-compétition",
-    "count": 42
+    "name": "Accessoires de nettoyage",
+    "slug": "accessoires-de-nettoyage",
+    "count": 4
   },
   {
-    "name": "Масло КПП и мост",
-    "slug": "huile-boite-de-vitesse-et-pont",
-    "count": 45
+    "name": "AdBlue (мочевина)",
+    "slug": "adblue",
+    "count": 4
+  },
+  {
+    "name": "Additifs Carburant",
+    "slug": "additifs-carburant",
+    "count": 2
+  },
+  {
+    "name": "Automobile",
+    "slug": "automobile",
+    "count": 2
+  },
+  {
+    "name": "Autre",
+    "slug": "autre",
+    "count": 1
+  },
+  {
+    "name": "Autres",
+    "slug": "autres",
+    "count": 3
+  },
+  {
+    "name": "Compétition",
+    "slug": "compétition",
+    "count": 7
+  },
+  {
+    "name": "Huile pour transmission",
+    "slug": "huile-pour-transmission",
+    "count": 3
+  },
+  {
+    "name": "Huiles à engrenages",
+    "slug": "huiles-à-engrenages",
+    "count": 10
+  },
+  {
+    "name": "Liquide de Freinage Véhicules Anciens",
+    "slug": "liquide-de-freinage-véhicules-anciens",
+    "count": 1
+  },
+  {
+    "name": "Liquide de Refroidissement -25°C",
+    "slug": "liquide-de-refroidissement--25c",
+    "count": 15
+  },
+  {
+    "name": "Liquide de Refroidissement -30°C",
+    "slug": "liquide-de-refroidissement--30c",
+    "count": 4
+  },
+  {
+    "name": "Liquide de Refroidissement -35°C",
+    "slug": "liquide-de-refroidissement--35c",
+    "count": 14
+  },
+  {
+    "name": "Liquide de Refroidissement -37°C",
+    "slug": "liquide-de-refroidissement--37c",
+    "count": 12
+  },
+  {
+    "name": "Liquide de Refroidissement -40°C",
+    "slug": "liquide-de-refroidissement--40c",
+    "count": 11
+  },
+  {
+    "name": "Liquide de Refroidissement Concentré",
+    "slug": "liquide-de-refroidissement-concentré",
+    "count": 10
+  },
+  {
+    "name": "Liquide de freinage",
+    "slug": "liquide-de-freinage",
+    "count": 34
+  },
+  {
+    "name": "Liquide de freinage compétition",
+    "slug": "liquide-de-freinage-compétition",
+    "count": 6
+  },
+  {
+    "name": "Maintenance et Entretien",
+    "slug": "maintenance-et-entretien",
+    "count": 4
+  },
+  {
+    "name": "Maintenance, Filtration, Refroidissement et Entretien",
+    "slug": "maintenance-filtration-refroidissement-et-entretien",
+    "count": 1
+  },
+  {
+    "name": "PLV / Présentoir",
+    "slug": "plv-présentoir",
+    "count": 4
+  },
+  {
+    "name": "Turbo / Vannes EGR",
+    "slug": "turbo-vannes-egr",
+    "count": 2
+  },
+  {
+    "name": "Véhicules anciens Racing Lubes Vintage",
+    "slug": "véhicules-anciens-racing-lubes-vintage",
+    "count": 2
+  },
+  {
+    "name": "Герметики и мастики",
+    "slug": "pâte-à-joint-et-mastic",
+    "count": 51
+  },
+  {
+    "name": "Гидравлическая жидкость",
+    "slug": "liquide-hydraulique",
+    "count": 2
+  },
+  {
+    "name": "Дизельные присадки",
+    "slug": "gazole",
+    "count": 7
+  },
+  {
+    "name": "Жидкость WD",
+    "slug": "dégrippant",
+    "count": 15
+  },
+  {
+    "name": "Жидкость ГУР",
+    "slug": "liquide-de-direction-assistée",
+    "count": 5
+  },
+  {
+    "name": "Инструменты для гаража",
+    "slug": "matériel-de-garage-et-outillage",
+    "count": 33
+  },
+  {
+    "name": "Клеи и фиксаторы",
+    "slug": "colles-et-fixe-ecrous",
+    "count": 79
+  },
+  {
+    "name": "Масло",
+    "slug": "huile",
+    "count": 19
   },
   {
     "name": "Масло Mobil",
@@ -20,44 +165,9 @@
     "count": 36
   },
   {
-    "name": "Моторное масло Дизель",
-    "slug": "huile-moteur-diesel",
-    "count": 3
-  },
-  {
-    "name": "Моторное масло",
-    "slug": "huile-moteur",
-    "count": 161
-  },
-  {
-    "name": "Охл. жидкость Спорт",
-    "slug": "liquide-de-refroidissement-compétition",
-    "count": 3
-  },
-  {
-    "name": "Liquide de freinage",
-    "slug": "liquide-de-freinage",
-    "count": 34
-  },
-  {
-    "name": "Масло МКПП",
-    "slug": "huiles-pour-transmissions-manuelles",
-    "count": 33
-  },
-  {
-    "name": "Liquide de freinage compétition",
-    "slug": "liquide-de-freinage-compétition",
-    "count": 6
-  },
-  {
-    "name": "Жидкость ГУР",
-    "slug": "liquide-de-direction-assistée",
-    "count": 5
-  },
-  {
-    "name": "Тормоза и ГУР",
-    "slug": "freinage---direction-assistée",
-    "count": 4
+    "name": "Масло КПП Классика",
+    "slug": "huile-boîte-de-vitesse-véhicules-anciens",
+    "count": 8
   },
   {
     "name": "Масло КПП Спорт",
@@ -65,9 +175,89 @@
     "count": 13
   },
   {
+    "name": "Масло КПП и мост",
+    "slug": "huile-boite-de-vitesse-et-pont",
+    "count": 45
+  },
+  {
+    "name": "Масло МКПП",
+    "slug": "huiles-pour-transmissions-manuelles",
+    "count": 33
+  },
+  {
+    "name": "Масляные фильтры",
+    "slug": "filtres-à-huile",
+    "count": 48
+  },
+  {
+    "name": "Моторное масло",
+    "slug": "huile-moteur",
+    "count": 161
+  },
+  {
+    "name": "Моторное масло Дизель",
+    "slug": "huile-moteur-diesel",
+    "count": 3
+  },
+  {
+    "name": "Моторное масло Классика",
+    "slug": "huile-moteur-véhicules-anciens",
+    "count": 48
+  },
+  {
+    "name": "Моторное масло Спорт",
+    "slug": "huile-moteur-compétition",
+    "count": 42
+  },
+  {
+    "name": "Обезжириватель / Очиститель",
+    "slug": "dégrippant---graissage---dégraissant",
+    "count": 21
+  },
+  {
+    "name": "Омыватель и размораживатель",
+    "slug": "lave-glace-et-dégivrant",
+    "count": 12
+  },
+  {
+    "name": "Охл. жидкость Классика",
+    "slug": "liquide-de-refroidissement-véhicules-anciens",
+    "count": 6
+  },
+  {
+    "name": "Охл. жидкость Спорт",
+    "slug": "liquide-de-refroidissement-compétition",
+    "count": 3
+  },
+  {
+    "name": "Охлаждающая жидкость",
+    "slug": "liquide-de-refroidissement",
+    "count": 24
+  },
+  {
+    "name": "Присадки",
+    "slug": "additifs",
+    "count": 4
+  },
+  {
+    "name": "Присадки Классика",
+    "slug": "additifs-véhicules-anciens",
+    "count": 1
+  },
+  {
+    "name": "Присадки Спорт",
+    "slug": "additifs-compétition",
+    "count": 10
+  },
+  {
     "name": "Присадки бензин",
     "slug": "essence",
     "count": 13
+  },
+  {
+    "name": "Продукты для сервиса",
+    "slug": "produit-atelier",
+    "count": 7
   },
   {
     "name": "Радиатор и охлаждение",
@@ -80,203 +270,8 @@
     "count": 47
   },
   {
-    "name": "Обезжириватель / Очиститель",
-    "slug": "dégrippant---graissage---dégraissant",
-    "count": 9
-  },
-  {
-    "name": "Autre",
-    "slug": "autre",
-    "count": 1
-  },
-  {
-    "name": "Масло",
-    "slug": "huile",
-    "count": 19
-  },
-  {
-    "name": "Жидкость WD",
-    "slug": "dégrippant",
-    "count": 15
-  },
-  {
-    "name": "Дизельные присадки",
-    "slug": "gazole",
-    "count": 7
-  },
-  {
-    "name": "Присадки",
-    "slug": "additifs",
+    "name": "Тормоза и ГУР",
+    "slug": "freinage---direction-assistée",
     "count": 4
-  },
-  {
-    "name": "Maintenance, Filtration, Refroidissement et Entretien",
-    "slug": "maintenance-filtration-refroidissement-et-entretien",
-    "count": 1
-  },
-  {
-    "name": "Герметики и мастики",
-    "slug": "pâte-à-joint-et-mastic",
-    "count": 51
-  },
-  {
-    "name": "Омыватель и размораживатель",
-    "slug": "lave-glace-et-dégivrant",
-    "count": 12
-  },
-  {
-    "name": "Клеи и фиксаторы",
-    "slug": "colles-et-fixe-ecrous",
-    "count": 79
-  },
-  {
-    "name": "Maintenance et Entretien",
-    "slug": "maintenance-et-entretien",
-    "count": 4
-  },
-  {
-    "name": "Turbo / Vannes EGR",
-    "slug": "turbo-vannes-egr",
-    "count": 2
-  },
-  {
-    "name": "Liquide de Refroidissement -25°C",
-    "slug": "liquide-de-refroidissement--25c",
-    "count": 15
-  },
-  {
-    "name": "Liquide de Refroidissement -35°C",
-    "slug": "liquide-de-refroidissement--35c",
-    "count": 14
-  },
-  {
-    "name": "Обезжириватель / Очиститель",
-    "slug": "dégraissant-nettoyant",
-    "count": 12
-  },
-  {
-    "name": "Compétition",
-    "slug": "compétition",
-    "count": 7
-  },
-  {
-    "name": "Моторное масло Классика",
-    "slug": "huile-moteur-véhicules-anciens",
-    "count": 48
-  },
-  {
-    "name": "Масло КПП Классика",
-    "slug": "huile-boîte-de-vitesse-véhicules-anciens",
-    "count": 8
-  },
-  {
-    "name": "Huile pour transmission",
-    "slug": "huile-pour-transmission",
-    "count": 3
-  },
-  {
-    "name": "Гидравлическая жидкость",
-    "slug": "liquide-hydraulique",
-    "count": 2
-  },
-  {
-    "name": "Присадки Классика",
-    "slug": "additifs-véhicules-anciens",
-    "count": 1
-  },
-  {
-    "name": "Automobile",
-    "slug": "automobile",
-    "count": 2
-  },
-  {
-    "name": "Huiles à engrenages",
-    "slug": "huiles-à-engrenages",
-    "count": 10
-  },
-  {
-    "name": "Охлаждающая жидкость",
-    "slug": "liquide-de-refroidissement",
-    "count": 24
-  },
-  {
-    "name": "Инструменты для гаража",
-    "slug": "matériel-de-garage-et-outillage",
-    "count": 33
-  },
-  {
-    "name": "Liquide de Freinage Véhicules Anciens",
-    "slug": "liquide-de-freinage-véhicules-anciens",
-    "count": 1
-  },
-  {
-    "name": "Autres",
-    "slug": "autres",
-    "count": 3
-  },
-  {
-    "name": "Продукты для сервиса",
-    "slug": "produit-atelier",
-    "count": 7
-  },
-  {
-    "name": "Véhicules anciens Racing Lubes Vintage",
-    "slug": "véhicules-anciens-racing-lubes-vintage",
-    "count": 2
-  },
-  {
-    "name": "Присадки Спорт",
-    "slug": "additifs-compétition",
-    "count": 10
-  },
-  {
-    "name": "Liquide de Refroidissement -40°C",
-    "slug": "liquide-de-refroidissement--40c",
-    "count": 11
-  },
-  {
-    "name": "Охл. жидкость Классика",
-    "slug": "liquide-de-refroidissement-véhicules-anciens",
-    "count": 6
-  },
-  {
-    "name": "Accessoires de nettoyage",
-    "slug": "accessoires-de-nettoyage",
-    "count": 4
-  },
-  {
-    "name": "Liquide de Refroidissement -37°C",
-    "slug": "liquide-de-refroidissement--37c",
-    "count": 12
-  },
-  {
-    "name": "Liquide de Refroidissement Concentré",
-    "slug": "liquide-de-refroidissement-concentré",
-    "count": 10
-  },
-  {
-    "name": "AdBlue (мочевина)",
-    "slug": "adblue",
-    "count": 4
-  },
-  {
-    "name": "Масляные фильтры",
-    "slug": "filtres-à-huile",
-    "count": 48
-  },
-  {
-    "name": "Liquide de Refroidissement -30°C",
-    "slug": "liquide-de-refroidissement--30c",
-    "count": 4
-  },
-  {
-    "name": "PLV / Présentoir",
-    "slug": "plv-présentoir",
-    "count": 4
-  },
-  {
-    "name": "Additifs Carburant",
-    "slug": "additifs-carburant",
-    "count": 2
   }
 ]

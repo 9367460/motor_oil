@@ -8,7 +8,7 @@ cat_slug: "huile-boîte-de-vitesse-véhicules-anciens"
 viscosity: "85W140"
 volume: "1L"
 price_eur: 12.0
-price_rub: 4387.23
+price_rub: 3291.67
 image: "https://www.racinglubes.fr/20734-large_default/huile-de-boite-eni-agip-novecento-85w140-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/20734-large_default/huile-de-boite-eni-agip-novecento-85w140-destockage.jpg"

@@ -8,7 +8,7 @@ cat_slug: "produit-atelier"
 viscosity: ""
 volume: "Стик 19 г"
 price_eur: 26.29
-price_rub: 9605.74
+price_rub: 7205.55
 image: "https://www.racinglubes.fr/9560-large_default/produit-atelier-frein-filet-moyen-loctite-248.jpg"
 images:
   - "https://www.racinglubes.fr/9560-large_default/produit-atelier-frein-filet-moyen-loctite-248.jpg"

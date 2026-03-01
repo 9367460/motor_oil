@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--40c"
 viscosity: ""
 volume: "5L"
 price_eur: 56.01
-price_rub: 20459.07
+price_rub: 15345.55
 image: "https://www.racinglubes.fr/20909-large_default/liquide-de-refroidissement-hawk-auto-cool-180.jpg"
 images:
   - "https://www.racinglubes.fr/20909-large_default/liquide-de-refroidissement-hawk-auto-cool-180.jpg"

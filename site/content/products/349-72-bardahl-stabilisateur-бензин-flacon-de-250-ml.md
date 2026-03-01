@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "Флакон 250 мл"
 price_eur: 16.89
-price_rub: 6172.99
+price_rub: 4630.99
 image: "https://www.racinglubes.fr/8487-large_default/essence-bardahl-stabilisateur-essence.jpg"
 images:
   - "https://www.racinglubes.fr/8487-large_default/essence-bardahl-stabilisateur-essence.jpg"

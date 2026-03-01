@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "209L"
 price_eur: 1438.0
-price_rub: 525142.47
+price_rub: 393858.1
 image: "https://www.racinglubes.fr/14198-large_default/huile-moteur-shell-helix-ultra-professional-av-l-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/14198-large_default/huile-moteur-shell-helix-ultra-professional-av-l-0w30.jpg"

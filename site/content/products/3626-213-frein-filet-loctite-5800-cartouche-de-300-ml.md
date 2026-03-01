@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Картридж 300 мл"
 price_eur: 174.59
-price_rub: 63762.82
+price_rub: 47823.37
 image: "https://www.racinglubes.fr/9584-large_default/colles-et-fixe-ecrous-frein-filet-loctite-5800.jpg"
 images:
   - "https://www.racinglubes.fr/9584-large_default/colles-et-fixe-ecrous-frein-filet-loctite-5800.jpg"

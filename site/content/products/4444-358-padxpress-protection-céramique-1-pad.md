@@ -8,7 +8,7 @@ cat_slug: "accessoires-de-nettoyage"
 viscosity: ""
 volume: "1 Pad"
 price_eur: 71.6
-price_rub: 26152.32
+price_rub: 19615.49
 image: "https://www.racinglubes.fr/12357-large_default/accessoires-de-nettoyage-padxpress-protection-ceramique.jpg"
 images:
   - "https://www.racinglubes.fr/12357-large_default/accessoires-de-nettoyage-padxpress-protection-ceramique.jpg"

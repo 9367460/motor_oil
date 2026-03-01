@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Спрей 300 мл"
 price_eur: 13.22
-price_rub: 4832.76
+price_rub: 3625.82
 image: "https://www.racinglubes.fr/4961-large_default/graisse-ecotec-1140-graisse-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/4961-large_default/graisse-ecotec-1140-graisse-destockage.jpg"

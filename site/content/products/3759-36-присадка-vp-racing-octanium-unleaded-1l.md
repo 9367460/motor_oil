@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "1L"
 price_eur: 27.19
-price_rub: 9934.41
+price_rub: 7452.06
 image: "https://www.racinglubes.fr/9642-large_default/additifs-competition-additif-vp-racing-octanium-unleaded.jpg"
 images:
   - "https://www.racinglubes.fr/9642-large_default/additifs-competition-additif-vp-racing-octanium-unleaded.jpg"

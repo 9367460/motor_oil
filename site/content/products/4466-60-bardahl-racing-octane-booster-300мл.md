@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "300мл"
 price_eur: 24.89
-price_rub: 9094.48
+price_rub: 6822.11
 image: "https://www.racinglubes.fr/12451-large_default/additifs-competition-bardahl-racing-octane-booster.jpg"
 images:
   - "https://www.racinglubes.fr/12451-large_default/additifs-competition-bardahl-racing-octane-booster.jpg"

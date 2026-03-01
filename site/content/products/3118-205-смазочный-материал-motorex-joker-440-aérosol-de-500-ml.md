@@ -8,7 +8,7 @@ cat_slug: "autres"
 viscosity: ""
 volume: "Аэрозоль 500 мл"
 price_eur: 12.74
-price_rub: 4657.47
+price_rub: 3494.35
 image: "https://www.racinglubes.fr/7856-large_default/autres-lubrifiant-motorex-joker-440.jpg"
 images:
   - "https://www.racinglubes.fr/7856-large_default/autres-lubrifiant-motorex-joker-440.jpg"

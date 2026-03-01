@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: ""
 volume: "208L"
 price_eur: 1029.0
-price_rub: 375781.39
+price_rub: 281837.3
 image: "https://www.racinglubes.fr/19831-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-castrol-transmax-manual-fe-75w.jpg"
 images:
   - "https://www.racinglubes.fr/19831-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-castrol-transmax-manual-fe-75w.jpg"

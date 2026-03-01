@@ -8,7 +8,7 @@ cat_slug: "essence"
 viscosity: ""
 volume: "443мл"
 price_eur: 16.14
-price_rub: 5899.1
+price_rub: 4425.58
 image: "https://www.racinglubes.fr/11200-large_default/essence-additif-red-line-si-1-fuel-system-cleaner.jpg"
 images:
   - "https://www.racinglubes.fr/11200-large_default/essence-additif-red-line-si-1-fuel-system-cleaner.jpg"

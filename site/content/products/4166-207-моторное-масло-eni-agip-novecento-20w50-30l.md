@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "20W50"
 volume: "30L"
 price_eur: 299.0
-price_rub: 109195.61
+price_rub: 81897.96
 image: "https://www.racinglubes.fr/11501-large_default/huile-moteur-vehicules-anciens-huile-moteur-agip-novecento-20w50.jpg"
 images:
   - "https://www.racinglubes.fr/11501-large_default/huile-moteur-vehicules-anciens-huile-moteur-agip-novecento-20w50.jpg"

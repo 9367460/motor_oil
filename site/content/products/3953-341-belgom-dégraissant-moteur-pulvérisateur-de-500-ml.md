@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Распылитель 500 мл"
 price_eur: 12.74
-price_rub: 4657.47
+price_rub: 3494.35
 image: "https://www.racinglubes.fr/9984-large_default/degraissant-nettoyant-belgom-degraissant-moteur.jpg"
 images:
   - "https://www.racinglubes.fr/9984-large_default/degraissant-nettoyant-belgom-degraissant-moteur.jpg"

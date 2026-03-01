@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Туба 150 г"
 price_eur: 10.99
-price_rub: 4018.39
+price_rub: 3015.05
 image: "https://www.racinglubes.fr/6626-large_default/graisse-lubrifiant-bardahl-graisse-cuivree.jpg"
 images:
   - "https://www.racinglubes.fr/6626-large_default/graisse-lubrifiant-bardahl-graisse-cuivree.jpg"

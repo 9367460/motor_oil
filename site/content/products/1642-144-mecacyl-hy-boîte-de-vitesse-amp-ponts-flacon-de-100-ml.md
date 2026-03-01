@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 100 мл"
 price_eur: 19.97
-price_rub: 7297.76
+price_rub: 5474.57
 image: "https://www.racinglubes.fr/14129-large_default/huile-mecacyl-hy-boite-de-vitesse-ponts.jpg"
 images:
   - "https://www.racinglubes.fr/14129-large_default/huile-mecacyl-hy-boite-de-vitesse-ponts.jpg"

@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--37c"
 viscosity: ""
 volume: "5L"
 price_eur: 23.8
-price_rub: 8696.43
+price_rub: 6523.57
 image: "https://www.racinglubes.fr/15928-large_default/liquide-de-refroidissement-motul-auto-cool-rosa-37c.jpg"
 images:
   - "https://www.racinglubes.fr/15928-large_default/liquide-de-refroidissement-motul-auto-cool-rosa-37c.jpg"

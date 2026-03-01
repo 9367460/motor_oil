@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "15W50"
 volume: "1L"
 price_eur: 12.48
-price_rub: 4562.52
+price_rub: 3423.14
 image: "https://www.racinglubes.fr/11498-large_default/huile-moteur-vehicules-anciens-huile-moteur-agip-novecento-15w50.jpg"
 images:
   - "https://www.racinglubes.fr/11498-large_default/huile-moteur-vehicules-anciens-huile-moteur-agip-novecento-15w50.jpg"

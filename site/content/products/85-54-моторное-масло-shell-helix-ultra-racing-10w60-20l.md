@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-compétition"
 viscosity: "10W60"
 volume: "20L"
 price_eur: 239.0
-price_rub: 87284.45
+price_rub: 65464.59
 image: "https://www.racinglubes.fr/7111-large_default/huile-moteur-competition-huile-moteur-shell-helix-ultra-racing-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/7111-large_default/huile-moteur-competition-huile-moteur-shell-helix-ultra-racing-10w60.jpg"

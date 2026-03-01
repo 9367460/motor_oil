@@ -8,7 +8,7 @@ cat_slug: "liquide-de-direction-assistée"
 viscosity: ""
 volume: "1L"
 price_eur: 15.59
-price_rub: 5698.25
+price_rub: 4274.94
 image: "https://www.racinglubes.fr/3297-large_default/liquide-de-direction-assistee-fluide-hydraulique-motul-multi-hf.jpg"
 images:
   - "https://www.racinglubes.fr/3297-large_default/liquide-de-direction-assistee-fluide-hydraulique-motul-multi-hf.jpg"

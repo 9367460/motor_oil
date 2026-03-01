@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 9.89
-price_rub: 3616.69
+price_rub: 2713.77
 image: "https://www.racinglubes.fr/14885-large_default/degrippant-graissage-degraissant-motul-p4-ez-lube.jpg"
 images:
   - "https://www.racinglubes.fr/14885-large_default/degrippant-graissage-degraissant-motul-p4-ez-lube.jpg"

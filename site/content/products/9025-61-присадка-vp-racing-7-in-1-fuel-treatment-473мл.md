@@ -8,7 +8,7 @@ cat_slug: "additifs-carburant"
 viscosity: ""
 volume: "473мл"
 price_eur: 22.01
-price_rub: 8042.74
+price_rub: 6033.31
 image: "https://www.racinglubes.fr/21681-large_default/additif-vp-racing-7-in-1-fuel-treatment.jpg"
 images:
   - "https://www.racinglubes.fr/21681-large_default/additif-vp-racing-7-in-1-fuel-treatment.jpg"

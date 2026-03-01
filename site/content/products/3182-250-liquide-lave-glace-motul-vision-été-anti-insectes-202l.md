@@ -8,7 +8,7 @@ cat_slug: "lave-glace-et-dégivrant"
 viscosity: ""
 volume: "202L"
 price_eur: 314.0
-price_rub: 114673.4
+price_rub: 86006.3
 image: "https://www.racinglubes.fr/14887-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-ete-anti-insectes.jpg"
 images:
   - "https://www.racinglubes.fr/14887-large_default/lave-glace-et-degivrant-liquide-lave-glace-motul-vision-ete-anti-insectes.jpg"

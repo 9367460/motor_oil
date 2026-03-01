@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "1L"
 price_eur: 13.51
-price_rub: 4938.66
+price_rub: 3705.25
 image: "https://www.racinglubes.fr/10885-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-speedmatic.jpg"
 images:
   - "https://www.racinglubes.fr/10885-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-speedmatic.jpg"

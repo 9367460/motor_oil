@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Банка 1 кг"
 price_eur: 51.85
-price_rub: 18939.89
+price_rub: 14206.17
 image: "https://www.racinglubes.fr/12381-large_default/lubrifiant-loctite-lb-8150-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/12381-large_default/lubrifiant-loctite-lb-8150-destockage.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "5L"
 price_eur: 30.79
-price_rub: 11249.08
+price_rub: 8438.06
 image: "https://www.racinglubes.fr/10451-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-gear-oil-90.jpg"
 images:
   - "https://www.racinglubes.fr/10451-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-et-pont-motul-gear-oil-90.jpg"

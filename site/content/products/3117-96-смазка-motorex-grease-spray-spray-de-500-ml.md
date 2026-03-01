@@ -8,7 +8,7 @@ cat_slug: "dégrippant---graissage---dégraissant"
 viscosity: ""
 volume: "Спрей 500 мл"
 price_eur: 13.6
-price_rub: 4971.53
+price_rub: 3729.9
 image: "https://www.racinglubes.fr/7855-large_default/degrippant-graissage-degraissant-graisse-motorex-grease-spray.jpg"
 images:
   - "https://www.racinglubes.fr/7855-large_default/degrippant-graissage-degraissant-graisse-motorex-grease-spray.jpg"

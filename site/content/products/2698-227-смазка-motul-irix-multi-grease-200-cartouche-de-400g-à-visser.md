@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Картридж 400 г"
 price_eur: 5.5
-price_rub: 2013.52
+price_rub: 1511.39
 image: "https://www.racinglubes.fr/7596-large_default/graisse-lubrifiant-graisse-motul-irix-multi-grease-200.jpg"
 images:
   - "https://www.racinglubes.fr/7596-large_default/graisse-lubrifiant-graisse-motul-irix-multi-grease-200.jpg"

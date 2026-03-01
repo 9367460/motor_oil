@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Банка 3.6 кг"
 price_eur: 376.99
-price_rub: 137676.47
+price_rub: 103258.6
 image: "https://www.racinglubes.fr/9600-large_default/graisse-lubrifiant-lubrifiant-loctite-lb-8009.jpg"
 images:
   - "https://www.racinglubes.fr/9600-large_default/graisse-lubrifiant-lubrifiant-loctite-lb-8009.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: ""
 volume: "208L"
 price_eur: 1459.0
-price_rub: 532811.37
+price_rub: 399609.78
 image: "https://www.racinglubes.fr/11351-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-mobil-gear-oil-fe-75w.jpg"
 images:
   - "https://www.racinglubes.fr/11351-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-mobil-gear-oil-fe-75w.jpg"

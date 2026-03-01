@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1 Pompe"
 price_eur: 39.1
-price_rub: 14283.77
+price_rub: 10714.08
 image: "https://www.racinglubes.fr/12522-large_default/materiel-de-garage-et-outillage-samoa-pompe-manuelle-metal-pour-fut.jpg"
 images:
   - "https://www.racinglubes.fr/12522-large_default/materiel-de-garage-et-outillage-samoa-pompe-manuelle-metal-pour-fut.jpg"

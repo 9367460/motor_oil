@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "5L"
 price_eur: 48.44
-price_rub: 17694.61
+price_rub: 13272.21
 image: "https://www.racinglubes.fr/8014-large_default/liquide-de-freinage-fuchs-maintain-dot-4.jpg"
 images:
   - "https://www.racinglubes.fr/8014-large_default/liquide-de-freinage-fuchs-maintain-dot-4.jpg"

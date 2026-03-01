@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 300 мл"
 price_eur: 22.99
-price_rub: 8400.63
+price_rub: 6301.72
 image: "https://www.racinglubes.fr/8477-large_default/huile-bardahl-stop-fuite-huile-moteur.jpg"
 images:
   - "https://www.racinglubes.fr/8477-large_default/huile-bardahl-stop-fuite-huile-moteur.jpg"

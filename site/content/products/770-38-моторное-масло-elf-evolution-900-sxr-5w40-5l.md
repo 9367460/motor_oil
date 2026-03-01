@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W40"
 volume: "5L"
 price_eur: 35.53
-price_rub: 12980.06
+price_rub: 9736.29
 image: "https://www.racinglubes.fr/10850-large_default/huile-moteur-huile-moteur-elf-evolution-900-sxr-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/10850-large_default/huile-moteur-huile-moteur-elf-evolution-900-sxr-5w40.jpg"

@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Аэрозоль 600 мл"
 price_eur: 9.4
-price_rub: 3437.75
+price_rub: 2579.56
 image: "https://www.racinglubes.fr/10223-large_default/degraissant-nettoyant-nettoyant-freins-loctite-sf-7235.jpg"
 images:
   - "https://www.racinglubes.fr/10223-large_default/degraissant-nettoyant-nettoyant-freins-loctite-sf-7235.jpg"

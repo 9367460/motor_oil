@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "15W50"
 volume: "946мл"
 price_eur: 19.83
-price_rub: 7246.64
+price_rub: 5436.23
 image: "https://www.racinglubes.fr/11188-large_default/huile-moteur-red-line-high-performance-15w50-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/11188-large_default/huile-moteur-red-line-high-performance-15w50-destockage.jpg"

@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 15.29
-price_rub: 5588.69
+price_rub: 4192.77
 image: "https://www.racinglubes.fr/21695-large_default/vp-racing-bouchon-noir.jpg"
 images:
   - "https://www.racinglubes.fr/21695-large_default/vp-racing-bouchon-noir.jpg"

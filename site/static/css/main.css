@@ -6,9 +6,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --orange:       #FF6700;
-  --orange-dark:  #E55A00;
-  --orange-light: #FFF3EC;
+  --orange:       #E31E24;
+  --orange-dark:  #C41A1F;
+  --orange-light: #FDEAEA;
   --bg:           #F5F5F5;
   --white:        #FFFFFF;
   --text:         #1A1A1A;
@@ -16,8 +16,8 @@
   --text-light:   #999999;
   --border:       #E0E0E0;
   --border-dark:  #CCCCCC;
-  --header-bg:    #202020;
-  --nav-bg:       #333333;
+  --header-bg:    #FFFFFF;
+  --nav-bg:       #FFFFFF;
   --success:      #2DB54B;
   --shadow-sm:    0 1px 4px rgba(0,0,0,0.10);
   --shadow:       0 2px 12px rgba(0,0,0,0.12);
@@ -37,14 +37,35 @@ img { max-width: 100%; display: block; }
 .container { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
 
 /* ══════════════════════════════════════════════════════════
-   HEADER — тёмный, двухуровневый
+   HEADER — белый, как у ВсеИнструменты.ру
 ══════════════════════════════════════════════════════════ */
-.site-header { position: sticky; top: 0; z-index: 200; }
+.site-header {
+  position: sticky; top: 0; z-index: 200;
+  background: var(--white);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
 
-/* Верхняя полоса: лого + поиск + телефон + корзина */
+/* Тонкая верхняя инфополоса */
+.header-info-bar {
+  background: #F0F0F0;
+  border-bottom: 1px solid var(--border);
+  padding: 5px 0;
+}
+.header-info-bar-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  max-width: 1240px; margin: 0 auto; padding: 0 16px;
+  font-size: 12px; color: #888;
+}
+.header-info-bar a { color: #888; }
+.header-info-bar a:hover { color: var(--orange); }
+.header-info-phone {
+  font-size: 13px; font-weight: 600; color: var(--text);
+}
+
+/* Основная строка хедера */
 .header-top {
-  background: var(--header-bg);
-  padding: 12px 0;
+  background: var(--white);
+  padding: 14px 0;
 }
 .header-top-inner {
   display: flex; align-items: center; gap: 20px;
@@ -53,21 +74,25 @@ img { max-width: 100%; display: block; }
 
 /* Лого */
 .logo {
-  display: flex; align-items: center; gap: 10px;
+  display: flex; align-items: center; gap: 0;
   flex-shrink: 0; text-decoration: none;
 }
 .logo-icon {
-  width: 36px; height: 36px; background: var(--orange);
-  border-radius: 4px; display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
+  background: var(--orange);
+  border-radius: 4px 0 0 4px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; padding: 8px 10px;
 }
+.logo-icon svg { display: block; }
 .logo-text {
-  color: white; font-size: 18px; font-weight: 700; line-height: 1.15;
+  background: var(--orange);
+  color: white; font-size: 15px; font-weight: 800; line-height: 1.1;
+  padding: 8px 12px 8px 2px; border-radius: 0 4px 4px 0;
   white-space: nowrap;
 }
 .logo-text span {
-  display: block; font-size: 10px; font-weight: 400;
-  color: rgba(255,255,255,0.55); letter-spacing: 0.3px;
+  display: block; font-size: 9px; font-weight: 400;
+  color: rgba(255,255,255,0.7); letter-spacing: 0.3px;
 }
 
 /* Строка поиска */
@@ -75,14 +100,17 @@ img { max-width: 100%; display: block; }
   flex: 1; display: flex; max-width: 640px;
 }
 .header-search input {
-  flex: 1; height: 40px; padding: 0 14px;
-  border: none; border-radius: 4px 0 0 4px;
+  flex: 1; height: 42px; padding: 0 14px;
+  border: 2px solid var(--border); border-right: none;
+  border-radius: 4px 0 0 4px;
   font-size: 14px; outline: none; font-family: var(--font);
   background: white; color: var(--text);
+  transition: border-color .2s;
 }
-.header-search input::placeholder { color: #AAA; }
+.header-search input:focus { border-color: var(--orange); }
+.header-search input::placeholder { color: #AAAAAA; }
 .header-search button {
-  width: 48px; height: 40px; background: var(--orange); border: none;
+  width: 52px; height: 42px; background: var(--orange); border: none;
   border-radius: 0 4px 4px 0; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
   transition: background .2s; flex-shrink: 0;
@@ -90,63 +118,78 @@ img { max-width: 100%; display: block; }
 .header-search button:hover { background: var(--orange-dark); }
 .header-search button svg { stroke: white; }
 
-/* Телефон и корзина */
-.header-phone {
-  color: rgba(255,255,255,0.75); font-size: 13px;
-  text-align: right; line-height: 1.3; white-space: nowrap; flex-shrink: 0;
+/* Действия: корзина */
+.header-actions {
+  display: flex; align-items: center; gap: 8px; flex-shrink: 0;
 }
-.header-phone strong { display: block; color: white; font-size: 15px; font-weight: 600; }
 .cart-btn {
-  display: flex; flex-direction: column; align-items: center; gap: 2px;
-  color: rgba(255,255,255,0.75); font-size: 11px; font-weight: 500;
-  background: none; border: none; cursor: pointer; padding: 4px 8px;
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  color: var(--text-muted); font-size: 11px; font-weight: 500;
+  background: none; border: none; cursor: pointer; padding: 6px 10px;
   text-decoration: none; position: relative; flex-shrink: 0;
-  transition: color .2s;
+  transition: color .2s; border-radius: 4px;
 }
-.cart-btn:hover { color: white; }
-.cart-btn svg { stroke: rgba(255,255,255,0.85); }
-.cart-btn:hover svg { stroke: white; }
+.cart-btn:hover { color: var(--orange); background: var(--orange-light); }
+.cart-btn svg { stroke: var(--text-muted); transition: stroke .2s; }
+.cart-btn:hover svg { stroke: var(--orange); }
 .cart-count {
-  position: absolute; top: 0; right: 2px;
+  position: absolute; top: 2px; right: 4px;
   background: var(--orange); color: white;
-  border-radius: 10px; min-width: 18px; height: 18px;
-  font-size: 11px; font-weight: 700;
+  border-radius: 10px; min-width: 17px; height: 17px;
+  font-size: 10px; font-weight: 700;
   display: none; align-items: center; justify-content: center;
   padding: 0 4px; line-height: 1;
 }
 .cart-count.visible { display: flex; }
 
+/* Кнопка войти */
+.btn-login {
+  background: none; border: 1px solid var(--border); border-radius: 4px;
+  padding: 8px 16px; font-size: 14px; font-weight: 600; cursor: pointer;
+  color: var(--text); white-space: nowrap; transition: all .2s; font-family: var(--font);
+}
+.btn-login:hover { border-color: var(--orange); color: var(--orange); }
+
 /* Бургер (мобильный) */
 .burger { display: none; background: none; border: none; cursor: pointer; padding: 6px; flex-shrink: 0; }
-.burger span { display: block; width: 22px; height: 2px; background: white; margin: 4px 0; transition: .3s; }
+.burger span { display: block; width: 22px; height: 2px; background: var(--text); margin: 4px 0; transition: .3s; }
 
-/* Нижняя полоса навигации */
+/* Навигационная полоса с категориями */
 .header-nav-bar {
-  background: var(--nav-bg);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: var(--white);
+  border-top: 1px solid var(--border);
 }
 .header-nav-bar nav {
-  display: flex; align-items: center; gap: 0;
+  display: flex; align-items: center;
   max-width: 1240px; margin: 0 auto; padding: 0 16px;
 }
 .header-nav-bar nav a {
-  color: rgba(255,255,255,0.82); font-size: 13px; font-weight: 500;
-  padding: 10px 14px; display: block; transition: color .15s, background .15s;
+  color: var(--text); font-size: 13px; font-weight: 500;
+  padding: 10px 14px; display: block;
+  transition: color .15s; white-space: nowrap;
+  border-bottom: 2px solid transparent;
 }
-.header-nav-bar nav a:hover,
-.header-nav-bar nav a.active { color: white; background: rgba(255,255,255,0.08); }
+.header-nav-bar nav a:hover { color: var(--orange); }
+.header-nav-bar nav a.active {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.header-nav-bar nav a.nav-promo {
+  color: var(--orange); font-weight: 700;
+}
 
 /* Мобильное меню */
 .mobile-nav {
-  display: none; background: var(--header-bg);
-  border-top: 1px solid rgba(255,255,255,0.1);
+  display: none; background: var(--white);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .mobile-nav.open { display: block; }
 .mobile-nav a {
   display: block; padding: 12px 20px; font-size: 15px;
-  color: rgba(255,255,255,0.85); border-bottom: 1px solid rgba(255,255,255,0.07);
+  color: var(--text); border-bottom: 1px solid var(--border);
 }
-.mobile-nav a:hover { color: white; background: rgba(255,255,255,0.05); }
+.mobile-nav a:hover { color: var(--orange); background: var(--orange-light); }
 
 /* ══════════════════════════════════════════════════════════
    ХЛЕБНЫЕ КРОШКИ

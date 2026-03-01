@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Kit duo"
 price_eur: 12.59
-price_rub: 4602.69
+price_rub: 3453.27
 image: "https://www.racinglubes.fr/12393-large_default/pate-a-joint-et-mastic-loctite-mastic-echapnet-ea-3499.jpg"
 images:
   - "https://www.racinglubes.fr/12393-large_default/pate-a-joint-et-mastic-loctite-mastic-echapnet-ea-3499.jpg"

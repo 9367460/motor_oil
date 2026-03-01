@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "10W40"
 volume: "20L"
 price_eur: 111.35
-price_rub: 40668.46
+price_rub: 30502.6
 image: "https://www.racinglubes.fr/12013-large_default/huile-moteur-huile-moteur-shell-helix-hx7-10w40.jpg"
 images:
   - "https://www.racinglubes.fr/12013-large_default/huile-moteur-huile-moteur-shell-helix-hx7-10w40.jpg"

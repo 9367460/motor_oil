@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Картридж 300 мл"
 price_eur: 171.79
-price_rub: 62740.3
+price_rub: 47056.48
 image: "https://www.racinglubes.fr/9889-large_default/colles-et-fixe-ecrous-colle-anaerobie-loctite-5188.jpg"
 images:
   - "https://www.racinglubes.fr/9889-large_default/colles-et-fixe-ecrous-colle-anaerobie-loctite-5188.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "0W30"
 volume: "1L"
 price_eur: 10.96
-price_rub: 4007.44
+price_rub: 3006.83
 image: "https://www.racinglubes.fr/14175-large_default/huile-moteur-huile-moteur-shell-helix-ultra-ect-0w30.jpg"
 images:
   - "https://www.racinglubes.fr/14175-large_default/huile-moteur-huile-moteur-shell-helix-ultra-ect-0w30.jpg"

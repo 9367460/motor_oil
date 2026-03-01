@@ -8,7 +8,7 @@ cat_slug: "gazole"
 viscosity: ""
 volume: "Флакон 300 мл"
 price_eur: 10.39
-price_rub: 3799.28
+price_rub: 2850.71
 image: "https://www.racinglubes.fr/10498-large_default/gazole-motul-cetane-booster.jpg"
 images:
   - "https://www.racinglubes.fr/10498-large_default/gazole-motul-cetane-booster.jpg"

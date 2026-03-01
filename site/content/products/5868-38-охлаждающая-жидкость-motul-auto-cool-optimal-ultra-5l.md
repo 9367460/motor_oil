@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-concentré"
 viscosity: ""
 volume: "5L"
 price_eur: 32.99
-price_rub: 12052.49
+price_rub: 9040.61
 image: "https://www.racinglubes.fr/15872-large_default/liquide-de-refroidissement-motul-auto-cool-optimal-ultra.jpg"
 images:
   - "https://www.racinglubes.fr/15872-large_default/liquide-de-refroidissement-motul-auto-cool-optimal-ultra.jpg"

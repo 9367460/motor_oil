@@ -8,7 +8,7 @@ cat_slug: "liquide-hydraulique"
 viscosity: ""
 volume: "1L"
 price_eur: 8.49
-price_rub: 3105.43
+price_rub: 2330.32
 image: "https://www.racinglubes.fr/13675-large_default/liquide-hydraulique-yacco-liquide-hydraulique-mineral.jpg"
 images:
   - "https://www.racinglubes.fr/13675-large_default/liquide-hydraulique-yacco-liquide-hydraulique-mineral.jpg"

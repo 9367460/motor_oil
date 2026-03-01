@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Картридж 200 мл"
 price_eur: 24.64
-price_rub: 9003.18
+price_rub: 6753.64
 image: "https://www.racinglubes.fr/13314-large_default/pate-a-joint-et-mastic-joint-silicone-ecotec-elring-dirko-ht-oxim-noir.jpg"
 images:
   - "https://www.racinglubes.fr/13314-large_default/pate-a-joint-et-mastic-joint-silicone-ecotec-elring-dirko-ht-oxim-noir.jpg"

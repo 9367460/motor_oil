@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "500мл"
 price_eur: 5.7
-price_rub: 2086.56
+price_rub: 1566.17
 image: "https://www.racinglubes.fr/3588-large_default/freinage-direction-assistee-liquide-de-frein-motul-dot-34-brake-fluid.jpg"
 images:
   - "https://www.racinglubes.fr/3588-large_default/freinage-direction-assistee-liquide-de-frein-motul-dot-34-brake-fluid.jpg"

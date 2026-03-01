@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--37c"
 viscosity: ""
 volume: "1L"
 price_eur: 6.79
-price_rub: 2484.61
+price_rub: 1864.71
 image: "https://www.racinglubes.fr/15932-large_default/liquide-de-refroidissement-motul-auto-cool-g12-evo-37c.jpg"
 images:
   - "https://www.racinglubes.fr/15932-large_default/liquide-de-refroidissement-motul-auto-cool-g12-evo-37c.jpg"

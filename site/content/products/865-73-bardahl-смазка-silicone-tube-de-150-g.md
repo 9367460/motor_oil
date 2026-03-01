@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Туба 150 г"
 price_eur: 18.89
-price_rub: 6903.36
+price_rub: 5178.77
 image: "https://www.racinglubes.fr/12333-large_default/graisse-lubrifiant-bardahl-graisse-silicone.jpg"
 images:
   - "https://www.racinglubes.fr/12333-large_default/graisse-lubrifiant-bardahl-graisse-silicone.jpg"

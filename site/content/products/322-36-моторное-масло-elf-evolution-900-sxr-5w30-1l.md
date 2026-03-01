@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W30"
 volume: "1L"
 price_eur: 9.34
-price_rub: 3415.84
+price_rub: 2563.13
 image: "https://www.racinglubes.fr/10847-large_default/huile-moteur-huile-moteur-elf-evolution-900-sxr-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/10847-large_default/huile-moteur-huile-moteur-elf-evolution-900-sxr-5w30.jpg"

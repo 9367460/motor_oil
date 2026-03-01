@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 27.11
-price_rub: 9905.19
+price_rub: 7430.14
 image: "https://www.racinglubes.fr/11302-large_default/graisse-lubrifiant-fuchs-gleitmo-165.jpg"
 images:
   - "https://www.racinglubes.fr/11302-large_default/graisse-lubrifiant-fuchs-gleitmo-165.jpg"

@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Туба 90 г"
 price_eur: 12.49
-price_rub: 4566.17
+price_rub: 3425.88
 image: "https://www.racinglubes.fr/8501-large_default/pate-a-joint-et-mastic-bardahl-joint-silicone-or-special-diesel.jpg"
 images:
   - "https://www.racinglubes.fr/8501-large_default/pate-a-joint-et-mastic-bardahl-joint-silicone-or-special-diesel.jpg"

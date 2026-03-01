@@ -8,7 +8,7 @@ cat_slug: "maintenance-et-entretien"
 viscosity: ""
 volume: "4L"
 price_eur: 19.99
-price_rub: 7305.07
+price_rub: 5480.05
 image: "https://www.racinglubes.fr/6183-large_default/maintenance-et-entretien-bac-vidange-ipone.jpg"
 images:
   - "https://www.racinglubes.fr/6183-large_default/maintenance-et-entretien-bac-vidange-ipone.jpg"

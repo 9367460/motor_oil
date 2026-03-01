@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Спрей 400 мл"
 price_eur: 12.74
-price_rub: 4657.47
+price_rub: 3494.35
 image: "https://www.racinglubes.fr/12298-large_default/graisse-lubrifiant-wd-40-specialist-lubrifiant-silicone.jpg"
 images:
   - "https://www.racinglubes.fr/12298-large_default/graisse-lubrifiant-wd-40-specialist-lubrifiant-silicone.jpg"

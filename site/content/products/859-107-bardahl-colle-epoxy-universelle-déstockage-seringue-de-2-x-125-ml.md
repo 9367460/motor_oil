@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Шприц 2×12.5 мл"
 price_eur: 14.25
-price_rub: 5208.9
+price_rub: 3907.93
 image: "https://www.racinglubes.fr/8503-large_default/bardahl-colle-epoxy-universelle-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/8503-large_default/bardahl-colle-epoxy-universelle-destockage.jpg"

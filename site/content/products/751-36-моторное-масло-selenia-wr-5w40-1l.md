@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W40"
 volume: "1L"
 price_eur: 10.88
-price_rub: 3978.22
+price_rub: 2984.92
 image: "https://www.racinglubes.fr/13950-large_default/huile-moteur-huile-moteur-selenia-wr-5w40.jpg"
 images:
   - "https://www.racinglubes.fr/13950-large_default/huile-moteur-huile-moteur-selenia-wr-5w40.jpg"

@@ -8,7 +8,7 @@ cat_slug: "freinage---direction-assistée"
 viscosity: ""
 volume: "1L"
 price_eur: 11.04
-price_rub: 4036.65
+price_rub: 3028.74
 image: "https://www.racinglubes.fr/14948-large_default/freinage-direction-assistee-liquide-hydraulique-total-fluide-lds.jpg"
 images:
   - "https://www.racinglubes.fr/14948-large_default/freinage-direction-assistee-liquide-hydraulique-total-fluide-lds.jpg"

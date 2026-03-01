@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: "10W40"
 volume: "5L"
 price_eur: 50.99
-price_rub: 18625.83
+price_rub: 13970.63
 image: "https://www.racinglubes.fr/14692-large_default/huile-moteur-castrol-classic-gtx-10w40.jpg"
 images:
   - "https://www.racinglubes.fr/14692-large_default/huile-moteur-castrol-classic-gtx-10w40.jpg"

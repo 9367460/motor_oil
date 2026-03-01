@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-manuelles"
 viscosity: "85W140"
 volume: "20L"
 price_eur: 152.0
-price_rub: 55513.27
+price_rub: 41636.2
 image: "https://www.racinglubes.fr/12092-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-et-pont-shell-spirax-s2-a-85w140.jpg"
 images:
   - "https://www.racinglubes.fr/12092-large_default/huiles-pour-transmissions-manuelles-huile-de-boite-et-pont-shell-spirax-s2-a-85w140.jpg"

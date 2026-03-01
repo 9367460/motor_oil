@@ -8,7 +8,7 @@ cat_slug: "turbo-vannes-egr"
 viscosity: ""
 volume: "1L"
 price_eur: 41.99
-price_rub: 15339.16
+price_rub: 11505.62
 image: "https://www.racinglubes.fr/8286-large_default/turbo-vannes-egr-bardahl-nettoyant-vanne-egr-sans-demontage.jpg"
 images:
   - "https://www.racinglubes.fr/8286-large_default/turbo-vannes-egr-bardahl-nettoyant-vanne-egr-sans-demontage.jpg"

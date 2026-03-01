@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "150мл"
 price_eur: 26.99
-price_rub: 9861.37
+price_rub: 7397.28
 image: "https://www.racinglubes.fr/8297-large_default/huile-bardahl-anti-usure-boite-de-vitesses-manuelle-et-pont.jpg"
 images:
   - "https://www.racinglubes.fr/8297-large_default/huile-bardahl-anti-usure-boite-de-vitesses-manuelle-et-pont.jpg"

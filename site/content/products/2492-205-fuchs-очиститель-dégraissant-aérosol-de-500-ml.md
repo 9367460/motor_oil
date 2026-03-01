@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Аэрозоль 500 мл"
 price_eur: 7.64
-price_rub: 2795.02
+price_rub: 2097.52
 image: "https://www.racinglubes.fr/9749-large_default/degraissant-nettoyant-fuchs-nettoyant-degraissant.jpg"
 images:
   - "https://www.racinglubes.fr/9749-large_default/degraissant-nettoyant-fuchs-nettoyant-degraissant.jpg"

@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Картридж 400 г"
 price_eur: 5.95
-price_rub: 2177.86
+price_rub: 1634.64
 image: "https://www.racinglubes.fr/11875-large_default/graisse-lubrifiant-graisse-yacco-multip-plus.jpg"
 images:
   - "https://www.racinglubes.fr/11875-large_default/graisse-lubrifiant-graisse-yacco-multip-plus.jpg"

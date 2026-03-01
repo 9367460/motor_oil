@@ -8,7 +8,7 @@ cat_slug: "additifs"
 viscosity: ""
 volume: "Флакон 100 мл"
 price_eur: 19.54
-price_rub: 7140.73
+price_rub: 5356.8
 image: "https://www.racinglubes.fr/14126-large_default/additifs-mecacyl-aer-special-vidange-moteur-2t.jpg"
 images:
   - "https://www.racinglubes.fr/14126-large_default/additifs-mecacyl-aer-special-vidange-moteur-2t.jpg"

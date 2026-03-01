@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Картридж 390 г"
 price_eur: 5.94
-price_rub: 2174.2
+price_rub: 1631.9
 image: "https://www.racinglubes.fr/3209-large_default/graisse-lubrifiant-graisse-mobil-grease-mobilux-ep2.jpg"
 images:
   - "https://www.racinglubes.fr/3209-large_default/graisse-lubrifiant-graisse-mobil-grease-mobilux-ep2.jpg"

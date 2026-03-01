@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement--37c"
 viscosity: ""
 volume: "5L"
 price_eur: 23.99
-price_rub: 8765.81
+price_rub: 6575.61
 image: "https://www.racinglubes.fr/20006-large_default/liquide-de-refroidissement-bardahl-xcl-g12-g12-37c.jpg"
 images:
   - "https://www.racinglubes.fr/20006-large_default/liquide-de-refroidissement-bardahl-xcl-g12-g12-37c.jpg"

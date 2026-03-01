@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "1"
 price_eur: 29.31
-price_rub: 10708.6
+price_rub: 8032.7
 image: "https://www.racinglubes.fr/21694-large_default/vp-racing-tube-trigger.jpg"
 images:
   - "https://www.racinglubes.fr/21694-large_default/vp-racing-tube-trigger.jpg"

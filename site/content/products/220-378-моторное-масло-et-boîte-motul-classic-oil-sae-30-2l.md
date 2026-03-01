@@ -8,7 +8,7 @@ cat_slug: "huile-moteur-véhicules-anciens"
 viscosity: ""
 volume: "2L"
 price_eur: 22.0
-price_rub: 8039.09
+price_rub: 6030.57
 image: "https://www.racinglubes.fr/3409-large_default/huile-moteur-vehicules-anciens-huile-moteur-et-boite-motul-classic-oil-sae-30.jpg"
 images:
   - "https://www.racinglubes.fr/3409-large_default/huile-moteur-vehicules-anciens-huile-moteur-et-boite-motul-classic-oil-sae-30.jpg"

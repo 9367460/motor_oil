@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "500мл"
 price_eur: 15.38
-price_rub: 5621.56
+price_rub: 4217.42
 image: "https://www.racinglubes.fr/6778-large_default/liquide-de-freinage-liquide-de-frein-yacco-racing-brake-fluid.jpg"
 images:
   - "https://www.racinglubes.fr/6778-large_default/liquide-de-freinage-liquide-de-frein-yacco-racing-brake-fluid.jpg"

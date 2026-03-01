@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "10W60"
 volume: "1L"
 price_eur: 14.44
-price_rub: 5278.29
+price_rub: 3959.96
 image: "https://www.racinglubes.fr/6791-large_default/huile-moteur-huile-moteur-bmw-m-twin-power-turbo-10w60.jpg"
 images:
   - "https://www.racinglubes.fr/6791-large_default/huile-moteur-huile-moteur-bmw-m-twin-power-turbo-10w60.jpg"

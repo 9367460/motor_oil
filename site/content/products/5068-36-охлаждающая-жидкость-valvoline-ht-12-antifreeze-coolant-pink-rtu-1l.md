@@ -8,7 +8,7 @@ cat_slug: "liquide-de-refroidissement-concentré"
 viscosity: ""
 volume: "1L"
 price_eur: 11.72
-price_rub: 4284.98
+price_rub: 3214.98
 image: "https://www.racinglubes.fr/14367-large_default/-liquide-de-refroidissement-valvoline-ht-12-afc-pink-rtu-.jpg"
 images:
   - "https://www.racinglubes.fr/14367-large_default/-liquide-de-refroidissement-valvoline-ht-12-afc-pink-rtu-.jpg"

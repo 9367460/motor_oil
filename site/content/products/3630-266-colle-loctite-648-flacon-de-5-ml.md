@@ -8,7 +8,7 @@ cat_slug: "colles-et-fixe-ecrous"
 viscosity: ""
 volume: "Флакон 5 мл"
 price_eur: 10.49
-price_rub: 3835.8
+price_rub: 2878.1
 image: "https://www.racinglubes.fr/10532-large_default/colles-et-fixe-ecrous-colle-loctite-648.jpg"
 images:
   - "https://www.racinglubes.fr/10532-large_default/colles-et-fixe-ecrous-colle-loctite-648.jpg"

@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "118мл"
 price_eur: 13.59
-price_rub: 4967.88
+price_rub: 3727.16
 image: "https://www.racinglubes.fr/11221-large_default/huile-additif-red-line-lsd-limited-slip-differential.jpg"
 images:
   - "https://www.racinglubes.fr/11221-large_default/huile-additif-red-line-lsd-limited-slip-differential.jpg"

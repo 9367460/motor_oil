@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Бочка 180 кг"
 price_eur: 1374.0
-price_rub: 501770.56
+price_rub: 376329.17
 image: "https://www.racinglubes.fr/1958-large_default/degrippant-graissage-degraissant-graisse-castrol-high-temperature-grease.jpg"
 images:
   - "https://www.racinglubes.fr/1958-large_default/degrippant-graissage-degraissant-graisse-castrol-high-temperature-grease.jpg"

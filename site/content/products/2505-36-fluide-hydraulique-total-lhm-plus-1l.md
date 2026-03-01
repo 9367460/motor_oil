@@ -8,7 +8,7 @@ cat_slug: "liquide-hydraulique"
 viscosity: ""
 volume: "1L"
 price_eur: 9.34
-price_rub: 3415.84
+price_rub: 2563.13
 image: "https://www.racinglubes.fr/14958-large_default/liquide-hydraulique-fluide-hydraulique-total-lhm-plus.jpg"
 images:
   - "https://www.racinglubes.fr/14958-large_default/liquide-hydraulique-fluide-hydraulique-total-lhm-plus.jpg"

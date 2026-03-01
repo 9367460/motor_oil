@@ -8,7 +8,7 @@ cat_slug: "freinage---direction-assistée"
 viscosity: ""
 volume: "1L"
 price_eur: 12.59
-price_rub: 4602.69
+price_rub: 3453.27
 image: "https://www.racinglubes.fr/3513-large_default/freinage-direction-assistee-liquide-hydraulique-motul-lhm.jpg"
 images:
   - "https://www.racinglubes.fr/3513-large_default/freinage-direction-assistee-liquide-hydraulique-motul-lhm.jpg"

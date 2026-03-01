@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: "75W90"
 volume: "20L"
 price_eur: 289.0
-price_rub: 105543.75
+price_rub: 79159.07
 image: "https://www.racinglubes.fr/12105-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-shell-spirax-s5-ate-75w90.jpg"
 images:
   - "https://www.racinglubes.fr/12105-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-shell-spirax-s5-ate-75w90.jpg"

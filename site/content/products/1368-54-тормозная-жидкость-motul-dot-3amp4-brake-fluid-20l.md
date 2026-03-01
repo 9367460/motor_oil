@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "20L"
 price_eur: 165.0
-price_rub: 60260.69
+price_rub: 45196.77
 image: "https://www.racinglubes.fr/3588-large_default/freinage-direction-assistee-liquide-de-frein-motul-dot-34-brake-fluid.jpg"
 images:
   - "https://www.racinglubes.fr/3588-large_default/freinage-direction-assistee-liquide-de-frein-motul-dot-34-brake-fluid.jpg"

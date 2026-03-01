@@ -8,7 +8,7 @@ cat_slug: "dégraissant-nettoyant"
 viscosity: ""
 volume: "Аэрозоль 400 мл"
 price_eur: 3.4
-price_rub: 1246.63
+price_rub: 936.22
 image: "https://www.racinglubes.fr/8041-large_default/degraissant-nettoyant-fuchs-nettoyant-freins.jpg"
 images:
   - "https://www.racinglubes.fr/8041-large_default/degraissant-nettoyant-fuchs-nettoyant-freins.jpg"

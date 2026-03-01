@@ -8,7 +8,7 @@ cat_slug: "matériel-de-garage-et-outillage"
 viscosity: ""
 volume: "Красный"
 price_eur: 43.34
-price_rub: 15832.16
+price_rub: 11875.37
 image: "https://www.racinglubes.fr/21683-large_default/vp-racing-bidon-de-20l.jpg"
 images:
   - "https://www.racinglubes.fr/21683-large_default/vp-racing-bidon-de-20l.jpg"

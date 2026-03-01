@@ -8,7 +8,7 @@ cat_slug: "pâte-à-joint-et-mastic"
 viscosity: ""
 volume: "Шприц 20 г"
 price_eur: 20.0
-price_rub: 7308.72
+price_rub: 5482.79
 image: "https://www.racinglubes.fr/13955-large_default/bardahl-joint-anaerobie-rouge-destockage.jpg"
 images:
   - "https://www.racinglubes.fr/13955-large_default/bardahl-joint-anaerobie-rouge-destockage.jpg"

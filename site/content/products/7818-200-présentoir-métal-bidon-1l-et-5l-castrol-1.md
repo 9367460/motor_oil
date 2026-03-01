@@ -8,7 +8,7 @@ cat_slug: "plv-présentoir"
 viscosity: ""
 volume: "1"
 price_eur: 1505.0
-price_rub: 549609.93
+price_rub: 412208.7
 image: "https://www.racinglubes.fr/20205-large_default/presentoir-metal-bidon-1l-et-5l-castrol.jpg"
 images:
   - "https://www.racinglubes.fr/20205-large_default/presentoir-metal-bidon-1l-et-5l-castrol.jpg"

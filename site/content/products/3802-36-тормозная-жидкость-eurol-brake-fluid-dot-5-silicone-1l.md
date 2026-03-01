@@ -8,7 +8,7 @@ cat_slug: "liquide-de-freinage"
 viscosity: ""
 volume: "1L"
 price_eur: 39.69
-price_rub: 14499.23
+price_rub: 10875.67
 image: "https://www.racinglubes.fr/19724-large_default/liquide-de-freinage-liquide-de-frein-eurol-brake-fluid-dot-5-silicone.jpg"
 images:
   - "https://www.racinglubes.fr/19724-large_default/liquide-de-freinage-liquide-de-frein-eurol-brake-fluid-dot-5-silicone.jpg"

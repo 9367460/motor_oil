@@ -8,7 +8,7 @@ cat_slug: "huiles-pour-transmissions-automatiques"
 viscosity: ""
 volume: "60L"
 price_eur: 571.0
-price_rub: 208526.21
+price_rub: 156395.9
 image: "https://www.racinglubes.fr/10441-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-motul-multi-atf.jpg"
 images:
   - "https://www.racinglubes.fr/10441-large_default/huiles-pour-transmissions-automatiques-huile-de-boite-motul-multi-atf.jpg"

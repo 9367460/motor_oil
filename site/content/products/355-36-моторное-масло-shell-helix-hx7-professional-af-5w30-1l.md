@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W30"
 volume: "1L"
 price_eur: 10.1
-price_rub: 3693.38
+price_rub: 2771.28
 image: "https://www.racinglubes.fr/7352-large_default/huile-moteur-huile-moteur-shell-helix-hx7-professional-af-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/7352-large_default/huile-moteur-huile-moteur-shell-helix-hx7-professional-af-5w30.jpg"

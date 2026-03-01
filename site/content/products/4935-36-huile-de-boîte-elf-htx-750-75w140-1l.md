@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-compétition"
 viscosity: "75W140"
 volume: "1L"
 price_eur: 31.27
-price_rub: 11424.37
+price_rub: 8569.52
 image: "https://www.racinglubes.fr/13660-large_default/huile-de-boite-elf-htx-750-75w140-.jpg"
 images:
   - "https://www.racinglubes.fr/13660-large_default/huile-de-boite-elf-htx-750-75w140-.jpg"

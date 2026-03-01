@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 100 мл"
 price_eur: 20.31
-price_rub: 7421.93
+price_rub: 5567.7
 image: "https://www.racinglubes.fr/14131-large_default/huile-mecacyl-hyper-lubrifiant-cr-bioethan-4t.jpg"
 images:
   - "https://www.racinglubes.fr/14131-large_default/huile-mecacyl-hyper-lubrifiant-cr-bioethan-4t.jpg"

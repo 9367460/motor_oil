@@ -8,7 +8,7 @@ cat_slug: "additifs-compétition"
 viscosity: ""
 volume: "473мл"
 price_eur: 22.09
-price_rub: 8071.96
+price_rub: 6055.22
 image: "https://www.racinglubes.fr/21662-large_default/additif-vp-racing-m2-upper-lube.jpg"
 images:
   - "https://www.racinglubes.fr/21662-large_default/additif-vp-racing-m2-upper-lube.jpg"

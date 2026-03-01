@@ -8,7 +8,7 @@ cat_slug: "graisse-lubrifiant"
 viscosity: ""
 volume: "Картридж 400 мл"
 price_eur: 41.99
-price_rub: 15339.16
+price_rub: 11505.62
 image: "https://www.racinglubes.fr/9605-large_default/graisse-lubrifiant-lubrifiant-loctite-lb-8102.jpg"
 images:
   - "https://www.racinglubes.fr/9605-large_default/graisse-lubrifiant-lubrifiant-loctite-lb-8102.jpg"

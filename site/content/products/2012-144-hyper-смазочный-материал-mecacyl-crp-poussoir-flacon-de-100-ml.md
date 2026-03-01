@@ -8,7 +8,7 @@ cat_slug: "huile"
 viscosity: ""
 volume: "Флакон 100 мл"
 price_eur: 21.84
-price_rub: 7980.66
+price_rub: 5986.75
 image: "https://www.racinglubes.fr/14125-large_default/huile-hyper-lubrifiant-mecacyl-crp-poussoir.jpg"
 images:
   - "https://www.racinglubes.fr/14125-large_default/huile-hyper-lubrifiant-mecacyl-crp-poussoir.jpg"

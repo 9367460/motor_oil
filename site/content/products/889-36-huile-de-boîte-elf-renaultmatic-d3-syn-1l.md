@@ -8,7 +8,7 @@ cat_slug: "huile-boite-de-vitesse-et-pont"
 viscosity: ""
 volume: "1L"
 price_eur: 10.11
-price_rub: 3697.03
+price_rub: 2774.02
 image: "https://www.racinglubes.fr/10861-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-renaultmatic-d3-syn.jpg"
 images:
   - "https://www.racinglubes.fr/10861-large_default/huile-boite-de-vitesse-et-pont-huile-de-boite-elf-renaultmatic-d3-syn.jpg"

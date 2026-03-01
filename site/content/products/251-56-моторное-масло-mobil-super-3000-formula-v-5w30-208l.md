@@ -8,7 +8,7 @@ cat_slug: "huile-moteur"
 viscosity: "5W30"
 volume: "208L"
 price_eur: 1211.0
-price_rub: 442245.25
+price_rub: 331685.18
 image: "https://www.racinglubes.fr/20967-large_default/huile-moteur-huile-moteur-mobil-super-3000-formula-v-5w30.jpg"
 images:
   - "https://www.racinglubes.fr/20967-large_default/huile-moteur-huile-moteur-mobil-super-3000-formula-v-5w30.jpg"
