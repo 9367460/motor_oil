@@ -1,97 +1,99 @@
 {{ define "title" }}Контакты — {{ .Site.Title }}{{ end }}
 {{ define "main" }}
-<section class="section section-bg">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Контакты</span>
-      <h1 class="section-title">Связаться с нами</h1>
-      <p class="section-subtitle">ООО «Альянс» · ИНН 7842104042</p>
-    </div>
 
-    <div class="contacts-grid">
-      <div class="contact-card">
-        <h3>Реквизиты компании</h3>
-        <div class="contact-item">
-          <span class="contact-icon">🏢</span>
-          <div>
-            <div class="contact-label">Полное наименование</div>
-            <div class="contact-value">ООО «Альянс»</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <span class="contact-icon">🔢</span>
-          <div>
-            <div class="contact-label">ИНН</div>
-            <div class="contact-value">7842104042</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <span class="contact-icon">📍</span>
-          <div>
-            <div class="contact-label">Юридический адрес</div>
-            <div class="contact-value">Россия, Санкт-Петербург,<br>ул. Бассейная, д. 21, офис 701</div>
-          </div>
+<div class="contacts-page">
+
+  <div style="margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--border)">
+    <h1 style="font-size: 26px; font-weight: 700; color: var(--text); margin-bottom: 4px">Контакты</h1>
+    <p style="font-size: 14px; color: var(--text-muted)">ООО «Альянс» · ИНН 7842104042 · Санкт-Петербург</p>
+  </div>
+
+  <div class="contacts-grid">
+
+    <div class="contact-card">
+      <h3>Реквизиты компании</h3>
+      <div class="contact-item">
+        <span class="contact-icon">🏢</span>
+        <div>
+          <div class="contact-label">Полное наименование</div>
+          <div class="contact-value">ООО «Альянс»</div>
         </div>
       </div>
-
-      <div class="contact-card">
-        <h3>Связь с менеджером</h3>
-        <div class="contact-item">
-          <span class="contact-icon">📞</span>
-          <div>
-            <div class="contact-label">Телефон 1</div>
-            <div class="contact-value"><a href="tel:+78129367460">+7 (812) 936-74-60</a></div>
-          </div>
+      <div class="contact-item">
+        <span class="contact-icon">🔢</span>
+        <div>
+          <div class="contact-label">ИНН</div>
+          <div class="contact-value">7842104042</div>
         </div>
-        <div class="contact-item">
-          <span class="contact-icon">📞</span>
-          <div>
-            <div class="contact-label">Телефон 2</div>
-            <div class="contact-value"><a href="tel:+78129287460">+7 (812) 928-74-60</a></div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <span class="contact-icon">✉️</span>
-          <div>
-            <div class="contact-label">Email</div>
-            <div class="contact-value"><a href="mailto:info@alliance-llc.ru">info@alliance-llc.ru</a></div>
-          </div>
-        </div>
-        <div style="margin-top:20px">
-          <a class="btn-cart" href="tel:+78129367460" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:6px;text-decoration:none;font-size:15px">
-            📞 Позвонить сейчас
-          </a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">📍</span>
+        <div>
+          <div class="contact-label">Юридический адрес</div>
+          <div class="contact-value">Россия, Санкт-Петербург,<br>ул. Бассейная, д. 21, офис 701</div>
         </div>
       </div>
     </div>
 
-    <!-- Contact form -->
-    <div style="max-width:600px;margin:48px auto 0;background:white;border-radius:var(--radius);padding:36px;border:1px solid var(--border)">
-      <h2 style="font-size:22px;font-weight:700;margin-bottom:6px">Написать нам</h2>
-      <p style="font-size:14px;color:var(--text-muted);margin-bottom:24px">Ответим в течение 1 рабочего часа</p>
-      <form action="https://formspree.io/f/REPLACE_FORMSPREE_ID" method="POST">
-        <div class="form-row">
-          <div class="form-group">
-            <label>Имя *</label>
-            <input type="text" name="name" required placeholder="Александр">
-          </div>
-          <div class="form-group">
-            <label>Телефон *</label>
-            <input type="tel" name="phone" required placeholder="+7 (___) ___-__-__">
-          </div>
+    <div class="contact-card">
+      <h3>Связь с менеджером</h3>
+      <div class="contact-item">
+        <span class="contact-icon">📞</span>
+        <div>
+          <div class="contact-label">Телефон 1</div>
+          <div class="contact-value"><a href="tel:+78129367460">+7 (812) 936-74-60</a></div>
         </div>
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" name="email" placeholder="your@company.ru">
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">📞</span>
+        <div>
+          <div class="contact-label">Телефон 2</div>
+          <div class="contact-value"><a href="tel:+78129287460">+7 (812) 928-74-60</a></div>
         </div>
-        <div class="form-group">
-          <label>Вопрос или запрос</label>
-          <textarea name="message" rows="4" placeholder="Опишите ваш вопрос..."></textarea>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">✉️</span>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value"><a href="mailto:info@alliance-llc.ru">info@alliance-llc.ru</a></div>
         </div>
-        <button class="form-submit" type="submit">Отправить →</button>
-      </form>
+      </div>
+      <div style="margin-top:20px">
+        <a class="btn-cart" href="tel:+78129367460" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;text-decoration:none;font-size:15px;width:auto">
+          📞 Позвонить сейчас
+        </a>
+      </div>
     </div>
 
   </div>
-</section>
+
+  <!-- Форма обратной связи -->
+  <div style="max-width:600px;margin:32px 0 0;background:white;border-radius:var(--radius);padding:36px;border:1px solid var(--border)">
+    <h2 style="font-size:22px;font-weight:700;margin-bottom:6px">Написать нам</h2>
+    <p style="font-size:14px;color:var(--text-muted);margin-bottom:24px">Ответим в течение 1 рабочего часа</p>
+    <form action="https://formspree.io/f/REPLACE_FORMSPREE_ID" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Имя *</label>
+          <input type="text" name="name" required placeholder="Александр">
+        </div>
+        <div class="form-group">
+          <label>Телефон *</label>
+          <input type="tel" name="phone" required placeholder="+7 (___) ___-__-__">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="your@company.ru">
+      </div>
+      <div class="form-group">
+        <label>Вопрос или запрос</label>
+        <textarea name="message" rows="4" placeholder="Опишите ваш вопрос..."></textarea>
+      </div>
+      <button class="form-submit" type="submit">Отправить →</button>
+    </form>
+  </div>
+
+</div>
+
 {{ end }}

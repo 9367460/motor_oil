@@ -289,6 +289,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const q = decodeURIComponent(hash.slice(8));
     if (si) { si.value = q; applyFilters(); }
   }
+  // Фильтр по категории через hash (#cat=slug)
+  else if (hash.startsWith('#cat=')) {
+    const catSlug = decodeURIComponent(hash.slice(5));
+    // Находим имя категории из карточек товаров по слагу
+    const sampleCard = document.querySelector(`.product-card[data-cat="${catSlug}"]`);
+    if (sampleCard) {
+      const catName = sampleCard.dataset.category;
+      if (catName) {
+        // Отмечаем нужный чекбокс в сайдбаре
+        document.querySelectorAll('.filter-cb[data-filter="category"]').forEach(cb => {
+          if (cb.value === catName) {
+            cb.checked = true;
+            if (!activeFilters.category.includes(catName)) activeFilters.category.push(catName);
+          }
+        });
+        applyFilters();
+      }
+    }
+  }
 });
 </script>
 {{ end }}

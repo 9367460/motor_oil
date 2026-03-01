@@ -77,11 +77,11 @@
     <nav>
       <a href="{{ .Site.BaseURL }}" {{ if eq .Permalink .Site.BaseURL }}class="active"{{ end }}>Главная</a>
       <a href="{{ "products/" | absURL }}" {{ if hasPrefix .RelPermalink "/products/" }}class="active"{{ end }}>Весь каталог</a>
-      <a href="{{ "products/" | absURL }}">Моторные масла</a>
-      <a href="{{ "products/" | absURL }}">Масла КПП</a>
-      <a href="{{ "products/" | absURL }}">Тормозные жидкости</a>
-      <a href="{{ "products/" | absURL }}">Спортивные масла</a>
-      <a href="{{ "contacts/" | absURL }}">Контакты</a>
+      <a href="{{ "products/" | absURL }}#cat=huile-moteur">Моторные масла</a>
+      <a href="{{ "products/" | absURL }}#cat=huile-boite-de-vitesse-et-pont">Масла КПП</a>
+      <a href="{{ "products/" | absURL }}#cat=liquide-de-freinage">Тормозные жидкости</a>
+      <a href="{{ "products/" | absURL }}#cat=huile-moteur-comp%C3%A9tition">Спортивные масла</a>
+      <a href="{{ "contacts/" | absURL }}" {{ if hasPrefix .RelPermalink "/contacts/" }}class="active"{{ end }}>Контакты</a>
     </nav>
   </div>
 
@@ -183,6 +183,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const q = decodeURIComponent(hash.slice(8));
     const inp = document.getElementById('product-search');
     if (inp) { inp.value = q; inp.dispatchEvent(new Event('input')); }
+  }
+  // Бургер-меню
+  const burger = document.querySelector('.burger');
+  const mobileNav = document.querySelector('.mobile-nav');
+  if (burger && mobileNav) {
+    burger.addEventListener('click', () => mobileNav.classList.toggle('open'));
   }
 });
 </script>
